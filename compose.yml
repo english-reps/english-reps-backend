@@ -1,0 +1,61 @@
+name: english-reps
+x-api: &api
+  build: .
+  environment:
+    APP_ENV: ${APP_ENV:-development}
+    DATABASE_URL: ${DATABASE_URL:?Copy .env.example to .env and set DATABASE_URL}
+    ALLOWED_ORIGINS: ${ALLOWED_ORIGINS:-["http://localhost:3007","http://localhost:8080"]}
+    COOKIE_SECURE: ${COOKIE_SECURE:-false}
+    SESSION_DAYS: ${SESSION_DAYS:-14}
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-english_reps}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+      POSTGRES_DB: ${POSTGRES_DB:-english_reps}
+    volumes: [postgres_data:/var/lib/postgresql/data]
+    healthcheck:
+      test: [CMD-SHELL, 'pg_isready -U "$${POSTGRES_USER}" -d "$${POSTGRES_DB}"']
+      interval: 3s
+      timeout: 3s
+      retries: 20
+  migrate:
+    <<: *api
+    command: [alembic, upgrade, head]
+    healthcheck: {disable: true}
+    depends_on:
+      db: {condition: service_healthy}
+    restart: 'no'
+  api:
+    <<: *api
+    depends_on:
+      migrate: {condition: service_completed_successfully}
+    restart: unless-stopped
+  frontend:
+    profiles: [dev]
+    build:
+      context: ${FRONTEND_PATH:-../english-reps-frontend}
+      target: development
+    environment:
+      API_PROXY_TARGET: http://api:8000
+    ports: ['127.0.0.1:3007:3007']
+    volumes:
+      - ${FRONTEND_PATH:-../english-reps-frontend}/src:/app/src
+    depends_on:
+      api: {condition: service_healthy}
+    healthcheck:
+      test: [CMD, node, -e, "fetch('http://127.0.0.1:3007').then(r=>{if(!r.ok)process.exit(1)}).catch(()=>process.exit(1))"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+  web:
+    profiles: [prod]
+    build:
+      context: ${FRONTEND_PATH:-../english-reps-frontend}
+      target: production
+    ports: ['127.0.0.1:${WEB_PORT:-8080}:80']
+    depends_on:
+      api: {condition: service_healthy}
+volumes:
+  postgres_data:
