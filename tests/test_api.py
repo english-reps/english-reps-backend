@@ -210,6 +210,25 @@ async def test_card_unseen_rating_toggles_review_while_preserving_counters_and_i
     assert unstarred.json()["record"]["attempts"] == 1
     assert unstarred.json()["record"]["correct"] == 1
 
+    listening_wrong = await client.post(
+        "/api/v1/progress/events",
+        json=event(entry="listen-001", kind="listening", answer="C"),
+    )
+    assert listening_wrong.status_code == 200
+    listening_removed = await client.post(
+        "/api/v1/progress/events",
+        json={
+            "event_id": str(uuid.uuid4()),
+            "entry_id": "listen-001",
+            "kind": "card",
+            "rating": "unseen",
+        },
+    )
+    assert listening_removed.status_code == 200
+    assert listening_removed.json()["record"]["category"] == "listening"
+    assert listening_removed.json()["record"]["status"] == "unseen"
+    assert listening_removed.json()["record"]["attempts"] == 1
+
     assert (
         await client.post(
             "/api/v1/progress/import",

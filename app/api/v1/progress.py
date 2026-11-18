@@ -44,9 +44,9 @@ async def event(
         if item.category != "listening" or data.answer not in {"A", "B", "C"}:
             raise APIError(422, "invalid_answer", "聽力回答必須為 A、B 或 C。")
         correct = data.answer == item.content["answer"]
-    elif item.category != "vocabulary":
-        raise APIError(422, "invalid_kind", "練習類型與題目不符。")
     elif data.kind == "quiz":
+        if item.category != "vocabulary":
+            raise APIError(422, "invalid_kind", "練習類型與題目不符。")
         answer = await db.get(CatalogItem, data.answer)
         if answer is None or answer.category != "vocabulary":
             raise APIError(422, "invalid_answer", "請選擇有效的單字回答。")
