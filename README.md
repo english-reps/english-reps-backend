@@ -1,7 +1,7 @@
 # English Reps backend
 
 FastAPI + PostgreSQL API for the React English Reps frontend: account registration/login,
-private progress across devices, server-graded vocabulary/listening events and explicit legacy import.
+private progress across devices and server-graded vocabulary/listening events.
 The catalog contains all original 1,000 vocabulary entries and 30 original listening questions.
 
 ## Run the complete project
@@ -66,7 +66,7 @@ uv run pytest -q
 
 Tests truncate account data in that test database and use real PostgreSQL, not SQLite.
 They check CSRF, session rotation/expiry/revocation, ownership, cross-device reads, server grading,
-concurrent retries/atomic counters, imports and auth rate limiting. OpenAPI is available at `/docs`
+concurrent retries/atomic counters, card rating toggles and auth rate limiting. OpenAPI is available at `/docs`
 on the API service. The first migration keeps immutable schema/catalog snapshots so future model
 changes do not alter old migrations. New migrations belong in `alembic/versions/`.
 

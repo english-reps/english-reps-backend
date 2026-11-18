@@ -173,32 +173,49 @@ async def test_concurrent_retries_and_distinct_events_never_lose_or_double_count
     assert (await client.get("/api/v1/progress")).json()["records"][0]["attempts"] == 6
 
 
-async def test_legacy_import_is_idempotent_keeps_status_and_rejects_bad_rows(client):
+async def test_card_unseen_rating_toggles_review_while_preserving_counters_and_import_removed(
+    client,
+):
     await login(client)
-    await client.post("/api/v1/progress/events", json=event(answer="word-0002"))
-    body = {
-        "import_id": str(uuid.uuid4()),
-        "records": [
-            {"entry_id": "word-0001", "status": "mastered", "attempts": 5, "correct": 4},
-            {"entry_id": "listen-001", "status": "review", "attempts": 2, "correct": 1},
-        ],
-    }
-    result = await client.post("/api/v1/progress/import", json=body)
-    assert result.status_code == 200, result.text
-    word = next(row for row in result.json()["records"] if row["entry_id"] == "word-0001")
-    assert word["status"] == "review" and word["attempts"] == 5 and word["correct"] == 4
-    repeated = await client.post("/api/v1/progress/import", json=body)
-    assert repeated.json()["imported"] == 0
+    first = await client.post("/api/v1/progress/events", json=event(answer="word-0001"))
+    assert first.json()["record"]["status"] == "mastered"
+    assert first.json()["record"]["attempts"] == 1
+    assert first.json()["record"]["correct"] == 1
+
+    starred = await client.post(
+        "/api/v1/progress/events",
+        json={
+            "event_id": str(uuid.uuid4()),
+            "entry_id": "word-0001",
+            "kind": "card",
+            "rating": "review",
+        },
+    )
+    assert starred.status_code == 200
+    assert starred.json()["record"]["status"] == "review"
+    assert starred.json()["record"]["attempts"] == 1
+    assert starred.json()["record"]["correct"] == 1
+
+    unstarred = await client.post(
+        "/api/v1/progress/events",
+        json={
+            "event_id": str(uuid.uuid4()),
+            "entry_id": "word-0001",
+            "kind": "card",
+            "rating": "unseen",
+        },
+    )
+    assert unstarred.status_code == 200
+    assert unstarred.json()["record"]["status"] == "unseen"
+    assert unstarred.json()["record"]["attempts"] == 1
+    assert unstarred.json()["record"]["correct"] == 1
+
     assert (
-        await client.post("/api/v1/progress/import", json={**body, "records": body["records"][:1]})
-    ).status_code == 409
-    invalid = {
-        "import_id": str(uuid.uuid4()),
-        "records": [{"entry_id": "word-0001", "status": "review", "attempts": 0, "correct": 2}],
-    }
-    assert (await client.post("/api/v1/progress/import", json=invalid)).status_code == 422
-    invalid["records"][0].update(entry_id="word-9999", correct=0)
-    assert (await client.post("/api/v1/progress/import", json=invalid)).status_code == 422
+        await client.post(
+            "/api/v1/progress/import",
+            json={"import_id": str(uuid.uuid4()), "records": []},
+        )
+    ).status_code == 404
 
 
 async def test_auth_rate_limit_and_safe_validation_errors(client, monkeypatch):
