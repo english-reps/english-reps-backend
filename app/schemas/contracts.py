@@ -57,7 +57,7 @@ class EventIn(BaseModel):
     event_id: uuid.UUID
     entry_id: str = Field(max_length=32)
     kind: Literal["card", "quiz", "listening"]
-    rating: Literal["mastered", "review"] | None = None
+    rating: Literal["mastered", "review", "unseen"] | None = None
     answer: str | None = Field(default=None, max_length=32)
 
     @model_validator(mode="after")
@@ -67,30 +67,4 @@ class EventIn(BaseModel):
                 raise ValueError("Cards require rating only")
         elif self.answer is None or self.rating is not None:
             raise ValueError("Quizzes require answer only")
-        return self
-
-
-class LegacyRecord(BaseModel):
-    model_config = ConfigDict(extra="forbid")
-    entry_id: str = Field(max_length=32)
-    status: Literal["mastered", "review", "unseen"]
-    attempts: int = Field(ge=0, le=1_000_000, strict=True)
-    correct: int = Field(ge=0, le=1_000_000, strict=True)
-
-    @model_validator(mode="after")
-    def valid_counts(self) -> Self:
-        if self.correct > self.attempts:
-            raise ValueError("Correct cannot exceed attempts")
-        return self
-
-
-class ImportIn(BaseModel):
-    model_config = ConfigDict(extra="forbid")
-    import_id: uuid.UUID
-    records: list[LegacyRecord] = Field(min_length=1, max_length=1030)
-
-    @model_validator(mode="after")
-    def unique_ids(self) -> Self:
-        if len({item.entry_id for item in self.records}) != len(self.records):
-            raise ValueError("Duplicate entry IDs")
         return self

@@ -74,15 +74,6 @@ class StudyEvent(Base):
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now())
 
 
-class ProgressImport(Base):
-    __tablename__ = "progress_imports"
-    user_id: Mapped[uuid.UUID] = mapped_column(
-        ForeignKey("users.id", ondelete="CASCADE"), primary_key=True
-    )
-    import_id: Mapped[uuid.UUID] = mapped_column(UUID(as_uuid=True), primary_key=True)
-    payload_hash: Mapped[str] = mapped_column(String(64))
-
-
 class AuthAttempt(Base):
     __tablename__ = "auth_attempts"
     id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
