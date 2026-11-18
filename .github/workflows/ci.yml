@@ -1,0 +1,45 @@
+name: Backend CI
+on:
+  pull_request:
+    branches: [develop, master]
+  push:
+    branches: [develop, master]
+permissions:
+  contents: read
+jobs:
+  backend-checks:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:17-alpine
+        env:
+          POSTGRES_USER: english_reps
+          POSTGRES_PASSWORD: ci-only-password
+          POSTGRES_DB: english_reps_test
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd "pg_isready -U english_reps -d english_reps_test"
+          --health-interval 3s --health-timeout 3s --health-retries 20
+    env:
+      DATABASE_URL: postgresql+asyncpg://english_reps:ci-only-password@127.0.0.1:5432/english_reps_test
+      TEST_DATABASE_URL: postgresql+asyncpg://english_reps:ci-only-password@127.0.0.1:5432/english_reps_test
+      APP_ENV: test
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install uv==0.13.6
+      - run: uv sync --frozen
+      - run: uv run ruff check .
+      - run: uv run mypy app
+      - name: Verify migrations in both directions
+        run: |
+          uv run alembic upgrade head
+          uv run alembic downgrade base
+          uv run alembic upgrade head
+          uv run alembic check
+      - run: uv run pytest -q
+      - name: Validate Compose definitions
+        run: docker compose --env-file .env.example --profile dev --profile prod config -q
+      - run: docker build -t english-reps-backend:ci .
