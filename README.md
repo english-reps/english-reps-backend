@@ -89,3 +89,10 @@ backups/restore tests, monitoring and an email/password-reset policy. Production
 insecure cookies and HTTP origins. The existing `chatgpt.site` static website is unchanged.
 
 See [architecture](docs/architecture.md) and [API contract](docs/api-contract.md), mirrored in the frontend.
+
+## Render staging deployment
+
+See [Render staging guide](docs/render-staging.md) for hosted HTTPS URLs without renting a server.
+The backend repo owns `render.yaml`; both services follow `develop` after CI passes.
+This requires a Render account and GitHub repository authorization; a committed YAML file alone
+does not create a running site. The free PostgreSQL database expires after 30 days.
