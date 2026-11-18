@@ -1,52 +1,56 @@
-# Staging only. All services explicitly use the free plan; no paid defaults.
-# Initial setup: read docs/render-staging.md before applying.
-services:
-  - type: web
-    name: english-reps-api-staging
-    runtime: docker
-    repo: https://github.com/english-reps/english-reps-backend
-    branch: develop
-    region: singapore
-    plan: free
-    autoDeployTrigger: checksPass
-    dockerfilePath: ./Dockerfile
-    dockerCommand: sh /app/scripts/start-render.sh
-    healthCheckPath: /api/v1/health/ready
-    envVars:
-      - key: APP_ENV
-        value: production
-      - key: COOKIE_SECURE
-        value: 'true'
-      - key: DATABASE_URL
-        fromDatabase:
-          name: english-reps-db-staging
-          property: connectionString
-      # Exact frontend HTTPS origin as JSON, e.g. ["https://<actual-host>"]
-      # Fill after Render has assigned the frontend URL; never use a wildcard.
-      - key: ALLOWED_ORIGINS
-        sync: false
-  - type: web
-    name: english-reps-web-staging
-    runtime: docker
-    repo: https://github.com/english-reps/english-reps-frontend
-    branch: develop
-    region: singapore
-    plan: free
-    autoDeployTrigger: checksPass
-    dockerfilePath: ./Dockerfile
-    healthCheckPath: /healthz
-    envVars:
-      - key: API_UPSTREAM
-        fromService:
-          type: web
-          name: english-reps-api-staging
-          envVarKey: RENDER_EXTERNAL_URL
+# Existing staging resources are grouped, preserving their names and references.
+# Apply only after reviewing the Render plan for in-place resource moves.
+projects:
+  - name: English Reps
+    environments:
+      - name: staging
+        services:
+          - type: web
+            name: english-reps-api-staging
+            runtime: docker
+            repo: https://github.com/english-reps/english-reps-backend
+            branch: develop
+            region: singapore
+            plan: free
+            autoDeployTrigger: checksPass
+            dockerfilePath: ./Dockerfile
+            dockerCommand: sh /app/scripts/start-render.sh
+            healthCheckPath: /api/v1/health/ready
+            envVars:
+              - key: APP_ENV
+                value: production
+              - key: COOKIE_SECURE
+                value: 'true'
+              - key: DATABASE_URL
+                fromDatabase:
+                  name: english-reps-db-staging
+                  property: connectionString
+              # Exact frontend HTTPS origin as JSON, e.g. ["https://<actual-host>"]
+              # Fill after Render has assigned the frontend URL; never use a wildcard.
+              - key: ALLOWED_ORIGINS
+                sync: false
+          - type: web
+            name: english-reps-web-staging
+            runtime: docker
+            repo: https://github.com/english-reps/english-reps-frontend
+            branch: develop
+            region: singapore
+            plan: free
+            autoDeployTrigger: checksPass
+            dockerfilePath: ./Dockerfile
+            healthCheckPath: /healthz
+            envVars:
+              - key: API_UPSTREAM
+                fromService:
+                  type: web
+                  name: english-reps-api-staging
+                  envVarKey: RENDER_EXTERNAL_URL
 
-databases:
-  - name: english-reps-db-staging
-    region: singapore
-    plan: free
-    postgresMajorVersion: '17'
-    databaseName: english_reps_staging
-    user: english_reps
-    ipAllowList: [] # External DB access disabled; API uses its internal URL.
+        databases:
+          - name: english-reps-db-staging
+            region: singapore
+            plan: free
+            postgresMajorVersion: '17'
+            databaseName: english_reps_staging
+            user: english_reps
+            ipAllowList: [] # External DB access disabled; API uses its internal URL.

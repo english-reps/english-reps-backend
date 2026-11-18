@@ -76,3 +76,12 @@ Until then, local Docker smoke results are not proof of live deployment or devic
 - https://render.com/docs/environment-variables
 - https://render.com/docs/configure-environment-variables
 - https://render.com/docs/web-services
+
+## Resource organization
+
+The same existing resources are grouped as `昱翔's workspace → English Reps → staging`.
+Render requires an environment below a project. The names/references in the Blueprint stay
+unchanged so grouping does not create replacement services or a new database. Review the
+planned resource IDs before applying; reject any replacement/deletion, database credential
+change, region/plan change or URL change. Existing account records and allowed origins remain.
+This configuration is submitted as an MR; merging and applying require user confirmation.
