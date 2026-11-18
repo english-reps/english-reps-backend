@@ -1,8 +1,8 @@
 from functools import lru_cache
 from typing import Literal
-from urllib.parse import urlsplit
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
-from pydantic import Field, model_validator
+from pydantic import Field, field_validator, model_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -14,6 +14,19 @@ class Settings(BaseSettings):
     cookie_secure: bool = False
     session_days: int = Field(default=14, ge=1, le=90)
     auth_limit: int = Field(default=20, ge=1, le=1000)
+
+    @field_validator("database_url", mode="before")
+    @classmethod
+    def normalize_database_url(cls, value: str) -> str:
+        # Managed Postgres providers expose standard URLs; SQLAlchemy needs its
+        # asyncpg driver name. Preserve encoded credentials without decoding them.
+        for prefix in ("postgres://", "postgresql://"):
+            if value.startswith(prefix):
+                value = "postgresql+asyncpg://" + value[len(prefix) :]
+                break
+        parts = urlsplit(value)
+        query = [("ssl" if key == "sslmode" else key, item) for key, item in parse_qsl(parts.query)]
+        return urlunsplit(parts._replace(query=urlencode(query)))
 
     @model_validator(mode="after")
     def validate_environment(self) -> "Settings":

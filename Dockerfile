@@ -11,9 +11,10 @@ RUN --mount=type=secret,id=build_ca \
 COPY app ./app
 COPY alembic ./alembic
 COPY alembic.ini ./
+COPY scripts/start-render.sh ./scripts/start-render.sh
 RUN chown -R app:app /app
 USER app
 ENV PATH="/app/.venv/bin:$PATH"
 EXPOSE 8000
-HEALTHCHECK --interval=10s --timeout=3s --retries=5 CMD python -c "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/v1/health/ready', timeout=2)"
+HEALTHCHECK --interval=10s --timeout=3s --retries=5 CMD python -c "import os, urllib.request; urllib.request.urlopen('http://127.0.0.1:' + os.getenv('PORT', '8000') + '/api/v1/health/ready', timeout=2)"
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000", "--proxy-headers", "--forwarded-allow-ips", "*"]
