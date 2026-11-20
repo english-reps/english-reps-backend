@@ -15,7 +15,7 @@ projects:
             autoDeployTrigger: checksPass
             dockerfilePath: ./Dockerfile
             dockerCommand: sh /app/scripts/start-render.sh
-            healthCheckPath: /api/v1/health/ready
+            healthCheckPath: /api/v1/health/live
             envVars:
               - key: APP_ENV
                 value: production

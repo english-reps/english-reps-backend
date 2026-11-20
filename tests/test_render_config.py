@@ -1,6 +1,11 @@
+import subprocess
+from pathlib import Path
+
 import pytest
 
 from app.core.config import Settings
+
+ROOT = Path(__file__).resolve().parent.parent
 
 
 @pytest.mark.parametrize("scheme", ["postgres", "postgresql", "postgresql+asyncpg"])
@@ -14,3 +19,11 @@ def test_provider_database_url_does_not_weaken_production_validation():
         Settings(
             database_url="postgresql://user:pw@host/db", app_env="production", cookie_secure=False
         )
+
+
+def test_render_blueprint_uses_liveness_probe_and_valid_startup_script():
+    render_yaml = (ROOT / "render.yaml").read_text(encoding="utf-8")
+    assert "healthCheckPath: /api/v1/health/live" in render_yaml
+    script = ROOT / "scripts" / "start-render.sh"
+    result = subprocess.run(["sh", "-n", str(script)], capture_output=True, text=True, check=False)
+    assert result.returncode == 0, result.stderr
