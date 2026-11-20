@@ -48,13 +48,18 @@ contains no database URL or backend credentials. Backend registration/login rema
 
 ## Startup and migration
 
-Render Docker services run `sh /app/scripts/start-render.sh`. It validates PORT, runs Alembic, then
-executes Uvicorn on 0.0.0.0:$PORT. This works without the paid pre-deploy feature. A PostgreSQL
-advisory lock serializes migrations during overlapping starts; errors prevent the API from serving.
+Render Docker services run `sh /app/scripts/start-render.sh`. It validates PORT, runs Alembic
+(retrying briefly if free Postgres is momentarily restarting), then executes Uvicorn on
+0.0.0.0:$PORT. This works without the paid pre-deploy feature. A PostgreSQL advisory lock
+serializes migrations during overlapping starts; persistent errors prevent the API from serving.
+Render's platform `healthCheckPath` uses `/api/v1/health/live` so brief free-Postgres maintenance
+does not evict the single free API instance, while `/api/v1/health/ready` remains the readiness
+endpoint verified by the frontend and smoke checks.
 Managed `postgres://` and `postgresql://` URLs are normalized to SQLAlchemy's asyncpg driver;
 `sslmode` is translated to asyncpg's `ssl` option while retaining encoded credentials.
-The frontend Nginx template substitutes only PORT and API_UPSTREAM, leaving Nginx variables intact.
-Existing local Compose defaults (port 80 inside Nginx, api:8000) continue to work.
+The frontend Nginx container derives optional direct wake-up config from `API_UPSTREAM`, strips
+first-hop Render/Cloudflare proxy headers before forwarding `/api/` upstream, and leaves Nginx
+variables intact. Existing local Compose defaults (port 80 inside Nginx, api:8000) continue to work.
 
 ## Acceptance on the actual deployed URLs
 
