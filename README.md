@@ -34,8 +34,10 @@ docker compose --profile prod down
 ```
 
 Do not add `-v` to `down` unless you intentionally want to erase the database volume.
-Migrations run once after database health and before API readiness; catalog data is seeded by
-migration 0001. Vite/Nginx proxy from one browser origin, so CORS is not opened.
+Migrations run once after database health and before API readiness. Vocabulary and listening
+catalogs live in `data/vocabulary.json` and `data/listening.json` and are loaded and validated
+from disk by the API (PostgreSQL only stores accounts, sessions, rate-limit counters and user
+progress). Vite/Nginx proxy from one browser origin, so CORS is not opened.
 API trusts forwarded client IPs only because it is not published to the host; both included
 proxies overwrite X-Forwarded-For. Keep the API isolated behind those proxies.
 
@@ -66,9 +68,11 @@ uv run pytest -q
 
 Tests truncate account data in that test database and use real PostgreSQL, not SQLite.
 They check CSRF, session rotation/expiry/revocation, ownership, cross-device reads, server grading,
-concurrent retries/atomic counters, card rating toggles and auth rate limiting. OpenAPI is available at `/docs`
-on the API service. The first migration keeps immutable schema/catalog snapshots so future model
-changes do not alter old migrations. New migrations belong in `alembic/versions/`.
+concurrent retries/atomic counters, card rating toggles, file-based catalog validation and auth rate
+limiting. OpenAPI is available at `/docs` on the API service. The first migration keeps immutable
+schema/catalog snapshots so future model changes do not alter old migrations. New migrations belong
+in `alembic/versions/`. To add or edit questions, update `data/vocabulary.json` or
+`data/listening.json` directly and keep existing IDs stable.
 
 Corporate build proxies can pass their trusted CA as an optional BuildKit `build_ca` secret to
 both Dockerfiles. This preserves TLS verification; no CA or credentials are baked into the image.

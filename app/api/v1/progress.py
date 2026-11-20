@@ -8,8 +8,9 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from app.core.errors import APIError
 from app.core.security import current_user
 from app.db.session import get_db
-from app.models.entities import CatalogItem, Progress, StudyEvent, User
+from app.models.entities import Progress, StudyEvent, User
 from app.schemas.contracts import EventIn, ProgressOut
+from app.services.catalog import get_catalog
 
 router = APIRouter(prefix="/progress", tags=["progress"])
 
@@ -35,7 +36,8 @@ async def get_progress(
 async def event(
     data: EventIn, user: User = Depends(current_user), db: AsyncSession = Depends(get_db)
 ) -> dict[str, Any]:
-    item = await db.get(CatalogItem, data.entry_id)
+    catalog = get_catalog()
+    item = catalog.get(data.entry_id)
     if item is None:
         raise APIError(404, "item_not_found", "找不到這個題目。")
     correct: bool | None = None
@@ -47,7 +49,7 @@ async def event(
     elif data.kind == "quiz":
         if item.category != "vocabulary":
             raise APIError(422, "invalid_kind", "練習類型與題目不符。")
-        answer = await db.get(CatalogItem, data.answer)
+        answer = catalog.get(data.answer or "")
         if answer is None or answer.category != "vocabulary":
             raise APIError(422, "invalid_answer", "請選擇有效的單字回答。")
         correct = answer.id == item.id

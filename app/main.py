@@ -13,12 +13,14 @@ from starlette.exceptions import HTTPException
 from app.api.v1 import auth, catalog, progress
 from app.core.errors import error_response, http_error, validation_error
 from app.db.session import engine
+from app.services.catalog import get_catalog
 
 logger = logging.getLogger(__name__)
 
 
 @asynccontextmanager
 async def lifespan(application: FastAPI) -> AsyncIterator[None]:
+    get_catalog()
     yield
     await engine.dispose()
 
@@ -65,7 +67,9 @@ async def live() -> dict[str, str]:
 @app.get("/api/v1/health/ready")
 async def ready() -> dict[str, str]:
     async with engine.connect() as connection:
-        await connection.execute(text("SELECT id FROM catalog_items LIMIT 1"))
+        await connection.execute(text("SELECT id FROM users LIMIT 1"))
+    if get_catalog().total_count == 0:
+        raise RuntimeError("Catalog is empty")
     return {"status": "ready"}
 
 

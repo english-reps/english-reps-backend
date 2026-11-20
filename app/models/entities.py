@@ -37,20 +37,12 @@ class LoginSession(Base):
     expires_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), index=True)
 
 
-class CatalogItem(Base):
-    __tablename__ = "catalog_items"
-    id: Mapped[str] = mapped_column(String(32), primary_key=True)
-    category: Mapped[str] = mapped_column(String(16), index=True)
-    content: Mapped[dict[str, Any]] = mapped_column(JSONB)
-    __table_args__ = (CheckConstraint("category IN ('vocabulary', 'listening')"),)
-
-
 class Progress(Base):
     __tablename__ = "progress"
     user_id: Mapped[uuid.UUID] = mapped_column(
         ForeignKey("users.id", ondelete="CASCADE"), primary_key=True
     )
-    entry_id: Mapped[str] = mapped_column(ForeignKey("catalog_items.id"), primary_key=True)
+    entry_id: Mapped[str] = mapped_column(String(32), primary_key=True)
     category: Mapped[str] = mapped_column(String(16))
     status: Mapped[str] = mapped_column(String(16))
     attempts: Mapped[int] = mapped_column(Integer, default=0)
@@ -68,7 +60,7 @@ class StudyEvent(Base):
         ForeignKey("users.id", ondelete="CASCADE"), primary_key=True
     )
     event_id: Mapped[uuid.UUID] = mapped_column(UUID(as_uuid=True), primary_key=True)
-    entry_id: Mapped[str] = mapped_column(ForeignKey("catalog_items.id"))
+    entry_id: Mapped[str] = mapped_column(String(32))
     request: Mapped[dict[str, Any]] = mapped_column(JSONB)
     correct: Mapped[bool | None]
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now())
