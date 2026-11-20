@@ -9,6 +9,7 @@ RUN --mount=type=secret,id=build_ca \
     if [ -f /run/secrets/build_ca ]; then export SSL_CERT_FILE=/run/secrets/build_ca; fi; \
     uv sync --frozen --no-dev --cache-dir /tmp/uv-cache && rm -rf /tmp/uv-cache
 COPY app ./app
+COPY data ./data
 COPY alembic ./alembic
 COPY alembic.ini ./
 COPY scripts/start-render.sh ./scripts/start-render.sh

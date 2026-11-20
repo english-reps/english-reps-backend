@@ -34,6 +34,10 @@ async def test_health_catalog_and_request_ids(client):
     assert len({row["id"] for row in words + questions}) == 1030
     missing = await client.get("/api/v1/no-such-route")
     assert missing.status_code == 404 and missing.json()["request_id"]
+    async with Session() as db:
+        from sqlalchemy import text
+
+        assert (await db.scalar(text("SELECT to_regclass('public.catalog_items')"))) is None
 
 
 async def test_csrf_blocks_cross_origin_missing_and_prelogin_attacks(client):
