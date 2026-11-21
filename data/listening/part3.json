@@ -1,0 +1,3602 @@
+{
+  "entries": [
+    {
+      "id": "P3-011",
+      "part": 3,
+      "groupId": "P3-G01",
+      "topic": "會議安排",
+      "difficulty": "600",
+      "audioText": "W: Hi, Daniel. The client moved tomorrow's product presentation from 10 A.M. to 2 P.M. M: Thanks for letting me know. I'll update the room reservation and notify the design team. W: Great. Please ask them to bring the revised brochures.",
+      "audioTranslation": "女：嗨，Daniel。客戶把明天的產品簡報從上午十點改到下午兩點。男：謝謝你通知我。我會更新會議室預約並通知設計團隊。女：很好。請他們帶上修訂後的宣傳冊。",
+      "prompt": "What are the speakers mainly discussing?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "A travel reimbursement",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A change to a presentation",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A hiring decision",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A new product price",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "對話重點是簡報時間改動。",
+      "keywords": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "P3-012",
+      "part": 3,
+      "groupId": "P3-G01",
+      "topic": "會議安排",
+      "difficulty": "600",
+      "audioText": "W: Hi, Daniel. The client moved tomorrow's product presentation from 10 A.M. to 2 P.M. M: Thanks for letting me know. I'll update the room reservation and notify the design team. W: Great. Please ask them to bring the revised brochures.",
+      "audioTranslation": "女：嗨，Daniel。客戶把明天的產品簡報從上午十點改到下午兩點。男：謝謝你通知我。我會更新會議室預約並通知設計團隊。女：很好。請他們帶上修訂後的宣傳冊。",
+      "prompt": "What will the man do?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Meet a supplier at the airport",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Reserve a room and contact a team",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Print employee badges",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Cancel a product launch",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "男子說會更新會議室預約並通知設計團隊。",
+      "keywords": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "P3-013",
+      "part": 3,
+      "groupId": "P3-G01",
+      "topic": "會議安排",
+      "difficulty": "600",
+      "audioText": "W: Hi, Daniel. The client moved tomorrow's product presentation from 10 A.M. to 2 P.M. M: Thanks for letting me know. I'll update the room reservation and notify the design team. W: Great. Please ask them to bring the revised brochures.",
+      "audioTranslation": "女：嗨，Daniel。客戶把明天的產品簡報從上午十點改到下午兩點。男：謝謝你通知我。我會更新會議室預約並通知設計團隊。女：很好。請他們帶上修訂後的宣傳冊。",
+      "prompt": "What does the woman ask the design team to bring?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Revised brochures",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Expense reports",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Customer surveys",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Laptop warranties",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "女子要求攜帶修訂後的小冊子。",
+      "keywords": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "P3-021",
+      "part": 3,
+      "groupId": "P3-G02",
+      "topic": "飯店訂房",
+      "difficulty": "600",
+      "audioText": "M: Good afternoon. I have a reservation under the name Chen, but my flight arrives after midnight. W: That's fine. I'll mark your reservation for late arrival. Would you also like us to arrange airport transportation? M: Yes, please. That would be very helpful.",
+      "audioTranslation": "男：午安。我以 Chen 的名字訂了房，但我的班機會在午夜後才抵達。女：沒問題。我會把你的預約註記為晚到。你也需要我們安排機場接送嗎？男：好的，麻煩了。那會非常有幫助。",
+      "prompt": "Where most likely does the woman work?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "At a hotel",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "At a museum",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "At a bank",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "At a factory",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "提到 reservation、late arrival 與機場接送，最可能是飯店。",
+      "keywords": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "P3-022",
+      "part": 3,
+      "groupId": "P3-G02",
+      "topic": "飯店訂房",
+      "difficulty": "600",
+      "audioText": "M: Good afternoon. I have a reservation under the name Chen, but my flight arrives after midnight. W: That's fine. I'll mark your reservation for late arrival. Would you also like us to arrange airport transportation? M: Yes, please. That would be very helpful.",
+      "audioTranslation": "男：午安。我以 Chen 的名字訂了房，但我的班機會在午夜後才抵達。女：沒問題。我會把你的預約註記為晚到。你也需要我們安排機場接送嗎？男：好的，麻煩了。那會非常有幫助。",
+      "prompt": "What concern does the man mention?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "His room is too small",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "His payment was rejected",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "His luggage is missing",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "He will arrive very late",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "男子擔心午夜後才抵達。",
+      "keywords": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "P3-023",
+      "part": 3,
+      "groupId": "P3-G02",
+      "topic": "飯店訂房",
+      "difficulty": "600",
+      "audioText": "M: Good afternoon. I have a reservation under the name Chen, but my flight arrives after midnight. W: That's fine. I'll mark your reservation for late arrival. Would you also like us to arrange airport transportation? M: Yes, please. That would be very helpful.",
+      "audioTranslation": "男：午安。我以 Chen 的名字訂了房，但我的班機會在午夜後才抵達。女：沒問題。我會把你的預約註記為晚到。你也需要我們安排機場接送嗎？男：好的，麻煩了。那會非常有幫助。",
+      "prompt": "What service does the man request?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Airport transportation",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Laundry repair",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Package delivery",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Conference catering",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "男子接受安排機場交通。",
+      "keywords": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "P3-031",
+      "part": 3,
+      "groupId": "P3-G03",
+      "topic": "物流延誤",
+      "difficulty": "600",
+      "audioText": "W: We received a message from our shipping company. The office chairs won't arrive until Friday because of a storm. M: That's a problem. The new employees start on Thursday. W: We can move some chairs from the training room temporarily.",
+      "audioTranslation": "女：我們收到貨運公司的訊息。因為暴風雨，辦公椅要到星期五才會抵達。男：這是個問題。新員工星期四就要開始上班。女：我們可以暫時從訓練室搬一些椅子過來。",
+      "prompt": "Why will the delivery be late?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Because payment is missing",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Because of severe weather",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Because the order was canceled",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Because the warehouse is full",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "女子明確說 because of a storm。",
+      "keywords": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "P3-032",
+      "part": 3,
+      "groupId": "P3-G03",
+      "topic": "物流延誤",
+      "difficulty": "600",
+      "audioText": "W: We received a message from our shipping company. The office chairs won't arrive until Friday because of a storm. M: That's a problem. The new employees start on Thursday. W: We can move some chairs from the training room temporarily.",
+      "audioTranslation": "女：我們收到貨運公司的訊息。因為暴風雨，辦公椅要到星期五才會抵達。男：這是個問題。新員工星期四就要開始上班。女：我們可以暫時從訓練室搬一些椅子過來。",
+      "prompt": "What will happen on Thursday?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "New employees will begin work",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A storm will reach the city",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "The chairs will be repaired",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "The training room will close",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "男子說新員工星期四開始上班。",
+      "keywords": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "P3-033",
+      "part": 3,
+      "groupId": "P3-G03",
+      "topic": "物流延誤",
+      "difficulty": "600",
+      "audioText": "W: We received a message from our shipping company. The office chairs won't arrive until Friday because of a storm. M: That's a problem. The new employees start on Thursday. W: We can move some chairs from the training room temporarily.",
+      "audioTranslation": "女：我們收到貨運公司的訊息。因為暴風雨，辦公椅要到星期五才會抵達。男：這是個問題。新員工星期四就要開始上班。女：我們可以暫時從訓練室搬一些椅子過來。",
+      "prompt": "What does the woman suggest?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Buying desks online",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Calling every supplier",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Postponing employee training",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Using chairs from another room",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "女子建議暫時搬用訓練室的椅子。",
+      "keywords": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "P3-041",
+      "part": 3,
+      "groupId": "P3-G04",
+      "topic": "求職面試",
+      "difficulty": "800",
+      "audioText": "M: Ms. Owens, your résumé shows extensive experience in international sales. Could you tell me about your work in Singapore? W: Certainly. I managed a team of twelve and helped increase regional revenue by eighteen percent. M: Impressive. The next step is a video interview with our vice president.",
+      "audioTranslation": "男：Owens 女士，你的履歷顯示你有豐富的國際銷售經驗。可以談談你在新加坡的工作嗎？女：當然。我管理一個十二人的團隊，並協助區域營收提高百分之十八。男：很出色。下一步是和我們副總裁進行視訊面試。",
+      "prompt": "What is the purpose of the conversation?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "To revise a travel itinerary",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "To negotiate a sales contract",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "To inspect a branch office",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "To conduct a job interview",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "談論履歷、經驗和下一階段面試。",
+      "keywords": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "P3-042",
+      "part": 3,
+      "groupId": "P3-G04",
+      "topic": "求職面試",
+      "difficulty": "800",
+      "audioText": "M: Ms. Owens, your résumé shows extensive experience in international sales. Could you tell me about your work in Singapore? W: Certainly. I managed a team of twelve and helped increase regional revenue by eighteen percent. M: Impressive. The next step is a video interview with our vice president.",
+      "audioTranslation": "男：Owens 女士，你的履歷顯示你有豐富的國際銷售經驗。可以談談你在新加坡的工作嗎？女：當然。我管理一個十二人的團隊，並協助區域營收提高百分之十八。男：很出色。下一步是和我們副總裁進行視訊面試。",
+      "prompt": "What did the woman accomplish in Singapore?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "She increased regional revenue",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "She designed a new product",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "She reduced travel costs",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "She opened twelve stores",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "女子說提高區域營收 18%。",
+      "keywords": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "P3-043",
+      "part": 3,
+      "groupId": "P3-G04",
+      "topic": "求職面試",
+      "difficulty": "800",
+      "audioText": "M: Ms. Owens, your résumé shows extensive experience in international sales. Could you tell me about your work in Singapore? W: Certainly. I managed a team of twelve and helped increase regional revenue by eighteen percent. M: Impressive. The next step is a video interview with our vice president.",
+      "audioTranslation": "男：Owens 女士，你的履歷顯示你有豐富的國際銷售經驗。可以談談你在新加坡的工作嗎？女：當然。我管理一個十二人的團隊，並協助區域營收提高百分之十八。男：很出色。下一步是和我們副總裁進行視訊面試。",
+      "prompt": "What will the woman most likely do next?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Attend a trade show",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Submit an expense report",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Train new employees",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Have another interview",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "下一步是與副總裁視訊面試。",
+      "keywords": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "P3-051",
+      "part": 3,
+      "groupId": "P3-G05",
+      "topic": "設備維修",
+      "difficulty": "600",
+      "audioText": "W: The coffee machine in the employee lounge is leaking again. M: I'll call the repair company, but they may not come until tomorrow. W: In that case, let's put up a sign and move the smaller machine from the second floor.",
+      "audioTranslation": "女：員工休息室的咖啡機又漏水了。男：我會打給維修公司，不過他們可能要明天才會來。女：既然如此，我們貼一張告示，並把二樓那台較小的機器搬過來吧。",
+      "prompt": "What problem is mentioned?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "A machine is leaking",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A sign was printed incorrectly",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A lounge is overcrowded",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A repair bill is missing",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "咖啡機漏水。",
+      "keywords": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "P3-052",
+      "part": 3,
+      "groupId": "P3-G05",
+      "topic": "設備維修",
+      "difficulty": "600",
+      "audioText": "W: The coffee machine in the employee lounge is leaking again. M: I'll call the repair company, but they may not come until tomorrow. W: In that case, let's put up a sign and move the smaller machine from the second floor.",
+      "audioTranslation": "女：員工休息室的咖啡機又漏水了。男：我會打給維修公司，不過他們可能要明天才會來。女：既然如此，我們貼一張告示，並把二樓那台較小的機器搬過來吧。",
+      "prompt": "What will the man probably do?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Order more coffee",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Clean the second floor",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Replace an employee",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Contact a repair company",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "男子說會打電話給維修公司。",
+      "keywords": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "P3-053",
+      "part": 3,
+      "groupId": "P3-G05",
+      "topic": "設備維修",
+      "difficulty": "600",
+      "audioText": "W: The coffee machine in the employee lounge is leaking again. M: I'll call the repair company, but they may not come until tomorrow. W: In that case, let's put up a sign and move the smaller machine from the second floor.",
+      "audioTranslation": "女：員工休息室的咖啡機又漏水了。男：我會打給維修公司，不過他們可能要明天才會來。女：既然如此，我們貼一張告示，並把二樓那台較小的機器搬過來吧。",
+      "prompt": "What does the woman propose?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Closing the building",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Buying a refrigerator",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Moving another machine",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Canceling tomorrow's meeting",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "女子建議搬二樓的小型機器。",
+      "keywords": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "P3-061",
+      "part": 3,
+      "groupId": "P3-G06",
+      "topic": "行銷活動",
+      "difficulty": "800",
+      "audioText": "M: The online advertisement attracted more visitors than expected, but few of them completed a purchase. W: Perhaps the checkout process is too complicated. We should ask the Web team to review it. M: Agreed. I'll also compare our prices with those of our competitors.",
+      "audioTranslation": "男：網路廣告吸引的訪客比預期多，但很少有人完成購買。女：也許結帳流程太複雜。我們應該請網站團隊檢查。男：同意。我也會把我們的價格和競爭者比較。",
+      "prompt": "What are the speakers concerned about?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "A delayed advertisement",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A shortage of products",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A low purchase rate",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A lack of website visitors",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "訪客多但完成購買的人少。",
+      "keywords": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "P3-062",
+      "part": 3,
+      "groupId": "P3-G06",
+      "topic": "行銷活動",
+      "difficulty": "800",
+      "audioText": "M: The online advertisement attracted more visitors than expected, but few of them completed a purchase. W: Perhaps the checkout process is too complicated. We should ask the Web team to review it. M: Agreed. I'll also compare our prices with those of our competitors.",
+      "audioTranslation": "男：網路廣告吸引的訪客比預期多，但很少有人完成購買。女：也許結帳流程太複雜。我們應該請網站團隊檢查。男：同意。我也會把我們的價格和競爭者比較。",
+      "prompt": "What does the woman suggest?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Changing the company logo",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Reviewing the checkout process",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Hiring more salespeople",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Closing the online store",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "女子建議請網站團隊檢查結帳流程。",
+      "keywords": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "P3-063",
+      "part": 3,
+      "groupId": "P3-G06",
+      "topic": "行銷活動",
+      "difficulty": "800",
+      "audioText": "M: The online advertisement attracted more visitors than expected, but few of them completed a purchase. W: Perhaps the checkout process is too complicated. We should ask the Web team to review it. M: Agreed. I'll also compare our prices with those of our competitors.",
+      "audioTranslation": "男：網路廣告吸引的訪客比預期多，但很少有人完成購買。女：也許結帳流程太複雜。我們應該請網站團隊檢查。男：同意。我也會把我們的價格和競爭者比較。",
+      "prompt": "What will the man compare?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Shipping routes",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Product prices",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Advertising images",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Employee schedules",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "男子會比較競爭者價格。",
+      "keywords": [
+        "conversation"
+      ]
+    },
+    {
+      "id": "P3-071",
+      "part": 3,
+      "groupId": "P3-G07",
+      "topic": "訂單修改",
+      "difficulty": "600",
+      "audioText": "W: Hello, I'm calling about order 7615. We need thirty notebooks instead of twenty. M: I can update the quantity, but the delivery date may move from Tuesday to Wednesday. W: Wednesday is fine, as long as the boxes arrive before noon.",
+      "audioTranslation": "女：您好，我來電是關於訂單 7615。我們需要三十本筆記本，而不是二十本。男：我可以更新數量，不過送貨日期可能會從星期二改到星期三。女：星期三沒問題，只要箱子能在中午前送達。",
+      "prompt": "Why is the woman calling?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "To apply for a job",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "To change an order quantity",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "To report damaged notebooks",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "To request a refund",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "女子要把筆記本數量從二十本改成三十本。",
+      "keywords": [
+        "conversation",
+        "listening"
+      ]
+    },
+    {
+      "id": "P3-072",
+      "part": 3,
+      "groupId": "P3-G07",
+      "topic": "訂單修改",
+      "difficulty": "600",
+      "audioText": "W: Hello, I'm calling about order 7615. We need thirty notebooks instead of twenty. M: I can update the quantity, but the delivery date may move from Tuesday to Wednesday. W: Wednesday is fine, as long as the boxes arrive before noon.",
+      "audioTranslation": "女：您好，我來電是關於訂單 7615。我們需要三十本筆記本，而不是二十本。男：我可以更新數量，不過送貨日期可能會從星期二改到星期三。女：星期三沒問題，只要箱子能在中午前送達。",
+      "prompt": "What may change?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "The delivery date",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "The shipping address",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "The product color",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "The payment method",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "男子說交貨日期可能由星期二改到星期三。",
+      "keywords": [
+        "conversation",
+        "listening"
+      ]
+    },
+    {
+      "id": "P3-073",
+      "part": 3,
+      "groupId": "P3-G07",
+      "topic": "訂單修改",
+      "difficulty": "600",
+      "audioText": "W: Hello, I'm calling about order 7615. We need thirty notebooks instead of twenty. M: I can update the quantity, but the delivery date may move from Tuesday to Wednesday. W: Wednesday is fine, as long as the boxes arrive before noon.",
+      "audioTranslation": "女：您好，我來電是關於訂單 7615。我們需要三十本筆記本，而不是二十本。男：我可以更新數量，不過送貨日期可能會從星期二改到星期三。女：星期三沒問題，只要箱子能在中午前送達。",
+      "prompt": "What does the woman require?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tuesday delivery",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A lower price",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Delivery before noon",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Separate invoices",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "女子說只要中午以前抵達即可。",
+      "keywords": [
+        "conversation",
+        "listening"
+      ]
+    },
+    {
+      "id": "P3-081",
+      "part": 3,
+      "groupId": "P3-G08",
+      "topic": "簡報設備",
+      "difficulty": "800",
+      "audioText": "M: I tested the projector in Conference Room C, but the image is still too dark. W: The larger projector is available in Room A. We could move the presentation there. M: Good idea. I'll tell the attendees about the room change.",
+      "audioTranslation": "男：我測試了 C 會議室的投影機，但畫面仍然太暗。女：A 會議室有一台較大的投影機可用。我們可以把簡報移到那裡。男：好主意。我會通知與會者更換會議室。",
+      "prompt": "What problem does the man mention?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "A conference room is locked",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A presentation file is missing",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A projector image is too dark",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Several attendees are late",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "男子說投影畫面太暗。",
+      "keywords": [
+        "conversation",
+        "listening"
+      ]
+    },
+    {
+      "id": "P3-082",
+      "part": 3,
+      "groupId": "P3-G08",
+      "topic": "簡報設備",
+      "difficulty": "800",
+      "audioText": "M: I tested the projector in Conference Room C, but the image is still too dark. W: The larger projector is available in Room A. We could move the presentation there. M: Good idea. I'll tell the attendees about the room change.",
+      "audioTranslation": "男：我測試了 C 會議室的投影機，但畫面仍然太暗。女：A 會議室有一台較大的投影機可用。我們可以把簡報移到那裡。男：好主意。我會通知與會者更換會議室。",
+      "prompt": "What does the woman suggest?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Postponing the meeting",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Buying a new computer",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Using another room",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Printing the slides",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "女子建議移到有較大投影機的 A 會議室。",
+      "keywords": [
+        "conversation",
+        "listening"
+      ]
+    },
+    {
+      "id": "P3-083",
+      "part": 3,
+      "groupId": "P3-G08",
+      "topic": "簡報設備",
+      "difficulty": "800",
+      "audioText": "M: I tested the projector in Conference Room C, but the image is still too dark. W: The larger projector is available in Room A. We could move the presentation there. M: Good idea. I'll tell the attendees about the room change.",
+      "audioTranslation": "男：我測試了 C 會議室的投影機，但畫面仍然太暗。女：A 會議室有一台較大的投影機可用。我們可以把簡報移到那裡。男：好主意。我會通知與會者更換會議室。",
+      "prompt": "What will the man do?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Notify the attendees",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Cancel the presentation",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Reserve a restaurant",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Repair the projector",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "男子會通知與會者更換房間。",
+      "keywords": [
+        "conversation",
+        "listening"
+      ]
+    },
+    {
+      "id": "P3-G09-Q1",
+      "part": 3,
+      "groupId": "P3-G09",
+      "topic": "員工訓練",
+      "difficulty": "600",
+      "audioText": "W: The customer service workshop is almost full. Should we add a second session next week? M: Yes. Wednesday afternoon is open in the training room. W: Great. I'll ask Human Resources to send another announcement.",
+      "audioTranslation": "女：客服工作坊幾乎額滿了。我們是否應在下週增加第二場？男：好。訓練室星期三下午有空。女：很好。我會請人力資源部再發一則公告。",
+      "prompt": "What are the speakers discussing?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Adding another training session",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Hiring a workshop instructor",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Moving to a new office",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Canceling a customer order",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "他們討論增加第二場訓練。",
+      "keywords": [
+        "conversation",
+        "listening"
+      ]
+    },
+    {
+      "id": "P3-G09-Q2",
+      "part": 3,
+      "groupId": "P3-G09",
+      "topic": "員工訓練",
+      "difficulty": "600",
+      "audioText": "W: The customer service workshop is almost full. Should we add a second session next week? M: Yes. Wednesday afternoon is open in the training room. W: Great. I'll ask Human Resources to send another announcement.",
+      "audioTranslation": "女：客服工作坊幾乎額滿了。我們是否應在下週增加第二場？男：好。訓練室星期三下午有空。女：很好。我會請人力資源部再發一則公告。",
+      "prompt": "When is the training room available?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Friday evening",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Monday morning",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Saturday afternoon",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Wednesday afternoon",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "男子說星期三下午有空。",
+      "keywords": [
+        "conversation",
+        "listening"
+      ]
+    },
+    {
+      "id": "P3-G09-Q3",
+      "part": 3,
+      "groupId": "P3-G09",
+      "topic": "員工訓練",
+      "difficulty": "600",
+      "audioText": "W: The customer service workshop is almost full. Should we add a second session next week? M: Yes. Wednesday afternoon is open in the training room. W: Great. I'll ask Human Resources to send another announcement.",
+      "audioTranslation": "女：客服工作坊幾乎額滿了。我們是否應在下週增加第二場？男：好。訓練室星期三下午有空。女：很好。我會請人力資源部再發一則公告。",
+      "prompt": "What will the woman ask Human Resources to do?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Send another announcement",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Prepare customer invoices",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Interview a candidate",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Reserve a restaurant",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "女子會請人資再發公告。",
+      "keywords": [
+        "conversation",
+        "listening"
+      ]
+    },
+    {
+      "id": "P3-G10-Q1",
+      "part": 3,
+      "groupId": "P3-G10",
+      "topic": "餐廳設備",
+      "difficulty": "800",
+      "audioText": "M: The refrigerator in the restaurant kitchen isn't maintaining the correct temperature. W: I called the service company, but their technician cannot come until Friday. M: Then we should move the dairy products to the smaller refrigerator in the bakery.",
+      "audioTranslation": "男：餐廳廚房的冰箱無法維持正確溫度。女：我已聯絡維修公司，但技術人員要到星期五才能來。男：那我們應該把乳製品移到烘焙區較小的冰箱。",
+      "prompt": "What problem is mentioned?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "A bakery order is late",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A refrigerator is not cold enough",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A restaurant is overcrowded",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A kitchen employee is absent",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "冰箱無法維持正確溫度。",
+      "keywords": [
+        "conversation",
+        "listening"
+      ]
+    },
+    {
+      "id": "P3-G10-Q2",
+      "part": 3,
+      "groupId": "P3-G10",
+      "topic": "餐廳設備",
+      "difficulty": "800",
+      "audioText": "M: The refrigerator in the restaurant kitchen isn't maintaining the correct temperature. W: I called the service company, but their technician cannot come until Friday. M: Then we should move the dairy products to the smaller refrigerator in the bakery.",
+      "audioTranslation": "男：餐廳廚房的冰箱無法維持正確溫度。女：我已聯絡維修公司，但技術人員要到星期五才能來。男：那我們應該把乳製品移到烘焙區較小的冰箱。",
+      "prompt": "When can the technician come?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tomorrow morning",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "On Monday",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "On Friday",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "This afternoon",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "技術人員星期五才能來。",
+      "keywords": [
+        "conversation",
+        "listening"
+      ]
+    },
+    {
+      "id": "P3-G10-Q3",
+      "part": 3,
+      "groupId": "P3-G10",
+      "topic": "餐廳設備",
+      "difficulty": "800",
+      "audioText": "M: The refrigerator in the restaurant kitchen isn't maintaining the correct temperature. W: I called the service company, but their technician cannot come until Friday. M: Then we should move the dairy products to the smaller refrigerator in the bakery.",
+      "audioTranslation": "男：餐廳廚房的冰箱無法維持正確溫度。女：我已聯絡維修公司，但技術人員要到星期五才能來。男：那我們應該把乳製品移到烘焙區較小的冰箱。",
+      "prompt": "What does the man suggest?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Moving some food",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Canceling a delivery",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Buying new equipment immediately",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Closing the bakery",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "男子建議移動乳製品。",
+      "keywords": [
+        "conversation",
+        "listening"
+      ]
+    },
+    {
+      "id": "P3-G11-Q1",
+      "part": 3,
+      "groupId": "P3-G11",
+      "topic": "差旅安排",
+      "difficulty": "600",
+      "audioText": "W: I found a morning flight to Osaka, but it leaves at six ten. M: That's early. Is there a later flight that arrives before the conference dinner? W: Yes, one leaves at nine and arrives at noon. It costs thirty dollars more.",
+      "audioTranslation": "女：我找到一班早上飛往大阪的班機，但它六點十分起飛。男：那很早。有沒有較晚、又能在會議晚宴前抵達的班機？女：有，一班九點起飛、中午抵達，但貴三十美元。",
+      "prompt": "What are the speakers arranging?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "A training schedule",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A dinner menu",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A flight",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A product delivery",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "對話在比較飛往大阪的班機。",
+      "keywords": [
+        "conversation",
+        "listening"
+      ]
+    },
+    {
+      "id": "P3-G11-Q2",
+      "part": 3,
+      "groupId": "P3-G11",
+      "topic": "差旅安排",
+      "difficulty": "600",
+      "audioText": "W: I found a morning flight to Osaka, but it leaves at six ten. M: That's early. Is there a later flight that arrives before the conference dinner? W: Yes, one leaves at nine and arrives at noon. It costs thirty dollars more.",
+      "audioTranslation": "女：我找到一班早上飛往大阪的班機，但它六點十分起飛。男：那很早。有沒有較晚、又能在會議晚宴前抵達的班機？女：有，一班九點起飛、中午抵達，但貴三十美元。",
+      "prompt": "Why does the man prefer a later flight?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "The first flight leaves very early",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "He needs a cheaper ticket",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "The conference has been canceled",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "He wants to arrive after dinner",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "六點十分太早。",
+      "keywords": [
+        "conversation",
+        "listening"
+      ]
+    },
+    {
+      "id": "P3-G11-Q3",
+      "part": 3,
+      "groupId": "P3-G11",
+      "topic": "差旅安排",
+      "difficulty": "600",
+      "audioText": "W: I found a morning flight to Osaka, but it leaves at six ten. M: That's early. Is there a later flight that arrives before the conference dinner? W: Yes, one leaves at nine and arrives at noon. It costs thirty dollars more.",
+      "audioTranslation": "女：我找到一班早上飛往大阪的班機，但它六點十分起飛。男：那很早。有沒有較晚、又能在會議晚宴前抵達的班機？女：有，一班九點起飛、中午抵達，但貴三十美元。",
+      "prompt": "What is said about the nine o'clock flight?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "It has no available seats",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "It costs more",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "It arrives in the evening",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "It requires two transfers",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "該班機多三十美元。",
+      "keywords": [
+        "conversation",
+        "listening"
+      ]
+    },
+    {
+      "id": "P3-G12-Q1",
+      "part": 3,
+      "groupId": "P3-G12",
+      "topic": "網站更新",
+      "difficulty": "800",
+      "audioText": "M: The product photos on our website look blurry on mobile phones. W: I can resize the image files this afternoon. We should also test the pages on several screen sizes. M: Good. Please finish before the online sale begins tomorrow.",
+      "audioTranslation": "男：我們網站上的產品照片在手機上看起來很模糊。女：我今天下午可以重新調整圖片檔案大小。我們也應該在多種螢幕尺寸上測試頁面。男：很好。請在明天網路促銷開始前完成。",
+      "prompt": "What issue are the speakers discussing?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "A delayed shipment",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Blurry website images",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Incorrect product prices",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A missing customer review",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "產品照片在手機顯示模糊。",
+      "keywords": [
+        "conversation",
+        "listening"
+      ]
+    },
+    {
+      "id": "P3-G12-Q2",
+      "part": 3,
+      "groupId": "P3-G12",
+      "topic": "網站更新",
+      "difficulty": "800",
+      "audioText": "M: The product photos on our website look blurry on mobile phones. W: I can resize the image files this afternoon. We should also test the pages on several screen sizes. M: Good. Please finish before the online sale begins tomorrow.",
+      "audioTranslation": "男：我們網站上的產品照片在手機上看起來很模糊。女：我今天下午可以重新調整圖片檔案大小。我們也應該在多種螢幕尺寸上測試頁面。男：很好。請在明天網路促銷開始前完成。",
+      "prompt": "What does the woman propose doing?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Closing the website",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Hiring a photographer today",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Testing different screen sizes",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Replacing all products",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "她提議測試多種螢幕尺寸。",
+      "keywords": [
+        "conversation",
+        "listening"
+      ]
+    },
+    {
+      "id": "P3-G12-Q3",
+      "part": 3,
+      "groupId": "P3-G12",
+      "topic": "網站更新",
+      "difficulty": "800",
+      "audioText": "M: The product photos on our website look blurry on mobile phones. W: I can resize the image files this afternoon. We should also test the pages on several screen sizes. M: Good. Please finish before the online sale begins tomorrow.",
+      "audioTranslation": "男：我們網站上的產品照片在手機上看起來很模糊。女：我今天下午可以重新調整圖片檔案大小。我們也應該在多種螢幕尺寸上測試頁面。男：很好。請在明天網路促銷開始前完成。",
+      "prompt": "When should the work be completed?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "After a customer survey",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Before today's lunch",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "By the end of next month",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Before tomorrow's online sale",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "男子要求在明天促銷前完成。",
+      "keywords": [
+        "conversation",
+        "listening"
+      ]
+    },
+    {
+      "id": "P3-G13-Q1",
+      "part": 3,
+      "groupId": "P3-G13",
+      "topic": "辦公室搬遷",
+      "difficulty": "600",
+      "audioText": "W: The accounting team is moving to the sixth floor on Monday. M: Then we need to update the directory in the lobby. W: I'll also send a message to our regular delivery companies.",
+      "audioTranslation": "女：會計團隊星期一將搬到六樓。男：那我們需要更新大廳的公司目錄。女：我也會傳訊息給經常合作的送貨公司。",
+      "prompt": "What will happen on Monday?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "The lobby will be renovated",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A delivery company will close",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A team will move to another floor",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A directory will be printed for sale",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "會計團隊星期一搬到六樓。",
+      "keywords": [
+        "conversation",
+        "listening"
+      ]
+    },
+    {
+      "id": "P3-G13-Q2",
+      "part": 3,
+      "groupId": "P3-G13",
+      "topic": "辦公室搬遷",
+      "difficulty": "600",
+      "audioText": "W: The accounting team is moving to the sixth floor on Monday. M: Then we need to update the directory in the lobby. W: I'll also send a message to our regular delivery companies.",
+      "audioTranslation": "女：會計團隊星期一將搬到六樓。男：那我們需要更新大廳的公司目錄。女：我也會傳訊息給經常合作的送貨公司。",
+      "prompt": "What does the man say needs to be updated?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "The company website",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "The lobby directory",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "The delivery schedule",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "The accounting software",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "男子說要更新大廳目錄。",
+      "keywords": [
+        "conversation",
+        "listening"
+      ]
+    },
+    {
+      "id": "P3-G13-Q3",
+      "part": 3,
+      "groupId": "P3-G13",
+      "topic": "辦公室搬遷",
+      "difficulty": "600",
+      "audioText": "W: The accounting team is moving to the sixth floor on Monday. M: Then we need to update the directory in the lobby. W: I'll also send a message to our regular delivery companies.",
+      "audioTranslation": "女：會計團隊星期一將搬到六樓。男：那我們需要更新大廳的公司目錄。女：我也會傳訊息給經常合作的送貨公司。",
+      "prompt": "Whom will the woman contact?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Conference attendees",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Building inspectors",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Regular delivery companies",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "New accounting applicants",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "女子會通知固定合作的送貨公司。",
+      "keywords": [
+        "conversation",
+        "listening"
+      ]
+    },
+    {
+      "id": "P3-G14-Q1",
+      "part": 3,
+      "groupId": "P3-G14",
+      "topic": "商品攝影",
+      "difficulty": "800",
+      "audioText": "M: The photos for the winter catalog are scheduled for Thursday, but the sample coats haven't arrived. W: The supplier says they will be delivered tomorrow morning. M: Good. Please check every item as soon as the boxes arrive.",
+      "audioTranslation": "男：冬季目錄的拍攝排在星期四，但樣品外套還沒送到。女：供應商說明天早上會送達。男：很好。箱子一到，請立刻檢查每一件商品。",
+      "prompt": "What are the speakers preparing for?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "A supplier interview",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A clothing sale today",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A winter conference",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A catalog photo session",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "他們正準備冬季目錄攝影。",
+      "keywords": [
+        "conversation",
+        "listening"
+      ]
+    },
+    {
+      "id": "P3-G14-Q2",
+      "part": 3,
+      "groupId": "P3-G14",
+      "topic": "商品攝影",
+      "difficulty": "800",
+      "audioText": "M: The photos for the winter catalog are scheduled for Thursday, but the sample coats haven't arrived. W: The supplier says they will be delivered tomorrow morning. M: Good. Please check every item as soon as the boxes arrive.",
+      "audioTranslation": "男：冬季目錄的拍攝排在星期四，但樣品外套還沒送到。女：供應商說明天早上會送達。男：很好。箱子一到，請立刻檢查每一件商品。",
+      "prompt": "When should the coats arrive?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tomorrow morning",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "This afternoon",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Thursday evening",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Next winter",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "供應商說明早送達。",
+      "keywords": [
+        "conversation",
+        "listening"
+      ]
+    },
+    {
+      "id": "P3-G14-Q3",
+      "part": 3,
+      "groupId": "P3-G14",
+      "topic": "商品攝影",
+      "difficulty": "800",
+      "audioText": "M: The photos for the winter catalog are scheduled for Thursday, but the sample coats haven't arrived. W: The supplier says they will be delivered tomorrow morning. M: Good. Please check every item as soon as the boxes arrive.",
+      "audioTranslation": "男：冬季目錄的拍攝排在星期四，但樣品外套還沒送到。女：供應商說明天早上會送達。男：很好。箱子一到，請立刻檢查每一件商品。",
+      "prompt": "What does the man ask the woman to do?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Call a different photographer",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Cancel the photo session",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Inspect the delivered items",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Return all the coats",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "箱子送達後要檢查所有商品。",
+      "keywords": [
+        "conversation",
+        "listening"
+      ]
+    },
+    {
+      "id": "P3-G15-Q1",
+      "part": 3,
+      "groupId": "P3-G15",
+      "topic": "印刷訂單",
+      "difficulty": "600",
+      "audioText": "W: The brochures for Monday's event arrived, but the company logo is missing from the back page. M: I'll contact the printer immediately. Do we have time for a corrected delivery? W: Yes, as long as it arrives by Friday afternoon.",
+      "audioTranslation": "女：星期一活動用的宣傳冊已送達，但背頁少了公司標誌。男：我會立刻聯絡印刷廠。我們還有時間重新送一批修正版嗎？女：有，只要星期五下午前送達。",
+      "prompt": "What problem is mentioned?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "The event date is incorrect",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "The company address changed",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A logo is missing from the brochures",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "The printer is out of paper",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "宣傳冊背頁少了公司標誌。",
+      "keywords": [
+        "conversation",
+        "listening"
+      ]
+    },
+    {
+      "id": "P3-G15-Q2",
+      "part": 3,
+      "groupId": "P3-G15",
+      "topic": "印刷訂單",
+      "difficulty": "600",
+      "audioText": "W: The brochures for Monday's event arrived, but the company logo is missing from the back page. M: I'll contact the printer immediately. Do we have time for a corrected delivery? W: Yes, as long as it arrives by Friday afternoon.",
+      "audioTranslation": "女：星期一活動用的宣傳冊已送達，但背頁少了公司標誌。男：我會立刻聯絡印刷廠。我們還有時間重新送一批修正版嗎？女：有，只要星期五下午前送達。",
+      "prompt": "Whom will the man contact?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "The printer",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "The event speaker",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A delivery customer",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "The design applicant",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "男子會聯絡印刷廠。",
+      "keywords": [
+        "conversation",
+        "listening"
+      ]
+    },
+    {
+      "id": "P3-G15-Q3",
+      "part": 3,
+      "groupId": "P3-G15",
+      "topic": "印刷訂單",
+      "difficulty": "600",
+      "audioText": "W: The brochures for Monday's event arrived, but the company logo is missing from the back page. M: I'll contact the printer immediately. Do we have time for a corrected delivery? W: Yes, as long as it arrives by Friday afternoon.",
+      "audioTranslation": "女：星期一活動用的宣傳冊已送達，但背頁少了公司標誌。男：我會立刻聯絡印刷廠。我們還有時間重新送一批修正版嗎？女：有，只要星期五下午前送達。",
+      "prompt": "When must the corrected brochures arrive?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "After the event",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "By Friday afternoon",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "This afternoon",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Before Monday morning",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "修正版須在星期五下午前抵達。",
+      "keywords": [
+        "conversation",
+        "listening"
+      ]
+    },
+    {
+      "id": "P3-G16-Q1",
+      "part": 3,
+      "groupId": "P3-G16",
+      "topic": "客戶軟體展示",
+      "difficulty": "800",
+      "audioText": "M: The client wants us to demonstrate the reporting feature during tomorrow's video call. W: Then we should use the test account rather than real customer data. M: Agreed. I'll prepare a sample report and send you the login information.",
+      "audioTranslation": "男：客戶希望我們在明天的視訊通話中展示報表功能。女：那我們應該使用測試帳號，而不是真實顧客資料。男：同意。我會準備一份範例報告，並把登入資訊寄給你。",
+      "prompt": "What does the client want to see?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "A hiring plan",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A reporting feature",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A delivery schedule",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A new office location",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "客戶想看報表功能。",
+      "keywords": [
+        "conversation",
+        "listening"
+      ]
+    },
+    {
+      "id": "P3-G16-Q2",
+      "part": 3,
+      "groupId": "P3-G16",
+      "topic": "客戶軟體展示",
+      "difficulty": "800",
+      "audioText": "M: The client wants us to demonstrate the reporting feature during tomorrow's video call. W: Then we should use the test account rather than real customer data. M: Agreed. I'll prepare a sample report and send you the login information.",
+      "audioTranslation": "男：客戶希望我們在明天的視訊通話中展示報表功能。女：那我們應該使用測試帳號，而不是真實顧客資料。男：同意。我會準備一份範例報告，並把登入資訊寄給你。",
+      "prompt": "Why does the woman suggest using a test account?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "To avoid using real customer data",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "To shorten the video call",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "To lower the software price",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "To train a new employee",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "避免使用真實顧客資料。",
+      "keywords": [
+        "conversation",
+        "listening"
+      ]
+    },
+    {
+      "id": "P3-G16-Q3",
+      "part": 3,
+      "groupId": "P3-G16",
+      "topic": "客戶軟體展示",
+      "difficulty": "800",
+      "audioText": "M: The client wants us to demonstrate the reporting feature during tomorrow's video call. W: Then we should use the test account rather than real customer data. M: Agreed. I'll prepare a sample report and send you the login information.",
+      "audioTranslation": "男：客戶希望我們在明天的視訊通話中展示報表功能。女：那我們應該使用測試帳號，而不是真實顧客資料。男：同意。我會準備一份範例報告，並把登入資訊寄給你。",
+      "prompt": "What will the man send to the woman?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Login information",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A meeting recording",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Customer invoices",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A printed contract",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "男子會寄登入資訊。",
+      "keywords": [
+        "conversation",
+        "listening"
+      ]
+    },
+    {
+      "id": "P3-G17-Q1",
+      "part": 3,
+      "groupId": "P3-G17",
+      "topic": "商店陳列",
+      "difficulty": "600",
+      "audioText": "W: The summer display near the entrance is blocking the view of the new arrivals. M: We could move it beside the escalator. There's more space there. W: Good. I'll ask the evening staff to relocate it after closing.",
+      "audioTranslation": "女：入口附近的夏季展示擋住了新品區。男：我們可以把它移到手扶梯旁邊，那裡空間比較大。女：好。我會請晚班員工在打烊後搬動。",
+      "prompt": "What problem does the woman identify?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "An escalator is not working",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A display blocks another area",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "The store entrance is locked",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "New products arrived late",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "展示架擋住新品區。",
+      "keywords": [
+        "conversation",
+        "listening"
+      ]
+    },
+    {
+      "id": "P3-G17-Q2",
+      "part": 3,
+      "groupId": "P3-G17",
+      "topic": "商店陳列",
+      "difficulty": "600",
+      "audioText": "W: The summer display near the entrance is blocking the view of the new arrivals. M: We could move it beside the escalator. There's more space there. W: Good. I'll ask the evening staff to relocate it after closing.",
+      "audioTranslation": "女：入口附近的夏季展示擋住了新品區。男：我們可以把它移到手扶梯旁邊，那裡空間比較大。女：好。我會請晚班員工在打烊後搬動。",
+      "prompt": "Where does the man suggest moving the display?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Into the storage room",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Near the cash registers",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Beside the escalator",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Outside the entrance",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "男子建議移到手扶梯旁。",
+      "keywords": [
+        "conversation",
+        "listening"
+      ]
+    },
+    {
+      "id": "P3-G17-Q3",
+      "part": 3,
+      "groupId": "P3-G17",
+      "topic": "商店陳列",
+      "difficulty": "600",
+      "audioText": "W: The summer display near the entrance is blocking the view of the new arrivals. M: We could move it beside the escalator. There's more space there. W: Good. I'll ask the evening staff to relocate it after closing.",
+      "audioTranslation": "女：入口附近的夏季展示擋住了新品區。男：我們可以把它移到手扶梯旁邊，那裡空間比較大。女：好。我會請晚班員工在打烊後搬動。",
+      "prompt": "When will the display be moved?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Next summer",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "During lunch",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "After the store closes",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Before the evening shift",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "晚班員工打烊後搬動。",
+      "keywords": [
+        "conversation",
+        "listening"
+      ]
+    },
+    {
+      "id": "P3-052-Q1",
+      "part": 3,
+      "groupId": "P3-052",
+      "topic": "對話",
+      "difficulty": "600",
+      "audioText": "M: Did the security update finish on the reception tablets?\nW: Not yet. The network team found a compatibility issue with the older models.\nM: We have visitors arriving at nine tomorrow. Can we use the backup login page?\nW: Yes, but I will ask the team to test it again this afternoon.",
+      "audioTranslation": "男：接待平板的資安更新完成了嗎？\n女：還沒有。網路團隊發現舊機型有相容性問題。\n男：明天九點有訪客到。可以用備用登入頁嗎？\n女：可以，但我會請團隊今天下午再測一次。",
+      "prompt": "What problem are the speakers discussing?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "A missing visitor badge",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A broken delivery cart",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A delayed security update",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A canceled client lunch",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "兩人討論 security update 還沒完成，且會影響明早的登入流程。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "security",
+        "technology"
+      ]
+    },
+    {
+      "id": "P3-052-Q2",
+      "part": 3,
+      "groupId": "P3-052",
+      "topic": "對話",
+      "difficulty": "600",
+      "audioText": "M: Did the security update finish on the reception tablets?\nW: Not yet. The network team found a compatibility issue with the older models.\nM: We have visitors arriving at nine tomorrow. Can we use the backup login page?\nW: Yes, but I will ask the team to test it again this afternoon.",
+      "audioTranslation": "男：接待平板的資安更新完成了嗎？\n女：還沒有。網路團隊發現舊機型有相容性問題。\n男：明天九點有訪客到。可以用備用登入頁嗎？\n女：可以，但我會請團隊今天下午再測一次。",
+      "prompt": "When are visitors expected to arrive?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Next Monday",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "At noon today",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "At nine tomorrow",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "This afternoon",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "男方說 We have visitors arriving at nine tomorrow。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "time"
+      ]
+    },
+    {
+      "id": "P3-052-Q3",
+      "part": 3,
+      "groupId": "P3-052",
+      "topic": "對話",
+      "difficulty": "800",
+      "audioText": "M: Did the security update finish on the reception tablets?\nW: Not yet. The network team found a compatibility issue with the older models.\nM: We have visitors arriving at nine tomorrow. Can we use the backup login page?\nW: Yes, but I will ask the team to test it again this afternoon.",
+      "audioTranslation": "男：接待平板的資安更新完成了嗎？\n女：還沒有。網路團隊發現舊機型有相容性問題。\n男：明天九點有訪客到。可以用備用登入頁嗎？\n女：可以，但我會請團隊今天下午再測一次。",
+      "prompt": "What will the woman probably do this afternoon?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Reschedule a client meeting",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Print visitor name tags",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Order new reception desks",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Ask a team to test a backup page",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "女方最後說會請 team this afternoon 再測 backup login page。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "next-action"
+      ]
+    },
+    {
+      "id": "P3-052-Q4",
+      "part": 3,
+      "groupId": "P3-G18",
+      "topic": "對話",
+      "difficulty": "800",
+      "audioText": "M: Did the security update finish on the reception tablets?\nW: Not yet. The network team found a compatibility issue with the older models.\nM: We have visitors arriving at nine tomorrow. Can we use the backup login page?\nW: Yes, but I will ask the team to test it again this afternoon.",
+      "audioTranslation": "男：接待平板的資安更新完成了嗎？\n女：還沒有。網路團隊發現舊機型有相容性問題。\n男：明天九點有訪客到。可以用備用登入頁嗎？\n女：可以，但我會請團隊今天下午再測一次。",
+      "prompt": "What is implied about some reception tablets?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "They are used only outdoors",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "They are older models",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "They were recently stolen",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "They have no internet access",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "女方說 compatibility issue with the older models，表示有些平板是舊機型。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "inference"
+      ]
+    },
+    {
+      "id": "P3-053-Q1",
+      "part": 3,
+      "groupId": "P3-053",
+      "topic": "員工訓練",
+      "difficulty": "600",
+      "audioText": "M: The safety training video is ready, but the captions are not matching the audio.\nW: Thanks for checking. The vendor sent a corrected file this morning.\nM: Should I upload it to the learning portal now?\nW: Please do. The warehouse staff need to complete the course by Friday.",
+      "audioTranslation": "男：安全訓練影片已經好了，但字幕和音訊不一致。\n女：謝謝你確認。供應商今天早上寄來了修正版檔案。\n男：我現在要把它上傳到學習平台嗎？\n女：請上傳。倉庫員工需要在星期五前完成課程。",
+      "prompt": "What are the speakers mainly discussing?",
+      "promptZh": "說話者主要在討論什麼？",
+      "options": [
+        {
+          "label": "A",
+          "text": "A change to lunch service",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A problem with a training video",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A delay in office furniture delivery",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A request for a new printer",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "對話一開始提到 safety training video 的字幕與音訊不一致，後續也在談修正版檔案與上傳，因此主題是訓練影片的問題。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "training",
+        "portal"
+      ]
+    },
+    {
+      "id": "P3-053-Q2",
+      "part": 3,
+      "groupId": "P3-053",
+      "topic": "員工訓練",
+      "difficulty": "600",
+      "audioText": "M: The safety training video is ready, but the captions are not matching the audio.\nW: Thanks for checking. The vendor sent a corrected file this morning.\nM: Should I upload it to the learning portal now?\nW: Please do. The warehouse staff need to complete the course by Friday.",
+      "audioTranslation": "男：安全訓練影片已經好了，但字幕和音訊不一致。\n女：謝謝你確認。供應商今天早上寄來了修正版檔案。\n男：我現在要把它上傳到學習平台嗎？\n女：請上傳。倉庫員工需要在星期五前完成課程。",
+      "prompt": "What did the vendor send?",
+      "promptZh": "供應商寄來了什麼？",
+      "options": [
+        {
+          "label": "A",
+          "text": "A corrected file",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A printed manual",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A warehouse schedule",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A new microphone",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "女子說 The vendor sent a corrected file this morning，表示供應商寄來的是修正版檔案。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "detail"
+      ]
+    },
+    {
+      "id": "P3-053-Q3",
+      "part": 3,
+      "groupId": "P3-053",
+      "topic": "員工訓練",
+      "difficulty": "800",
+      "audioText": "M: The safety training video is ready, but the captions are not matching the audio.\nW: Thanks for checking. The vendor sent a corrected file this morning.\nM: Should I upload it to the learning portal now?\nW: Please do. The warehouse staff need to complete the course by Friday.",
+      "audioTranslation": "男：安全訓練影片已經好了，但字幕和音訊不一致。\n女：謝謝你確認。供應商今天早上寄來了修正版檔案。\n男：我現在要把它上傳到學習平台嗎？\n女：請上傳。倉庫員工需要在星期五前完成課程。",
+      "prompt": "What will the man probably do next?",
+      "promptZh": "男子接下來可能會做什麼？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Call the warehouse supervisor",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Cancel the training course",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Record a new video",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Upload a file to a learning portal",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "男子問是否要上傳到 learning portal，女子回答 Please do，所以男子接下來很可能會上傳檔案。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "next-action"
+      ]
+    },
+    {
+      "id": "P3-054-Q1",
+      "part": 3,
+      "groupId": "P3-054",
+      "topic": "線上研討會",
+      "difficulty": "600",
+      "audioText": "M: The webinar test looks clear, but the captions are appearing about five seconds late.\nW: I noticed that too. The streaming platform has a sync setting we can adjust.\nM: Good. Can you fix it before the Australian office joins the rehearsal?\nW: Yes, I will update it and run another test in ten minutes.",
+      "audioTranslation": "男：線上研討會測試畫面很清楚，但字幕大約晚五秒出現。\n女：我也注意到了。串流平台有同步設定可以調整。\n男：好。在澳洲辦公室加入彩排前你能修好嗎？\n女：可以，我會更新設定，十分鐘後再測一次。",
+      "prompt": "What problem do the speakers mention?",
+      "promptZh": "說話者提到什麼問題？",
+      "options": [
+        {
+          "label": "A",
+          "text": "The venue has changed",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "The captions are delayed",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "The presenter is late",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "The registration link is broken",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "男子說 captions are appearing about five seconds late，表示字幕延遲。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "webinar",
+        "accent-practice"
+      ]
+    },
+    {
+      "id": "P3-054-Q2",
+      "part": 3,
+      "groupId": "P3-054",
+      "topic": "線上研討會",
+      "difficulty": "600",
+      "audioText": "M: The webinar test looks clear, but the captions are appearing about five seconds late.\nW: I noticed that too. The streaming platform has a sync setting we can adjust.\nM: Good. Can you fix it before the Australian office joins the rehearsal?\nW: Yes, I will update it and run another test in ten minutes.",
+      "audioTranslation": "男：線上研討會測試畫面很清楚，但字幕大約晚五秒出現。\n女：我也注意到了。串流平台有同步設定可以調整。\n男：好。在澳洲辦公室加入彩排前你能修好嗎？\n女：可以，我會更新設定，十分鐘後再測一次。",
+      "prompt": "What will the woman adjust?",
+      "promptZh": "女子會調整什麼？",
+      "options": [
+        {
+          "label": "A",
+          "text": "A seating chart",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A shipping address",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A sync setting",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A hotel reservation",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "女子提到 streaming platform has a sync setting we can adjust，因此她會調整同步設定。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "detail",
+        "accent-practice"
+      ]
+    },
+    {
+      "id": "P3-054-Q3",
+      "part": 3,
+      "groupId": "P3-054",
+      "topic": "線上研討會",
+      "difficulty": "800",
+      "audioText": "M: The webinar test looks clear, but the captions are appearing about five seconds late.\nW: I noticed that too. The streaming platform has a sync setting we can adjust.\nM: Good. Can you fix it before the Australian office joins the rehearsal?\nW: Yes, I will update it and run another test in ten minutes.",
+      "audioTranslation": "男：線上研討會測試畫面很清楚，但字幕大約晚五秒出現。\n女：我也注意到了。串流平台有同步設定可以調整。\n男：好。在澳洲辦公室加入彩排前你能修好嗎？\n女：可以，我會更新設定，十分鐘後再測一次。",
+      "prompt": "What will happen in ten minutes?",
+      "promptZh": "十分鐘後會發生什麼事？",
+      "options": [
+        {
+          "label": "A",
+          "text": "The office will close",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Another test will be run",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A presenter will be hired",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A report will be printed",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "女子最後說 run another test in ten minutes，表示十分鐘後會再測一次。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "next-action",
+        "accent-practice"
+      ]
+    },
+    {
+      "id": "P3-055-Q1",
+      "part": 3,
+      "groupId": "P3-055",
+      "topic": "客服系統更新",
+      "difficulty": "600",
+      "audioText": "W: I just checked the support dashboard, and three tickets are missing customer names.\nM: That usually happens when the mobile form is submitted too quickly.\nW: Can you add a required-field warning before today's update goes live?\nM: Yes. I will add it and test the form within the hour.",
+      "audioTranslation": "女：我剛檢查支援儀表板，有三張工單缺少客戶姓名。\n男：通常是手機表單送出太快時會發生。\n女：你能在今天的更新上線前加上必填欄位提醒嗎？\n男：可以。我會加上並在一小時內測試表單。",
+      "prompt": "What problem does the woman mention?",
+      "promptZh": "女方提到什麼問題？",
+      "options": [
+        {
+          "label": "A",
+          "text": "The website is loading slowly",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Some tickets are missing customer names",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "The help desk is closed",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A vendor changed its address",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "女方提到 three support tickets are missing customer names，因此問題是部分工單缺少客戶姓名。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "customer-service",
+        "technology"
+      ]
+    },
+    {
+      "id": "P3-055-Q2",
+      "part": 3,
+      "groupId": "P3-055",
+      "topic": "客服系統更新",
+      "difficulty": "600",
+      "audioText": "W: I just checked the support dashboard, and three tickets are missing customer names.\nM: That usually happens when the mobile form is submitted too quickly.\nW: Can you add a required-field warning before today's update goes live?\nM: Yes. I will add it and test the form within the hour.",
+      "audioTranslation": "女：我剛檢查支援儀表板，有三張工單缺少客戶姓名。\n男：通常是手機表單送出太快時會發生。\n女：你能在今天的更新上線前加上必填欄位提醒嗎？\n男：可以。我會加上並在一小時內測試表單。",
+      "prompt": "What does the man say he will do?",
+      "promptZh": "男方說他會做什麼？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Call three customers",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Cancel a software release",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Print a dashboard report",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Add a required-field warning",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "男方說 I will add it and test the form，it 指女方要求的 required-field warning。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "detail",
+        "technology"
+      ]
+    },
+    {
+      "id": "P3-055-Q3",
+      "part": 3,
+      "groupId": "P3-055",
+      "topic": "客服系統更新",
+      "difficulty": "800",
+      "audioText": "W: I just checked the support dashboard, and three tickets are missing customer names.\nM: That usually happens when the mobile form is submitted too quickly.\nW: Can you add a required-field warning before today's update goes live?\nM: Yes. I will add it and test the form within the hour.",
+      "audioTranslation": "女：我剛檢查支援儀表板，有三張工單缺少客戶姓名。\n男：通常是手機表單送出太快時會發生。\n女：你能在今天的更新上線前加上必填欄位提醒嗎？\n男：可以。我會加上並在一小時內測試表單。",
+      "prompt": "When will the man test the form?",
+      "promptZh": "男方何時會測試表單？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Within the hour",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "During next month's audit",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "After the help desk closes",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Tomorrow morning",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "男方最後說 within the hour，表示一小時內會測試表單。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "time",
+        "technology"
+      ]
+    },
+    {
+      "id": "P3-056-Q1",
+      "part": 3,
+      "groupId": "P3-056",
+      "topic": "辦公室搬遷",
+      "difficulty": "600",
+      "audioText": "M: The analytics team is relocating to the fourth floor on Monday.\nW: I reserved twelve desks, but only eight monitors have arrived.\nM: We can borrow four from the training room until the shipment comes in.\nW: Great. I will label the desks and ask facilities to install the docking stations.",
+      "audioTranslation": "男：分析團隊星期一要搬到四樓。\n女：我預留了十二張桌子，但只有八台螢幕到了。\n男：在貨到之前，我們可以先從訓練室借四台。\n女：太好了。我會標示桌位，並請設施部安裝擴充座。",
+      "prompt": "What are the speakers mainly discussing?",
+      "promptZh": "說話者主要在討論什麼？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ordering new security badges",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Rescheduling a training seminar",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Preparing desks for a relocated team",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Hiring temporary reception staff",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "對話圍繞 relocated analytics team、desks、monitors 和 docking stations，主題是替搬遷團隊準備座位。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "relocation",
+        "office"
+      ]
+    },
+    {
+      "id": "P3-056-Q2",
+      "part": 3,
+      "groupId": "P3-056",
+      "topic": "辦公室搬遷",
+      "difficulty": "600",
+      "audioText": "M: The analytics team is relocating to the fourth floor on Monday.\nW: I reserved twelve desks, but only eight monitors have arrived.\nM: We can borrow four from the training room until the shipment comes in.\nW: Great. I will label the desks and ask facilities to install the docking stations.",
+      "audioTranslation": "男：分析團隊星期一要搬到四樓。\n女：我預留了十二張桌子，但只有八台螢幕到了。\n男：在貨到之前，我們可以先從訓練室借四台。\n女：太好了。我會標示桌位，並請設施部安裝擴充座。",
+      "prompt": "How many monitors still need to be provided?",
+      "promptZh": "還需要提供幾台螢幕？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Twelve",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Sixteen",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Eight",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Four",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "需要十二台螢幕，但 only eight monitors have arrived，所以還缺四台。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "number",
+        "office"
+      ]
+    },
+    {
+      "id": "P3-056-Q3",
+      "part": 3,
+      "groupId": "P3-056",
+      "topic": "辦公室搬遷",
+      "difficulty": "800",
+      "audioText": "M: The analytics team is relocating to the fourth floor on Monday.\nW: I reserved twelve desks, but only eight monitors have arrived.\nM: We can borrow four from the training room until the shipment comes in.\nW: Great. I will label the desks and ask facilities to install the docking stations.",
+      "audioTranslation": "男：分析團隊星期一要搬到四樓。\n女：我預留了十二張桌子，但只有八台螢幕到了。\n男：在貨到之前，我們可以先從訓練室借四台。\n女：太好了。我會標示桌位，並請設施部安裝擴充座。",
+      "prompt": "What will the woman probably do next?",
+      "promptZh": "女方接下來可能會做什麼？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Move to the fourth floor",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Cancel the monitor shipment",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Revise the analytics dashboard",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Contact the facilities department",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "女方說會 ask facilities to install the docking stations，所以接下來可能聯絡設施部。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "next-action",
+        "office"
+      ]
+    },
+    {
+      "id": "P3-057-Q1",
+      "part": 3,
+      "groupId": "P3-057",
+      "topic": "供應商簡報",
+      "difficulty": "600",
+      "audioText": "M: Hi, this is Daniel from Northstar Supplies. I cannot open the presentation file you sent.\nW: Sorry about that. It may be too large for your email server.\nM: Could you upload it to the vendor portal instead?\nW: Of course. I will upload it now and send you a temporary password.",
+      "audioTranslation": "男：你好，我是 Northstar Supplies 的 Daniel。我打不開你寄的簡報檔。\n女：不好意思。它可能對你的郵件伺服器來說太大了。\n男：你可以改上傳到供應商入口網站嗎？\n女：當然。我現在會上傳，並寄給你臨時密碼。",
+      "prompt": "Why is the man calling the woman?",
+      "promptZh": "男方為什麼打電話給女方？",
+      "options": [
+        {
+          "label": "A",
+          "text": "To confirm a dinner reservation",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "To report a lost laptop",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "To request a refund",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "To ask about a presentation file",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "男方第一句提到 cannot open the presentation file，因此來電目的是詢問簡報檔問題。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "vendor",
+        "presentation"
+      ]
+    },
+    {
+      "id": "P3-057-Q2",
+      "part": 3,
+      "groupId": "P3-057",
+      "topic": "供應商簡報",
+      "difficulty": "600",
+      "audioText": "M: Hi, this is Daniel from Northstar Supplies. I cannot open the presentation file you sent.\nW: Sorry about that. It may be too large for your email server.\nM: Could you upload it to the vendor portal instead?\nW: Of course. I will upload it now and send you a temporary password.",
+      "audioTranslation": "男：你好，我是 Northstar Supplies 的 Daniel。我打不開你寄的簡報檔。\n女：不好意思。它可能對你的郵件伺服器來說太大了。\n男：你可以改上傳到供應商入口網站嗎？\n女：當然。我現在會上傳，並寄給你臨時密碼。",
+      "prompt": "What does the man ask the woman to do?",
+      "promptZh": "男方要求女方做什麼？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Reduce the product price",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Schedule a factory tour",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Upload the file to a portal",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Print several copies",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "男方問 Could you upload it to the vendor portal instead? 因此要求她上傳到入口網站。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "request",
+        "technology"
+      ]
+    },
+    {
+      "id": "P3-057-Q3",
+      "part": 3,
+      "groupId": "P3-057",
+      "topic": "供應商簡報",
+      "difficulty": "800",
+      "audioText": "M: Hi, this is Daniel from Northstar Supplies. I cannot open the presentation file you sent.\nW: Sorry about that. It may be too large for your email server.\nM: Could you upload it to the vendor portal instead?\nW: Of course. I will upload it now and send you a temporary password.",
+      "audioTranslation": "男：你好，我是 Northstar Supplies 的 Daniel。我打不開你寄的簡報檔。\n女：不好意思。它可能對你的郵件伺服器來說太大了。\n男：你可以改上傳到供應商入口網站嗎？\n女：當然。我現在會上傳，並寄給你臨時密碼。",
+      "prompt": "What will the woman send to the man?",
+      "promptZh": "女方會寄什麼給男方？",
+      "options": [
+        {
+          "label": "A",
+          "text": "A temporary password",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A revised invoice",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A shipping label",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A dinner invitation",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "女方最後說 send you a temporary password，表示會寄臨時密碼。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "detail",
+        "vendor"
+      ]
+    },
+    {
+      "id": "P3-G18-Q2",
+      "part": 3,
+      "groupId": "P3-G18",
+      "topic": "接待系統更新",
+      "difficulty": "800",
+      "audioText": "M: Did the security update finish on the reception tablets?\nW: Not yet. The network team found a compatibility issue with the older models.\nM: We have visitors arriving at nine tomorrow. Can we use the backup login page?\nW: Yes, but I will ask the team to test it again this afternoon.",
+      "audioTranslation": "男：接待平板的資安更新完成了嗎？\n女：還沒有。網路團隊發現舊機型有相容性問題。\n男：明天九點有訪客到。可以用備用登入頁嗎？\n女：可以，但我會請團隊今天下午再測一次。",
+      "prompt": "What temporary solution does the man suggest?",
+      "promptZh": "男方提出哪一項暫時解決方案？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Canceling tomorrow's appointments",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Using a backup login page",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Replacing all of the tablets",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Printing visitor badges in advance",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "男方問 Can we use the backup login page?，所以暫時方案是使用備用登入頁。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "security",
+        "technology",
+        "solution"
+      ]
+    },
+    {
+      "id": "P3-G18-Q3",
+      "part": 3,
+      "groupId": "P3-G18",
+      "topic": "接待系統更新",
+      "difficulty": "800",
+      "audioText": "M: Did the security update finish on the reception tablets?\nW: Not yet. The network team found a compatibility issue with the older models.\nM: We have visitors arriving at nine tomorrow. Can we use the backup login page?\nW: Yes, but I will ask the team to test it again this afternoon.",
+      "audioTranslation": "男：接待平板的資安更新完成了嗎？\n女：還沒有。網路團隊發現舊機型有相容性問題。\n男：明天九點有訪客到。可以用備用登入頁嗎？\n女：可以，但我會請團隊今天下午再測一次。",
+      "prompt": "Why do the tablets need to be ready by tomorrow morning?",
+      "promptZh": "為什麼平板必須在明早前準備好？",
+      "options": [
+        {
+          "label": "A",
+          "text": "The office will close at noon",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A network audit will begin",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A delivery will be checked in",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Visitors are expected at nine",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "男方說 visitors arriving at nine tomorrow，接待系統必須在訪客抵達前可用。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "security",
+        "technology",
+        "reason",
+        "time"
+      ]
+    },
+    {
+      "id": "P3-G19-Q1",
+      "part": 3,
+      "groupId": "P3-G19",
+      "topic": "AI 會議逐字稿",
+      "difficulty": "800",
+      "audioText": "W: Did you enable automatic transcription for tomorrow's client briefing?\nM: Not yet. The legal department says we need each guest's consent before recording.\nW: Then I'll add a consent notice to the invitation and ask the account manager to confirm with the guests.\nM: Good. Once she replies, I can set the assistant to delete the recording after thirty days.",
+      "audioTranslation": "女：你啟用明天客戶簡報的自動逐字稿了嗎？\n男：還沒有。法務部門說錄音前必須取得每位來賓的同意。\n女：那我會在邀請函加入同意通知，並請客戶經理向來賓確認。\n男：很好。她回覆後，我就能設定助理在三十天後刪除錄音。",
+      "prompt": "Why has automatic transcription not been enabled?",
+      "promptZh": "為什麼尚未啟用自動逐字稿？",
+      "options": [
+        {
+          "label": "A",
+          "text": "The assistant needs an update",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Guest consent is still required",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "The briefing was postponed",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "The invitation has already been sent",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "男方說法務要求 recording 前取得 each guest's consent，因此尚未啟用。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "ai",
+        "privacy",
+        "reason"
+      ]
+    },
+    {
+      "id": "P3-G19-Q2",
+      "part": 3,
+      "groupId": "P3-G19",
+      "topic": "AI 會議逐字稿",
+      "difficulty": "800",
+      "audioText": "W: Did you enable automatic transcription for tomorrow's client briefing?\nM: Not yet. The legal department says we need each guest's consent before recording.\nW: Then I'll add a consent notice to the invitation and ask the account manager to confirm with the guests.\nM: Good. Once she replies, I can set the assistant to delete the recording after thirty days.",
+      "audioTranslation": "女：你啟用明天客戶簡報的自動逐字稿了嗎？\n男：還沒有。法務部門說錄音前必須取得每位來賓的同意。\n女：那我會在邀請函加入同意通知，並請客戶經理向來賓確認。\n男：很好。她回覆後，我就能設定助理在三十天後刪除錄音。",
+      "prompt": "What will the woman do?",
+      "promptZh": "女方將會做什麼？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Delete an earlier recording",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Revise the invitation and contact an account manager",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Shorten the client briefing",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Replace the meeting assistant",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "女方會 add a consent notice，並 ask the account manager to confirm。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "ai",
+        "privacy",
+        "next-action"
+      ]
+    },
+    {
+      "id": "P3-G19-Q3",
+      "part": 3,
+      "groupId": "P3-G19",
+      "topic": "AI 會議逐字稿",
+      "difficulty": "800",
+      "audioText": "W: Did you enable automatic transcription for tomorrow's client briefing?\nM: Not yet. The legal department says we need each guest's consent before recording.\nW: Then I'll add a consent notice to the invitation and ask the account manager to confirm with the guests.\nM: Good. Once she replies, I can set the assistant to delete the recording after thirty days.",
+      "audioTranslation": "女：你啟用明天客戶簡報的自動逐字稿了嗎？\n男：還沒有。法務部門說錄音前必須取得每位來賓的同意。\n女：那我會在邀請函加入同意通知，並請客戶經理向來賓確認。\n男：很好。她回覆後，我就能設定助理在三十天後刪除錄音。",
+      "prompt": "What will happen after the account manager replies?",
+      "promptZh": "客戶經理回覆後會發生什麼事？",
+      "options": [
+        {
+          "label": "A",
+          "text": "The briefing will move to another room",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Guests will receive new devices",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "The legal department will send invoices",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A deletion schedule will be configured",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "男方說 Once she replies，就設定錄音在三十天後自動刪除。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "ai",
+        "privacy",
+        "sequence",
+        "inference"
+      ]
+    },
+    {
+      "id": "P3-G20-Q1",
+      "part": 3,
+      "groupId": "P3-G20",
+      "topic": "電動車充電設備",
+      "difficulty": "600",
+      "audioText": "M: The facilities dashboard shows that two chargers in the parking garage are offline.\nW: The contractor found water damage in the control cabinet. A replacement part will arrive Thursday morning.\nM: Our finance workshop starts at ten that day, and several visitors said they will drive electric cars.\nW: I'll reserve four spaces at the public charging lot across the street and include a map in the reminder.",
+      "audioTranslation": "男：設施儀表板顯示停車場有兩座充電器離線。\n女：承包商在控制箱發現水損，替換零件星期四早上會到。\n男：我們的財務工作坊那天十點開始，而且幾位訪客說會開電動車。\n女：我會預訂街對面公共充電站的四個車位，並在提醒信中附上地圖。",
+      "prompt": "What problem are the speakers discussing?",
+      "promptZh": "說話者正在討論什麼問題？",
+      "options": [
+        {
+          "label": "A",
+          "text": "A workshop room is unavailable",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Two vehicle chargers are not working",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Visitors cannot find the parking garage",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A contractor sent the wrong invoice",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "開頭指出 two chargers ... are offline，主問題是兩座充電器故障。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "facilities",
+        "sustainability",
+        "problem"
+      ]
+    },
+    {
+      "id": "P3-G20-Q2",
+      "part": 3,
+      "groupId": "P3-G20",
+      "topic": "電動車充電設備",
+      "difficulty": "600",
+      "audioText": "M: The facilities dashboard shows that two chargers in the parking garage are offline.\nW: The contractor found water damage in the control cabinet. A replacement part will arrive Thursday morning.\nM: Our finance workshop starts at ten that day, and several visitors said they will drive electric cars.\nW: I'll reserve four spaces at the public charging lot across the street and include a map in the reminder.",
+      "audioTranslation": "男：設施儀表板顯示停車場有兩座充電器離線。\n女：承包商在控制箱發現水損，替換零件星期四早上會到。\n男：我們的財務工作坊那天十點開始，而且幾位訪客說會開電動車。\n女：我會預訂街對面公共充電站的四個車位，並在提醒信中附上地圖。",
+      "prompt": "Why is the man concerned about Thursday morning?",
+      "promptZh": "男方為什麼擔心星期四早上？",
+      "options": [
+        {
+          "label": "A",
+          "text": "The dashboard will be replaced",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "The parking garage will close",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A repair estimate is due",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Workshop visitors may need charging",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "工作坊週四十點開始，且多位訪客會開電動車，因此他擔心充電需求。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "facilities",
+        "sustainability",
+        "reason",
+        "inference"
+      ]
+    },
+    {
+      "id": "P3-G20-Q3",
+      "part": 3,
+      "groupId": "P3-G20",
+      "topic": "電動車充電設備",
+      "difficulty": "600",
+      "audioText": "M: The facilities dashboard shows that two chargers in the parking garage are offline.\nW: The contractor found water damage in the control cabinet. A replacement part will arrive Thursday morning.\nM: Our finance workshop starts at ten that day, and several visitors said they will drive electric cars.\nW: I'll reserve four spaces at the public charging lot across the street and include a map in the reminder.",
+      "audioTranslation": "男：設施儀表板顯示停車場有兩座充電器離線。\n女：承包商在控制箱發現水損，替換零件星期四早上會到。\n男：我們的財務工作坊那天十點開始，而且幾位訪客說會開電動車。\n女：我會預訂街對面公共充電站的四個車位，並在提醒信中附上地圖。",
+      "prompt": "What will the woman probably do next?",
+      "promptZh": "女方接下來可能會做什麼？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Cancel the finance workshop",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Order two electric cars",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Arrange spaces at another charging lot",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Inspect the control cabinet",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "女方說會 reserve four spaces at the public charging lot，表示將安排替代充電車位。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "facilities",
+        "sustainability",
+        "next-action"
+      ]
+    },
+    {
+      "id": "P3-G21-Q1",
+      "part": 3,
+      "groupId": "P3-G21",
+      "topic": "無密碼登入",
+      "difficulty": "800",
+      "audioText": "W: Are the warehouse tablets ready for passkey sign-in?\nM: The pilot worked on the newer devices, but twelve older scanners cannot install the security update.\nW: The leased replacements are scheduled to arrive Tuesday. What should the night shift use until then?\nM: I'll issue temporary security keys and leave a sign-out sheet with the supervisor.",
+      "audioTranslation": "女：倉庫平板已準備好使用通行金鑰登入了嗎？\n男：新裝置的試行成功了，但十二台舊掃描器無法安裝安全更新。\n女：租用的替換設備預定星期二抵達。在那之前夜班該用什麼？\n男：我會發放臨時安全金鑰，並把領用表交給主管。",
+      "prompt": "What problem does the man mention?",
+      "promptZh": "男方提到什麼問題？",
+      "options": [
+        {
+          "label": "A",
+          "text": "The night supervisor lost a form",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "New tablets were delivered late",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "The pilot program was canceled",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Some scanners cannot install an update",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "男方說 twelve older scanners cannot install the security update。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "cybersecurity",
+        "warehouse",
+        "problem"
+      ]
+    },
+    {
+      "id": "P3-G21-Q2",
+      "part": 3,
+      "groupId": "P3-G21",
+      "topic": "無密碼登入",
+      "difficulty": "800",
+      "audioText": "W: Are the warehouse tablets ready for passkey sign-in?\nM: The pilot worked on the newer devices, but twelve older scanners cannot install the security update.\nW: The leased replacements are scheduled to arrive Tuesday. What should the night shift use until then?\nM: I'll issue temporary security keys and leave a sign-out sheet with the supervisor.",
+      "audioTranslation": "女：倉庫平板已準備好使用通行金鑰登入了嗎？\n男：新裝置的試行成功了，但十二台舊掃描器無法安裝安全更新。\n女：租用的替換設備預定星期二抵達。在那之前夜班該用什麼？\n男：我會發放臨時安全金鑰，並把領用表交給主管。",
+      "prompt": "What is expected to happen on Tuesday?",
+      "promptZh": "星期二預計會發生什麼事？",
+      "options": [
+        {
+          "label": "A",
+          "text": "A pilot report will be published",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Replacement devices will arrive",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A supervisor will start the night shift",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Employees will return security keys",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "女方說 leased replacements are scheduled to arrive Tuesday。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "cybersecurity",
+        "warehouse",
+        "time",
+        "detail"
+      ]
+    },
+    {
+      "id": "P3-G21-Q3",
+      "part": 3,
+      "groupId": "P3-G21",
+      "topic": "無密碼登入",
+      "difficulty": "800",
+      "audioText": "W: Are the warehouse tablets ready for passkey sign-in?\nM: The pilot worked on the newer devices, but twelve older scanners cannot install the security update.\nW: The leased replacements are scheduled to arrive Tuesday. What should the night shift use until then?\nM: I'll issue temporary security keys and leave a sign-out sheet with the supervisor.",
+      "audioTranslation": "女：倉庫平板已準備好使用通行金鑰登入了嗎？\n男：新裝置的試行成功了，但十二台舊掃描器無法安裝安全更新。\n女：租用的替換設備預定星期二抵達。在那之前夜班該用什麼？\n男：我會發放臨時安全金鑰，並把領用表交給主管。",
+      "prompt": "What will the man provide?",
+      "promptZh": "男方將提供什麼？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Temporary security keys",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Printed delivery labels",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A software training video",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "New warehouse shelves",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "男方明確說 I'll issue temporary security keys。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "cybersecurity",
+        "warehouse",
+        "next-action"
+      ]
+    },
+    {
+      "id": "P3-G22-Q1",
+      "part": 3,
+      "groupId": "P3-G22",
+      "topic": "智慧訪客通行",
+      "difficulty": "600",
+      "audioText": "W: The visitor badges for tomorrow's supplier tour still show the old entrance.\nM: That's because the lobby scanners were moved while the security desk is being renovated. Guests should use the east entrance this week.\nW: I already sent the itinerary. Should I send a corrected version?\nM: Yes, and please add the temporary access code. It expires at noon, just after the tour ends.",
+      "audioTranslation": "女：明天供應商參訪使用的訪客證仍顯示舊入口。\n男：那是因為保全櫃台整修期間，大廳的掃描器已經移走。本週訪客應使用東側入口。\n女：我已經寄出行程了。我應該寄一份修正版嗎？\n男：要，也請加上臨時通行碼。它會在中午失效，正好是參訪結束之後。",
+      "prompt": "Why should the visitors use the east entrance?",
+      "promptZh": "訪客為何應使用東側入口？",
+      "options": [
+        {
+          "label": "A",
+          "text": "The supplier tour will begin there",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "The lobby scanners have been relocated",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "The old entrance is reserved for employees",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "The itinerary lists the wrong building",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "男士指出大廳掃描器因保全櫃台整修而移走，因此訪客本週要改走東側入口。選項 A 把集合地點與入口原因混為一談。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "security",
+        "visitors",
+        "reason",
+        "detail"
+      ]
+    },
+    {
+      "id": "P3-G22-Q2",
+      "part": 3,
+      "groupId": "P3-G22",
+      "topic": "智慧訪客通行",
+      "difficulty": "600",
+      "audioText": "W: The visitor badges for tomorrow's supplier tour still show the old entrance.\nM: That's because the lobby scanners were moved while the security desk is being renovated. Guests should use the east entrance this week.\nW: I already sent the itinerary. Should I send a corrected version?\nM: Yes, and please add the temporary access code. It expires at noon, just after the tour ends.",
+      "audioTranslation": "女：明天供應商參訪使用的訪客證仍顯示舊入口。\n男：那是因為保全櫃台整修期間，大廳的掃描器已經移走。本週訪客應使用東側入口。\n女：我已經寄出行程了。我應該寄一份修正版嗎？\n男：要，也請加上臨時通行碼。它會在中午失效，正好是參訪結束之後。",
+      "prompt": "What will the woman probably do next?",
+      "promptZh": "女士接下來最可能做什麼？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Send an updated itinerary",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Extend the supplier tour",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Print new employee badges",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Move the security scanners",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "女士詢問是否寄送修正版行程，男士回答 Yes，並要求加入通行碼；因此她接下來最可能寄出更新後的行程。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "security",
+        "visitors",
+        "next-action",
+        "inference"
+      ]
+    },
+    {
+      "id": "P3-G22-Q3",
+      "part": 3,
+      "groupId": "P3-G22",
+      "topic": "智慧訪客通行",
+      "difficulty": "600",
+      "audioText": "W: The visitor badges for tomorrow's supplier tour still show the old entrance.\nM: That's because the lobby scanners were moved while the security desk is being renovated. Guests should use the east entrance this week.\nW: I already sent the itinerary. Should I send a corrected version?\nM: Yes, and please add the temporary access code. It expires at noon, just after the tour ends.",
+      "audioTranslation": "女：明天供應商參訪使用的訪客證仍顯示舊入口。\n男：那是因為保全櫃台整修期間，大廳的掃描器已經移走。本週訪客應使用東側入口。\n女：我已經寄出行程了。我應該寄一份修正版嗎？\n男：要，也請加上臨時通行碼。它會在中午失效，正好是參訪結束之後。",
+      "prompt": "What is indicated about the temporary access code?",
+      "promptZh": "關於臨時通行碼可得知什麼？",
+      "options": [
+        {
+          "label": "A",
+          "text": "It remains valid until after the tour",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "It can be used for one week",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "It was created by a supplier",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "It will be printed on each badge",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "男士說通行碼在中午失效，而中午是在參訪結束之後，因此可推知參訪期間都能使用。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "security",
+        "visitors",
+        "inference",
+        "time"
+      ]
+    },
+    {
+      "id": "P3-G23-Q1",
+      "part": 3,
+      "groupId": "P3-G23",
+      "topic": "混合會議字幕",
+      "difficulty": "800",
+      "audioText": "M: Have we confirmed live captions for Friday's product demonstration? Two clients will join from overseas.\nW: The captioning vendor is available, but its quote covers English only. One client requested Japanese translation.\nM: Our Tokyo office has an interpreter on staff. Could she join remotely for the question-and-answer session?\nW: I'll ask her. If she is available, we can keep the vendor for the main presentation and avoid changing the schedule.",
+      "audioTranslation": "男：我們確認星期五產品展示的即時字幕了嗎？有兩位客戶會從海外連線。\n女：字幕廠商有空，但報價只包含英文。其中一位客戶要求日文翻譯。\n男：東京辦公室有一位專職口譯員。她可以遠端加入問答時間嗎？\n女：我會問她。如果她有空，我們就能保留廠商負責主要簡報，也不必變更時程。",
+      "prompt": "What problem do the speakers discuss?",
+      "promptZh": "說話者在討論什麼問題？",
+      "options": [
+        {
+          "label": "A",
+          "text": "The Tokyo office changed its schedule",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Two clients cannot join the meeting",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A quote does not include a needed language",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A demonstration has been canceled",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "字幕廠商的報價只含英文，但客戶需要日文翻譯；核心問題是報價未涵蓋所需語言。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "hybrid-event",
+        "accessibility",
+        "problem",
+        "paraphrase"
+      ]
+    },
+    {
+      "id": "P3-G23-Q2",
+      "part": 3,
+      "groupId": "P3-G23",
+      "topic": "混合會議字幕",
+      "difficulty": "800",
+      "audioText": "M: Have we confirmed live captions for Friday's product demonstration? Two clients will join from overseas.\nW: The captioning vendor is available, but its quote covers English only. One client requested Japanese translation.\nM: Our Tokyo office has an interpreter on staff. Could she join remotely for the question-and-answer session?\nW: I'll ask her. If she is available, we can keep the vendor for the main presentation and avoid changing the schedule.",
+      "audioTranslation": "男：我們確認星期五產品展示的即時字幕了嗎？有兩位客戶會從海外連線。\n女：字幕廠商有空，但報價只包含英文。其中一位客戶要求日文翻譯。\n男：東京辦公室有一位專職口譯員。她可以遠端加入問答時間嗎？\n女：我會問她。如果她有空，我們就能保留廠商負責主要簡報，也不必變更時程。",
+      "prompt": "Why does the man mention the Tokyo office?",
+      "promptZh": "男士為何提到東京辦公室？",
+      "options": [
+        {
+          "label": "A",
+          "text": "It employs an interpreter",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "It received a lower vendor quote",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "It designed the new product",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "It will host the demonstration",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "男士提到東京辦公室有專職口譯員，目的是提出日文翻譯的替代解決方案。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "hybrid-event",
+        "accessibility",
+        "speaker-intent",
+        "solution"
+      ]
+    },
+    {
+      "id": "P3-G23-Q3",
+      "part": 3,
+      "groupId": "P3-G23",
+      "topic": "混合會議字幕",
+      "difficulty": "800",
+      "audioText": "M: Have we confirmed live captions for Friday's product demonstration? Two clients will join from overseas.\nW: The captioning vendor is available, but its quote covers English only. One client requested Japanese translation.\nM: Our Tokyo office has an interpreter on staff. Could she join remotely for the question-and-answer session?\nW: I'll ask her. If she is available, we can keep the vendor for the main presentation and avoid changing the schedule.",
+      "audioTranslation": "男：我們確認星期五產品展示的即時字幕了嗎？有兩位客戶會從海外連線。\n女：字幕廠商有空，但報價只包含英文。其中一位客戶要求日文翻譯。\n男：東京辦公室有一位專職口譯員。她可以遠端加入問答時間嗎？\n女：我會問她。如果她有空，我們就能保留廠商負責主要簡報，也不必變更時程。",
+      "prompt": "What does the woman imply about the schedule?",
+      "promptZh": "女士對時程有何暗示？",
+      "options": [
+        {
+          "label": "A",
+          "text": "It includes a second demonstration",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "It must be shortened for overseas clients",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "It has already been sent to the vendor",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "It can remain unchanged if the interpreter is free",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "女士說若口譯員有空，就能 avoid changing the schedule，意即目前時程可維持不變。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "hybrid-event",
+        "accessibility",
+        "inference",
+        "condition"
+      ]
+    },
+    {
+      "id": "P3-G24-Q1",
+      "part": 3,
+      "groupId": "P3-G24",
+      "topic": "資安試行評估",
+      "difficulty": "800",
+      "audioText": "W: The phishing-simulation report says the finance team clicked fewer test links this month, but more employees entered passwords after clicking. M: So the click rate improved, but the risky behavior became more serious. Should we still end the pilot on Friday? W: Not yet. The report covers only two weeks, and several new hires have not taken the security workshop. M: I'll extend the pilot through the workshop next Wednesday and ask the analyst to separate new-hire results.",
+      "audioTranslation": "女：網路釣魚模擬報告顯示，財務團隊本月點擊測試連結的人變少，但點擊後輸入密碼的員工變多。男：所以點擊率改善了，但高風險行為更嚴重。我們仍要在星期五結束試行嗎？女：先不要。報告只涵蓋兩週，而且幾位新進員工尚未參加資安課程。男：我會把試行延長到下週三的課程結束，並請分析師把新進員工的結果分開。",
+      "prompt": "What concern does the man express about the report?",
+      "promptZh": "男士對報告表達什麼疑慮？",
+      "options": [
+        {
+          "label": "A",
+          "text": "The workshop results were published too early",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A less frequent action now has more serious consequences",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "It excludes the finance team",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "The analyst used last month's click rate",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "男士對比「點擊較少」與「輸入密碼較多」，指出發生次數下降，但實際風險更嚴重。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "cybersecurity",
+        "data-literacy",
+        "inference",
+        "contrast"
+      ]
+    },
+    {
+      "id": "P3-G24-Q2",
+      "part": 3,
+      "groupId": "P3-G24",
+      "topic": "資安試行評估",
+      "difficulty": "800",
+      "audioText": "W: The phishing-simulation report says the finance team clicked fewer test links this month, but more employees entered passwords after clicking. M: So the click rate improved, but the risky behavior became more serious. Should we still end the pilot on Friday? W: Not yet. The report covers only two weeks, and several new hires have not taken the security workshop. M: I'll extend the pilot through the workshop next Wednesday and ask the analyst to separate new-hire results.",
+      "audioTranslation": "女：網路釣魚模擬報告顯示，財務團隊本月點擊測試連結的人變少，但點擊後輸入密碼的員工變多。男：所以點擊率改善了，但高風險行為更嚴重。我們仍要在星期五結束試行嗎？女：先不要。報告只涵蓋兩週，而且幾位新進員工尚未參加資安課程。男：我會把試行延長到下週三的課程結束，並請分析師把新進員工的結果分開。",
+      "prompt": "Why does the woman recommend continuing the pilot?",
+      "promptZh": "女士為何建議繼續試行？",
+      "options": [
+        {
+          "label": "A",
+          "text": "The workshop has been canceled",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "The observation period is limited",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "The analyst missed Friday's deadline",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "The finance team requested another report",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "女士說報告 only covers two weeks，且新進員工尚未受訓，因此目前資料不足以結束試行。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "cybersecurity",
+        "data-literacy",
+        "reason",
+        "sampling"
+      ]
+    },
+    {
+      "id": "P3-G24-Q3",
+      "part": 3,
+      "groupId": "P3-G24",
+      "topic": "資安試行評估",
+      "difficulty": "800",
+      "audioText": "W: The phishing-simulation report says the finance team clicked fewer test links this month, but more employees entered passwords after clicking. M: So the click rate improved, but the risky behavior became more serious. Should we still end the pilot on Friday? W: Not yet. The report covers only two weeks, and several new hires have not taken the security workshop. M: I'll extend the pilot through the workshop next Wednesday and ask the analyst to separate new-hire results.",
+      "audioTranslation": "女：網路釣魚模擬報告顯示，財務團隊本月點擊測試連結的人變少，但點擊後輸入密碼的員工變多。男：所以點擊率改善了，但高風險行為更嚴重。我們仍要在星期五結束試行嗎？女：先不要。報告只涵蓋兩週，而且幾位新進員工尚未參加資安課程。男：我會把試行延長到下週三的課程結束，並請分析師把新進員工的結果分開。",
+      "prompt": "What will the man most likely ask the analyst to do?",
+      "promptZh": "男士最可能請分析師做什麼？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Remove all password data",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Schedule the security workshop",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Compare two finance systems",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Report new employees as a separate group",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "男士明說 ask the analyst to separate new-hire results，也就是將新進員工獨立呈現。",
+      "keywords": [
+        "listening",
+        "conversation",
+        "cybersecurity",
+        "data-literacy",
+        "next-action",
+        "paraphrase"
+      ]
+    }
+  ]
+}

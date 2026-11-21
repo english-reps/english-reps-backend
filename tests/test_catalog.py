@@ -50,12 +50,22 @@ def _sample_listening(entry_id: str = "listen-001") -> dict[str, object]:
 def test_default_repository_catalog_files_load_cleanly() -> None:
     store = get_catalog()
     assert len(store.list_entries("vocabulary")) == 1000
-    assert len(store.list_entries("listening")) == 30
-    assert store.total_count == 1030
+    assert len(store.list_entries("listening")) == 332
+    assert len(store.list_entries("listening", part=1)) == 25
+    assert len(store.list_entries("listening", part=2)) == 139
+    assert len(store.list_entries("listening", part=3)) == 90
+    assert len(store.list_entries("listening", part=4)) == 78
+    assert len(store.list_entries("reading")) == 805
+    assert len(store.list_entries("reading", part=5)) == 328
+    assert len(store.list_entries("reading", part=6)) == 120
+    assert len(store.list_entries("reading", part=7)) == 357
+    assert store.total_count == 2137
     word = store.get("word-0001")
     question = store.get("listen-001")
+    reading_q = store.get("P5-001")
     assert word is not None and word.category == "vocabulary" and word.content["word"] == "company"
     assert question is not None and question.category == "listening" and question.content["answer"] == "A"
+    assert reading_q is not None and reading_q.category == "reading" and reading_q.content["part"] == 5
 
 
 def test_catalog_store_rejects_duplicate_ids(tmp_path: Path) -> None:

@@ -29,9 +29,13 @@ async def test_health_catalog_and_request_ids(client):
     assert ready.headers["x-request-id"] == "smoke-123"
     words = (await client.get("/api/v1/catalog/vocabulary")).json()["entries"]
     questions = (await client.get("/api/v1/catalog/listening")).json()["entries"]
-    assert len(words) == 1000 and len(questions) == 30
+    reading = (await client.get("/api/v1/catalog/reading")).json()["entries"]
+    part1 = (await client.get("/api/v1/catalog/listening?part=1")).json()["entries"]
+    part5 = (await client.get("/api/v1/catalog/reading?part=5")).json()["entries"]
+    assert len(words) == 1000 and len(questions) == 332 and len(reading) == 805
+    assert len(part1) == 25 and len(part5) == 328
     assert words[0]["id"] == "word-0001"
-    assert len({row["id"] for row in words + questions}) == 1030
+    assert len({row["id"] for row in words + questions + reading}) == 2137
     missing = await client.get("/api/v1/no-such-route")
     assert missing.status_code == 404 and missing.json()["request_id"]
     async with Session() as db:
@@ -160,6 +164,15 @@ async def test_retry_conflict_server_grading_and_card_counters(client):
         json=event(entry=question["id"], kind="listening", answer=question["answer"]),
     )
     assert result.json()["correct"] is True
+    reading_question = (await client.get("/api/v1/catalog/reading")).json()["entries"][0]
+    reading_result = await client.post(
+        "/api/v1/progress/events",
+        json=event(entry=reading_question["id"], kind="reading", answer=reading_question["answer"]),
+    )
+    assert (
+        reading_result.json()["correct"] is True
+        and reading_result.json()["record"]["category"] == "reading"
+    )
 
 
 async def test_concurrent_retries_and_distinct_events_never_lose_or_double_counts(client):

@@ -1,0 +1,3130 @@
+{
+  "entries": [
+    {
+      "id": "P4-011",
+      "part": 4,
+      "groupId": "P4-G01",
+      "topic": "交通公告",
+      "difficulty": "600",
+      "audioText": "Attention passengers. The 8:15 train to Riverside will depart twenty minutes late because maintenance crews are inspecting the tracks. Passengers may use their current tickets on the 8:30 express train at no additional charge.",
+      "audioTranslation": "各位乘客請注意。由於維修人員正在檢查軌道，上午八點十五分前往 Riverside 的列車將延誤二十分鐘。乘客可持原車票免費搭乘八點三十分的快車。",
+      "prompt": "What is the purpose of the announcement?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "To report a train delay",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "To recruit maintenance workers",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "To advertise a new station",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "To explain a ticket price increase",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "公告說明列車延誤。",
+      "keywords": [
+        "talk"
+      ]
+    },
+    {
+      "id": "P4-012",
+      "part": 4,
+      "groupId": "P4-G01",
+      "topic": "交通公告",
+      "difficulty": "600",
+      "audioText": "Attention passengers. The 8:15 train to Riverside will depart twenty minutes late because maintenance crews are inspecting the tracks. Passengers may use their current tickets on the 8:30 express train at no additional charge.",
+      "audioTranslation": "各位乘客請注意。由於維修人員正在檢查軌道，上午八點十五分前往 Riverside 的列車將延誤二十分鐘。乘客可持原車票免費搭乘八點三十分的快車。",
+      "prompt": "Why is the train delayed?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "The tracks are being inspected",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "The driver is absent",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Heavy rain flooded the station",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A ticket machine is broken",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "維修人員正在檢查軌道。",
+      "keywords": [
+        "talk"
+      ]
+    },
+    {
+      "id": "P4-013",
+      "part": 4,
+      "groupId": "P4-G01",
+      "topic": "交通公告",
+      "difficulty": "600",
+      "audioText": "Attention passengers. The 8:15 train to Riverside will depart twenty minutes late because maintenance crews are inspecting the tracks. Passengers may use their current tickets on the 8:30 express train at no additional charge.",
+      "audioTranslation": "各位乘客請注意。由於維修人員正在檢查軌道，上午八點十五分前往 Riverside 的列車將延誤二十分鐘。乘客可持原車票免費搭乘八點三十分的快車。",
+      "prompt": "What may passengers do?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Board at a different city",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Take an express train without paying extra",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Exchange tickets next week",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Request a hotel room",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "原票可免費搭乘 8:30 快車。",
+      "keywords": [
+        "talk"
+      ]
+    },
+    {
+      "id": "P4-021",
+      "part": 4,
+      "groupId": "P4-G02",
+      "topic": "語音留言",
+      "difficulty": "600",
+      "audioText": "Hello, this is Karen from Apex Office Supplies. I'm calling about order 5842. The blue folders are temporarily out of stock, so we can send green ones today or ship the blue folders next Monday. Please call me before 4 P.M. to let me know which option you prefer.",
+      "audioTranslation": "您好，我是 Apex 辦公用品公司的 Karen。我來電是關於訂單 5842。藍色資料夾暫時缺貨，因此我們可以今天寄出綠色款，或在下週一寄出藍色款。請在下午四點前回電，告訴我您偏好哪個方案。",
+      "prompt": "Why is the speaker calling?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "To discuss an order",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "To collect a late payment",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "To schedule an interview",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "To announce a store opening",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "來電討論訂單 5842。",
+      "keywords": [
+        "talk"
+      ]
+    },
+    {
+      "id": "P4-022",
+      "part": 4,
+      "groupId": "P4-G02",
+      "topic": "語音留言",
+      "difficulty": "600",
+      "audioText": "Hello, this is Karen from Apex Office Supplies. I'm calling about order 5842. The blue folders are temporarily out of stock, so we can send green ones today or ship the blue folders next Monday. Please call me before 4 P.M. to let me know which option you prefer.",
+      "audioTranslation": "您好，我是 Apex 辦公用品公司的 Karen。我來電是關於訂單 5842。藍色資料夾暫時缺貨，因此我們可以今天寄出綠色款，或在下週一寄出藍色款。請在下午四點前回電，告訴我您偏好哪個方案。",
+      "prompt": "What item is unavailable?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Desk lamps",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Green chairs",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Printer paper",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Blue folders",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "藍色資料夾缺貨。",
+      "keywords": [
+        "talk"
+      ]
+    },
+    {
+      "id": "P4-023",
+      "part": 4,
+      "groupId": "P4-G02",
+      "topic": "語音留言",
+      "difficulty": "600",
+      "audioText": "Hello, this is Karen from Apex Office Supplies. I'm calling about order 5842. The blue folders are temporarily out of stock, so we can send green ones today or ship the blue folders next Monday. Please call me before 4 P.M. to let me know which option you prefer.",
+      "audioTranslation": "您好，我是 Apex 辦公用品公司的 Karen。我來電是關於訂單 5842。藍色資料夾暫時缺貨，因此我們可以今天寄出綠色款，或在下週一寄出藍色款。請在下午四點前回電，告訴我您偏好哪個方案。",
+      "prompt": "What does the speaker request?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "A new purchase order",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A decision before 4 P.M.",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A product brochure",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A delivery address",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "要求四點前回覆選項。",
+      "keywords": [
+        "talk"
+      ]
+    },
+    {
+      "id": "P4-031",
+      "part": 4,
+      "groupId": "P4-G03",
+      "topic": "場館公告",
+      "difficulty": "600",
+      "audioText": "Welcome to the City Design Museum. The photography exhibit on the second floor opens at 10:30. Guided tours begin every hour in the main lobby. Please note that food and beverages are not permitted inside the galleries.",
+      "audioTranslation": "歡迎來到市立設計博物館。二樓的攝影展於十點三十分開放。導覽每小時於主大廳出發。請注意，展廳內禁止攜帶食物與飲料。",
+      "prompt": "Where is the announcement being made?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "At a factory",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "At a restaurant",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "At a museum",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "At an airport",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "內容提及 exhibit、guided tours、galleries。",
+      "keywords": [
+        "talk"
+      ]
+    },
+    {
+      "id": "P4-032",
+      "part": 4,
+      "groupId": "P4-G03",
+      "topic": "場館公告",
+      "difficulty": "600",
+      "audioText": "Welcome to the City Design Museum. The photography exhibit on the second floor opens at 10:30. Guided tours begin every hour in the main lobby. Please note that food and beverages are not permitted inside the galleries.",
+      "audioTranslation": "歡迎來到市立設計博物館。二樓的攝影展於十點三十分開放。導覽每小時於主大廳出發。請注意，展廳內禁止攜帶食物與飲料。",
+      "prompt": "When does the photography exhibit open?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "At 1:30",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "At 10:30",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "At 9:00",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "At noon",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "公告明確說 10:30。",
+      "keywords": [
+        "talk"
+      ]
+    },
+    {
+      "id": "P4-033",
+      "part": 4,
+      "groupId": "P4-G03",
+      "topic": "場館公告",
+      "difficulty": "600",
+      "audioText": "Welcome to the City Design Museum. The photography exhibit on the second floor opens at 10:30. Guided tours begin every hour in the main lobby. Please note that food and beverages are not permitted inside the galleries.",
+      "audioTranslation": "歡迎來到市立設計博物館。二樓的攝影展於十點三十分開放。導覽每小時於主大廳出發。請注意，展廳內禁止攜帶食物與飲料。",
+      "prompt": "What is prohibited in the galleries?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Guided tours",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Children",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Food and drinks",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Photography",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "展廳禁止飲食。",
+      "keywords": [
+        "talk"
+      ]
+    },
+    {
+      "id": "P4-041",
+      "part": 4,
+      "groupId": "P4-G04",
+      "topic": "公司安全",
+      "difficulty": "800",
+      "audioText": "This is a reminder that the west stairwell will be closed tomorrow from 9 A.M. until 1 P.M. for safety inspections. During that time, employees should use the elevators near the cafeteria or the east stairwell. Deliveries should enter through the loading dock on Pine Street.",
+      "audioTranslation": "提醒各位，西側樓梯間將於明日上午九點至下午一點因安全檢查而關閉。期間員工應使用員工餐廳附近的電梯或東側樓梯間。送貨車輛應由 Pine Street 的裝卸區進入。",
+      "prompt": "What will be closed?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "A loading dock",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A cafeteria",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "An elevator",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A stairwell",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "西側樓梯間將關閉。",
+      "keywords": [
+        "talk"
+      ]
+    },
+    {
+      "id": "P4-042",
+      "part": 4,
+      "groupId": "P4-G04",
+      "topic": "公司安全",
+      "difficulty": "800",
+      "audioText": "This is a reminder that the west stairwell will be closed tomorrow from 9 A.M. until 1 P.M. for safety inspections. During that time, employees should use the elevators near the cafeteria or the east stairwell. Deliveries should enter through the loading dock on Pine Street.",
+      "audioTranslation": "提醒各位，西側樓梯間將於明日上午九點至下午一點因安全檢查而關閉。期間員工應使用員工餐廳附近的電梯或東側樓梯間。送貨車輛應由 Pine Street 的裝卸區進入。",
+      "prompt": "What should employees use?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "The emergency exit",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "The elevators or east stairwell",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "The west stairwell",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "The Pine Street entrance only",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "公告指定電梯或東側樓梯間。",
+      "keywords": [
+        "talk"
+      ]
+    },
+    {
+      "id": "P4-043",
+      "part": 4,
+      "groupId": "P4-G04",
+      "topic": "公司安全",
+      "difficulty": "800",
+      "audioText": "This is a reminder that the west stairwell will be closed tomorrow from 9 A.M. until 1 P.M. for safety inspections. During that time, employees should use the elevators near the cafeteria or the east stairwell. Deliveries should enter through the loading dock on Pine Street.",
+      "audioTranslation": "提醒各位，西側樓梯間將於明日上午九點至下午一點因安全檢查而關閉。期間員工應使用員工餐廳附近的電梯或東側樓梯間。送貨車輛應由 Pine Street 的裝卸區進入。",
+      "prompt": "Where should deliveries enter?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Through the west stairwell",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Through the loading dock",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Through the main lobby",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Through the cafeteria",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "貨運應從 Pine Street 裝卸區進入。",
+      "keywords": [
+        "talk"
+      ]
+    },
+    {
+      "id": "P4-051",
+      "part": 4,
+      "groupId": "P4-G05",
+      "topic": "商店公告",
+      "difficulty": "600",
+      "audioText": "Good morning, shoppers. Beginning today, the home appliance department has moved from the third floor to the newly renovated second floor. To celebrate, all small kitchen appliances are fifteen percent off through Sunday. Please ask a sales associate for assistance.",
+      "audioTranslation": "各位顧客早安。從今天開始，家電部門已從三樓搬到新整修完成的二樓。為了慶祝，所有小型廚房家電到星期日為止一律九折五。需要協助請洽銷售人員。",
+      "prompt": "What has changed?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "A department has moved",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A product has been recalled",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Parking fees have increased",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "The store has closed",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "家電部門移到二樓。",
+      "keywords": [
+        "talk",
+        "listening"
+      ]
+    },
+    {
+      "id": "P4-052",
+      "part": 4,
+      "groupId": "P4-G05",
+      "topic": "商店公告",
+      "difficulty": "600",
+      "audioText": "Good morning, shoppers. Beginning today, the home appliance department has moved from the third floor to the newly renovated second floor. To celebrate, all small kitchen appliances are fifteen percent off through Sunday. Please ask a sales associate for assistance.",
+      "audioTranslation": "各位顧客早安。從今天開始，家電部門已從三樓搬到新整修完成的二樓。為了慶祝，所有小型廚房家電到星期日為止一律九折五。需要協助請洽銷售人員。",
+      "prompt": "What is discounted?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Restaurant meals",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Delivery services",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Small kitchen appliances",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "All furniture",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "小型廚房家電打八五折。",
+      "keywords": [
+        "talk",
+        "listening"
+      ]
+    },
+    {
+      "id": "P4-053",
+      "part": 4,
+      "groupId": "P4-G05",
+      "topic": "商店公告",
+      "difficulty": "600",
+      "audioText": "Good morning, shoppers. Beginning today, the home appliance department has moved from the third floor to the newly renovated second floor. To celebrate, all small kitchen appliances are fifteen percent off through Sunday. Please ask a sales associate for assistance.",
+      "audioTranslation": "各位顧客早安。從今天開始，家電部門已從三樓搬到新整修完成的二樓。為了慶祝，所有小型廚房家電到星期日為止一律九折五。需要協助請洽銷售人員。",
+      "prompt": "Until when is the discount offered?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "For one month",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Through Friday",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Through Sunday",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Until noon today",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "公告明確說 through Sunday。",
+      "keywords": [
+        "talk",
+        "listening"
+      ]
+    },
+    {
+      "id": "P4-061",
+      "part": 4,
+      "groupId": "P4-G06",
+      "topic": "會議開場",
+      "difficulty": "800",
+      "audioText": "Before we begin today's safety workshop, please sign the attendance sheet near the entrance and collect a training booklet. The morning session will end at eleven forty-five, followed by lunch in the cafeteria. The afternoon demonstration will take place outdoors, so please bring your identification badge.",
+      "audioTranslation": "在今天的安全工作坊開始前，請在入口附近的簽到表簽名，並領取訓練手冊。上午課程將於十一點四十五分結束，之後在員工餐廳用餐。下午的示範將在戶外舉行，因此請攜帶識別證。",
+      "prompt": "What should listeners do first?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Put on safety equipment",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Sign an attendance sheet",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Go to the cafeteria",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Watch an outdoor demonstration",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "開始前先簽到並領手冊。",
+      "keywords": [
+        "talk",
+        "listening"
+      ]
+    },
+    {
+      "id": "P4-062",
+      "part": 4,
+      "groupId": "P4-G06",
+      "topic": "會議開場",
+      "difficulty": "800",
+      "audioText": "Before we begin today's safety workshop, please sign the attendance sheet near the entrance and collect a training booklet. The morning session will end at eleven forty-five, followed by lunch in the cafeteria. The afternoon demonstration will take place outdoors, so please bring your identification badge.",
+      "audioTranslation": "在今天的安全工作坊開始前，請在入口附近的簽到表簽名，並領取訓練手冊。上午課程將於十一點四十五分結束，之後在員工餐廳用餐。下午的示範將在戶外舉行，因此請攜帶識別證。",
+      "prompt": "What happens after the morning session?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "A test is given",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A bus departs",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "The workshop ends",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Lunch is served",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "上午課程後在餐廳用餐。",
+      "keywords": [
+        "talk",
+        "listening"
+      ]
+    },
+    {
+      "id": "P4-063",
+      "part": 4,
+      "groupId": "P4-G06",
+      "topic": "會議開場",
+      "difficulty": "800",
+      "audioText": "Before we begin today's safety workshop, please sign the attendance sheet near the entrance and collect a training booklet. The morning session will end at eleven forty-five, followed by lunch in the cafeteria. The afternoon demonstration will take place outdoors, so please bring your identification badge.",
+      "audioTranslation": "在今天的安全工作坊開始前，請在入口附近的簽到表簽名，並領取訓練手冊。上午課程將於十一點四十五分結束，之後在員工餐廳用餐。下午的示範將在戶外舉行，因此請攜帶識別證。",
+      "prompt": "Why should listeners bring an identification badge?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "The cafeteria requires payment",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "The entrance is being repaired",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "They need to borrow a booklet",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "The afternoon activity is outdoors",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "下午示範在戶外，需攜帶識別證。",
+      "keywords": [
+        "talk",
+        "listening"
+      ]
+    },
+    {
+      "id": "P4-G07-Q1",
+      "part": 4,
+      "groupId": "P4-G07",
+      "topic": "辦公室公告",
+      "difficulty": "600",
+      "audioText": "Employees on the fourth floor should be aware that the water supply will be turned off tomorrow from ten A.M. until noon while a pipe is replaced. Restrooms on the third and fifth floors will remain available. Please direct any questions to the facilities department.",
+      "audioTranslation": "四樓員工請注意，因更換水管，明日上午十點至中午將暫停供水。三樓與五樓的洗手間仍可使用。如有任何問題，請洽設施管理部門。",
+      "prompt": "What will happen tomorrow?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "A new restroom will open",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "The fourth floor will close permanently",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "The water will be turned off temporarily",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Employees will move offices",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "明天會暫時停水。",
+      "keywords": [
+        "talk",
+        "listening"
+      ]
+    },
+    {
+      "id": "P4-G07-Q2",
+      "part": 4,
+      "groupId": "P4-G07",
+      "topic": "辦公室公告",
+      "difficulty": "600",
+      "audioText": "Employees on the fourth floor should be aware that the water supply will be turned off tomorrow from ten A.M. until noon while a pipe is replaced. Restrooms on the third and fifth floors will remain available. Please direct any questions to the facilities department.",
+      "audioTranslation": "四樓員工請注意，因更換水管，明日上午十點至中午將暫停供水。三樓與五樓的洗手間仍可使用。如有任何問題，請洽設施管理部門。",
+      "prompt": "Which restrooms will remain available?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Only those in the lobby",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Only those on the fourth floor",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Those on the third and fifth floors",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Those near the cafeteria",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "三樓與五樓可使用。",
+      "keywords": [
+        "talk",
+        "listening"
+      ]
+    },
+    {
+      "id": "P4-G07-Q3",
+      "part": 4,
+      "groupId": "P4-G07",
+      "topic": "辦公室公告",
+      "difficulty": "600",
+      "audioText": "Employees on the fourth floor should be aware that the water supply will be turned off tomorrow from ten A.M. until noon while a pipe is replaced. Restrooms on the third and fifth floors will remain available. Please direct any questions to the facilities department.",
+      "audioTranslation": "四樓員工請注意，因更換水管，明日上午十點至中午將暫停供水。三樓與五樓的洗手間仍可使用。如有任何問題，請洽設施管理部門。",
+      "prompt": "Whom should employees contact with questions?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "The security office",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "The cafeteria manager",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "The facilities department",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "The accounting department",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "問題請洽設施部門。",
+      "keywords": [
+        "talk",
+        "listening"
+      ]
+    },
+    {
+      "id": "P4-G08-Q1",
+      "part": 4,
+      "groupId": "P4-G08",
+      "topic": "商務活動",
+      "difficulty": "800",
+      "audioText": "Thank you for attending the Regional Entrepreneurs Conference. The keynote speech will begin in the Grand Hall at nine thirty. After the speech, participants may choose from three smaller workshops. A schedule and room map are included inside your name badge holder.",
+      "audioTranslation": "感謝各位參加區域創業家會議。主題演講將於九點三十分在大禮堂開始。演講結束後，參加者可從三場小型工作坊中選擇。時程表與會議室地圖放在名牌套內。",
+      "prompt": "Where will the keynote speech take place?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "In the registration office",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "In a hotel restaurant",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "In a small workshop room",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "In the Grand Hall",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "主題演講在大禮堂。",
+      "keywords": [
+        "talk",
+        "listening"
+      ]
+    },
+    {
+      "id": "P4-G08-Q2",
+      "part": 4,
+      "groupId": "P4-G08",
+      "topic": "商務活動",
+      "difficulty": "800",
+      "audioText": "Thank you for attending the Regional Entrepreneurs Conference. The keynote speech will begin in the Grand Hall at nine thirty. After the speech, participants may choose from three smaller workshops. A schedule and room map are included inside your name badge holder.",
+      "audioTranslation": "感謝各位參加區域創業家會議。主題演講將於九點三十分在大禮堂開始。演講結束後，參加者可從三場小型工作坊中選擇。時程表與會議室地圖放在名牌套內。",
+      "prompt": "What may participants do after the speech?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Collect a refund",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Leave for the airport",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Attend one of three workshops",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Meet the keynote speaker privately",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "之後可選擇三場工作坊之一。",
+      "keywords": [
+        "talk",
+        "listening"
+      ]
+    },
+    {
+      "id": "P4-G08-Q3",
+      "part": 4,
+      "groupId": "P4-G08",
+      "topic": "商務活動",
+      "difficulty": "800",
+      "audioText": "Thank you for attending the Regional Entrepreneurs Conference. The keynote speech will begin in the Grand Hall at nine thirty. After the speech, participants may choose from three smaller workshops. A schedule and room map are included inside your name badge holder.",
+      "audioTranslation": "感謝各位參加區域創業家會議。主題演講將於九點三十分在大禮堂開始。演講結束後，參加者可從三場小型工作坊中選擇。時程表與會議室地圖放在名牌套內。",
+      "prompt": "Where can participants find a room map?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Under their seats",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "On the conference website only",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Inside the name badge holder",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "At the parking entrance",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "地圖放在名牌套內。",
+      "keywords": [
+        "talk",
+        "listening"
+      ]
+    },
+    {
+      "id": "P4-G09-Q1",
+      "part": 4,
+      "groupId": "P4-G09",
+      "topic": "商店語音",
+      "difficulty": "600",
+      "audioText": "Thank you for calling Martin's Furniture. Our showroom is open Monday through Saturday from nine to six. For information about an existing delivery, press one. To schedule a design consultation, press two. To speak with a billing representative, remain on the line.",
+      "audioTranslation": "感謝致電 Martin's Furniture。我們的展示間週一至週六上午九點到下午六點營業。查詢既有配送請按一；預約設計諮詢請按二；如需帳務人員服務，請不要掛斷。",
+      "prompt": "When is the showroom closed?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "On Monday",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "On Saturday",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Every afternoon",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "On Sunday",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "營業日為週一至週六，因此週日休息。",
+      "keywords": [
+        "talk",
+        "listening"
+      ]
+    },
+    {
+      "id": "P4-G09-Q2",
+      "part": 4,
+      "groupId": "P4-G09",
+      "topic": "商店語音",
+      "difficulty": "600",
+      "audioText": "Thank you for calling Martin's Furniture. Our showroom is open Monday through Saturday from nine to six. For information about an existing delivery, press one. To schedule a design consultation, press two. To speak with a billing representative, remain on the line.",
+      "audioTranslation": "感謝致電 Martin's Furniture。我們的展示間週一至週六上午九點到下午六點營業。查詢既有配送請按一；預約設計諮詢請按二；如需帳務人員服務，請不要掛斷。",
+      "prompt": "What should callers do to arrange a design consultation?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Remain on the line",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Press one",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Visit the showroom",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Press two",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "設計諮詢按二。",
+      "keywords": [
+        "talk",
+        "listening"
+      ]
+    },
+    {
+      "id": "P4-G09-Q3",
+      "part": 4,
+      "groupId": "P4-G09",
+      "topic": "商店語音",
+      "difficulty": "600",
+      "audioText": "Thank you for calling Martin's Furniture. Our showroom is open Monday through Saturday from nine to six. For information about an existing delivery, press one. To schedule a design consultation, press two. To speak with a billing representative, remain on the line.",
+      "audioTranslation": "感謝致電 Martin's Furniture。我們的展示間週一至週六上午九點到下午六點營業。查詢既有配送請按一；預約設計諮詢請按二；如需帳務人員服務，請不要掛斷。",
+      "prompt": "Why should a caller remain on the line?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "To hear store hours again",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "To change a delivery address",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "To order new furniture",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "To speak with a billing representative",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "留在線上可與帳務人員通話。",
+      "keywords": [
+        "talk",
+        "listening"
+      ]
+    },
+    {
+      "id": "P4-G10-Q1",
+      "part": 4,
+      "groupId": "P4-G10",
+      "topic": "機場公告",
+      "difficulty": "800",
+      "audioText": "Passengers traveling on Flight 482 to Vancouver should proceed to Gate 16. Boarding will begin at five forty instead of five twenty because the aircraft arrived late. Passengers requiring assistance may speak with an agent at the service desk beside the gate.",
+      "audioTranslation": "搭乘 482 班機前往溫哥華的旅客請前往十六號登機門。由於飛機抵達延誤，登機時間將由五點二十分改為五點四十分。需要協助的旅客可洽登機門旁服務櫃台的人員。",
+      "prompt": "Where should passengers go?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "The baggage office",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Gate 16",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "The ticket counter",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Gate 20",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "乘客應前往十六號登機門。",
+      "keywords": [
+        "talk",
+        "listening"
+      ]
+    },
+    {
+      "id": "P4-G10-Q2",
+      "part": 4,
+      "groupId": "P4-G10",
+      "topic": "機場公告",
+      "difficulty": "800",
+      "audioText": "Passengers traveling on Flight 482 to Vancouver should proceed to Gate 16. Boarding will begin at five forty instead of five twenty because the aircraft arrived late. Passengers requiring assistance may speak with an agent at the service desk beside the gate.",
+      "audioTranslation": "搭乘 482 班機前往溫哥華的旅客請前往十六號登機門。由於飛機抵達延誤，登機時間將由五點二十分改為五點四十分。需要協助的旅客可洽登機門旁服務櫃台的人員。",
+      "prompt": "Why will boarding begin late?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "The crew is in a meeting",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "The weather is severe",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "The aircraft arrived late",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "The gate is being repaired",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "因為飛機晚到。",
+      "keywords": [
+        "talk",
+        "listening"
+      ]
+    },
+    {
+      "id": "P4-G10-Q3",
+      "part": 4,
+      "groupId": "P4-G10",
+      "topic": "機場公告",
+      "difficulty": "800",
+      "audioText": "Passengers traveling on Flight 482 to Vancouver should proceed to Gate 16. Boarding will begin at five forty instead of five twenty because the aircraft arrived late. Passengers requiring assistance may speak with an agent at the service desk beside the gate.",
+      "audioTranslation": "搭乘 482 班機前往溫哥華的旅客請前往十六號登機門。由於飛機抵達延誤，登機時間將由五點二十分改為五點四十分。需要協助的旅客可洽登機門旁服務櫃台的人員。",
+      "prompt": "Where can passengers request assistance?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "At the parking office",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Inside the aircraft",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "At the baggage carousel",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "At a service desk beside the gate",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "可洽登機門旁服務櫃台。",
+      "keywords": [
+        "talk",
+        "listening"
+      ]
+    },
+    {
+      "id": "P4-G11-Q1",
+      "part": 4,
+      "groupId": "P4-G11",
+      "topic": "大樓公告",
+      "difficulty": "600",
+      "audioText": "The main lobby information desk will close at four o'clock today for staff training. Visitors arriving after four should check in with the security officer at the south entrance. The information desk will reopen at its normal time tomorrow morning.",
+      "audioTranslation": "大廳服務台今天因員工訓練將於四點關閉。四點後抵達的訪客應在南側入口向警衛辦理登記。服務台明早將依正常時間重新開放。",
+      "prompt": "Why will the information desk close early?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "The lobby will be painted",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Security equipment is being replaced",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "The building is closing",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Staff members will attend training",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "提早關閉是因為員工訓練。",
+      "keywords": [
+        "talk",
+        "listening"
+      ]
+    },
+    {
+      "id": "P4-G11-Q2",
+      "part": 4,
+      "groupId": "P4-G11",
+      "topic": "大樓公告",
+      "difficulty": "600",
+      "audioText": "The main lobby information desk will close at four o'clock today for staff training. Visitors arriving after four should check in with the security officer at the south entrance. The information desk will reopen at its normal time tomorrow morning.",
+      "audioTranslation": "大廳服務台今天因員工訓練將於四點關閉。四點後抵達的訪客應在南側入口向警衛辦理登記。服務台明早將依正常時間重新開放。",
+      "prompt": "Where should late visitors check in?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "At the parking office",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "At the main information desk",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "On the second floor",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "At the south entrance",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "四點後應到南側入口。",
+      "keywords": [
+        "talk",
+        "listening"
+      ]
+    },
+    {
+      "id": "P4-G11-Q3",
+      "part": 4,
+      "groupId": "P4-G11",
+      "topic": "大樓公告",
+      "difficulty": "600",
+      "audioText": "The main lobby information desk will close at four o'clock today for staff training. Visitors arriving after four should check in with the security officer at the south entrance. The information desk will reopen at its normal time tomorrow morning.",
+      "audioTranslation": "大廳服務台今天因員工訓練將於四點關閉。四點後抵達的訪客應在南側入口向警衛辦理登記。服務台明早將依正常時間重新開放。",
+      "prompt": "When will the desk reopen?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "At four today",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "After lunch today",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Tomorrow morning",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Next Monday",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "明早恢復正常服務。",
+      "keywords": [
+        "talk",
+        "listening"
+      ]
+    },
+    {
+      "id": "P4-G12-Q1",
+      "part": 4,
+      "groupId": "P4-G12",
+      "topic": "產品說明",
+      "difficulty": "800",
+      "audioText": "Thank you for purchasing the CleanAir 500 purifier. Before first use, remove the protective covering from the filter and place the unit at least thirty centimeters from a wall. The indicator light will turn orange when the filter needs to be replaced. Replacement filters can be ordered through our website.",
+      "audioTranslation": "感謝您購買 CleanAir 500 空氣清淨機。首次使用前，請移除濾網保護膜，並將機器放在離牆至少三十公分處。需要更換濾網時，指示燈會變成橘色。替換濾網可透過本公司網站訂購。",
+      "prompt": "What should users do before first use?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Place the unit against a wall",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Turn the indicator light orange",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Order a replacement filter",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Remove a covering from the filter",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "首次使用前要移除濾網保護膜。",
+      "keywords": [
+        "talk",
+        "listening"
+      ]
+    },
+    {
+      "id": "P4-G12-Q2",
+      "part": 4,
+      "groupId": "P4-G12",
+      "topic": "產品說明",
+      "difficulty": "800",
+      "audioText": "Thank you for purchasing the CleanAir 500 purifier. Before first use, remove the protective covering from the filter and place the unit at least thirty centimeters from a wall. The indicator light will turn orange when the filter needs to be replaced. Replacement filters can be ordered through our website.",
+      "audioTranslation": "感謝您購買 CleanAir 500 空氣清淨機。首次使用前，請移除濾網保護膜，並將機器放在離牆至少三十公分處。需要更換濾網時，指示燈會變成橘色。替換濾網可透過本公司網站訂購。",
+      "prompt": "How far should the unit be from a wall?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "It may touch the wall",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "At least thirty centimeters",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Exactly five centimeters",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "More than three meters",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "至少離牆三十公分。",
+      "keywords": [
+        "talk",
+        "listening"
+      ]
+    },
+    {
+      "id": "P4-G12-Q3",
+      "part": 4,
+      "groupId": "P4-G12",
+      "topic": "產品說明",
+      "difficulty": "800",
+      "audioText": "Thank you for purchasing the CleanAir 500 purifier. Before first use, remove the protective covering from the filter and place the unit at least thirty centimeters from a wall. The indicator light will turn orange when the filter needs to be replaced. Replacement filters can be ordered through our website.",
+      "audioTranslation": "感謝您購買 CleanAir 500 空氣清淨機。首次使用前，請移除濾網保護膜，並將機器放在離牆至少三十公分處。需要更換濾網時，指示燈會變成橘色。替換濾網可透過本公司網站訂購。",
+      "prompt": "What does an orange light indicate?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "The unit is too far from a wall",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "The filter needs replacement",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "The covering is still attached",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "The website is unavailable",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "橘色燈表示需要更換濾網。",
+      "keywords": [
+        "talk",
+        "listening"
+      ]
+    },
+    {
+      "id": "P4-G13-Q1",
+      "part": 4,
+      "groupId": "P4-G13",
+      "topic": "圖書館公告",
+      "difficulty": "600",
+      "audioText": "The second-floor study area will be unavailable from one to three this afternoon while new lighting is installed. Visitors may use the quiet room on the first floor during that period. Group study rooms are not affected and will remain open.",
+      "audioTranslation": "二樓自習區今天下午一點到三點因安裝新照明設備而暫停使用。期間訪客可使用一樓安靜閱覽室。團體自習室不受影響，仍照常開放。",
+      "prompt": "Why will the study area be unavailable?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Books are being moved",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A private event is being held",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "New lighting is being installed",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "The library is closing early",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "二樓要安裝新照明。",
+      "keywords": [
+        "talk",
+        "listening"
+      ]
+    },
+    {
+      "id": "P4-G13-Q2",
+      "part": 4,
+      "groupId": "P4-G13",
+      "topic": "圖書館公告",
+      "difficulty": "600",
+      "audioText": "The second-floor study area will be unavailable from one to three this afternoon while new lighting is installed. Visitors may use the quiet room on the first floor during that period. Group study rooms are not affected and will remain open.",
+      "audioTranslation": "二樓自習區今天下午一點到三點因安裝新照明設備而暫停使用。期間訪客可使用一樓安靜閱覽室。團體自習室不受影響，仍照常開放。",
+      "prompt": "What may visitors use instead?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "The first-floor quiet room",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "The outdoor reading garden only",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "The employee cafeteria",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "The second-floor hallway",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "可改用一樓安靜閱覽室。",
+      "keywords": [
+        "talk",
+        "listening"
+      ]
+    },
+    {
+      "id": "P4-G13-Q3",
+      "part": 4,
+      "groupId": "P4-G13",
+      "topic": "圖書館公告",
+      "difficulty": "600",
+      "audioText": "The second-floor study area will be unavailable from one to three this afternoon while new lighting is installed. Visitors may use the quiet room on the first floor during that period. Group study rooms are not affected and will remain open.",
+      "audioTranslation": "二樓自習區今天下午一點到三點因安裝新照明設備而暫停使用。期間訪客可使用一樓安靜閱覽室。團體自習室不受影響，仍照常開放。",
+      "prompt": "What will remain open?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "The entire second floor",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "The lighting store",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Group study rooms",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "The information desk only",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "團體自習室照常開放。",
+      "keywords": [
+        "talk",
+        "listening"
+      ]
+    },
+    {
+      "id": "P4-G14-Q1",
+      "part": 4,
+      "groupId": "P4-G14",
+      "topic": "飯店語音",
+      "difficulty": "800",
+      "audioText": "Welcome to the Grand Meridian Hotel. Breakfast is served in the Garden Restaurant from six thirty to ten. Guests who have booked an airport shuttle should meet the driver in the east lobby ten minutes before departure. For late checkout requests, please contact the front desk before eleven A.M.",
+      "audioTranslation": "歡迎入住 Grand Meridian Hotel。早餐於六點半至十點在 Garden Restaurant 供應。已預約機場接駁的旅客應在出發前十分鐘到東側大廳與司機會合。若需延後退房，請於上午十一點前聯絡櫃台。",
+      "prompt": "Where is breakfast served?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "On the airport shuttle",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "In the east lobby",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "At the front desk",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "In the Garden Restaurant",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "早餐在 Garden Restaurant。",
+      "keywords": [
+        "talk",
+        "listening"
+      ]
+    },
+    {
+      "id": "P4-G14-Q2",
+      "part": 4,
+      "groupId": "P4-G14",
+      "topic": "飯店語音",
+      "difficulty": "800",
+      "audioText": "Welcome to the Grand Meridian Hotel. Breakfast is served in the Garden Restaurant from six thirty to ten. Guests who have booked an airport shuttle should meet the driver in the east lobby ten minutes before departure. For late checkout requests, please contact the front desk before eleven A.M.",
+      "audioTranslation": "歡迎入住 Grand Meridian Hotel。早餐於六點半至十點在 Garden Restaurant 供應。已預約機場接駁的旅客應在出發前十分鐘到東側大廳與司機會合。若需延後退房，請於上午十一點前聯絡櫃台。",
+      "prompt": "When should shuttle passengers meet the driver?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "After checkout",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Ten minutes before departure",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "At eleven A.M.",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "At six thirty",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "出發前十分鐘會合。",
+      "keywords": [
+        "talk",
+        "listening"
+      ]
+    },
+    {
+      "id": "P4-G14-Q3",
+      "part": 4,
+      "groupId": "P4-G14",
+      "topic": "飯店語音",
+      "difficulty": "800",
+      "audioText": "Welcome to the Grand Meridian Hotel. Breakfast is served in the Garden Restaurant from six thirty to ten. Guests who have booked an airport shuttle should meet the driver in the east lobby ten minutes before departure. For late checkout requests, please contact the front desk before eleven A.M.",
+      "audioTranslation": "歡迎入住 Grand Meridian Hotel。早餐於六點半至十點在 Garden Restaurant 供應。已預約機場接駁的旅客應在出發前十分鐘到東側大廳與司機會合。若需延後退房，請於上午十一點前聯絡櫃台。",
+      "prompt": "What should guests do to request late checkout?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Meet the shuttle driver",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Visit the restaurant",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Call the airport",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Contact the front desk before eleven",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "十一點前聯絡櫃台。",
+      "keywords": [
+        "talk",
+        "listening"
+      ]
+    },
+    {
+      "id": "P4-G15-Q1",
+      "part": 4,
+      "groupId": "P4-G15",
+      "topic": "公司活動",
+      "difficulty": "600",
+      "audioText": "This Friday's employee volunteer event will begin at eight thirty in the north parking lot. Buses will transport participants to the Riverside Park cleanup site. Gloves and trash bags will be provided, but volunteers should bring drinking water and wear comfortable shoes.",
+      "audioTranslation": "本週五員工志工活動將於八點半在北側停車場集合。巴士會載參加者前往 Riverside Park 清理地點。現場提供手套與垃圾袋，但志工應自備飲用水並穿著舒適鞋子。",
+      "prompt": "Where should participants meet?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "In the north parking lot",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Inside the cafeteria",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "At Riverside Park directly",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "At the train station",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "集合地點是北側停車場。",
+      "keywords": [
+        "talk",
+        "listening"
+      ]
+    },
+    {
+      "id": "P4-G15-Q2",
+      "part": 4,
+      "groupId": "P4-G15",
+      "topic": "公司活動",
+      "difficulty": "600",
+      "audioText": "This Friday's employee volunteer event will begin at eight thirty in the north parking lot. Buses will transport participants to the Riverside Park cleanup site. Gloves and trash bags will be provided, but volunteers should bring drinking water and wear comfortable shoes.",
+      "audioTranslation": "本週五員工志工活動將於八點半在北側停車場集合。巴士會載參加者前往 Riverside Park 清理地點。現場提供手套與垃圾袋，但志工應自備飲用水並穿著舒適鞋子。",
+      "prompt": "What will be provided?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Drinking water",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Gloves and trash bags",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Breakfast",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Comfortable shoes",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "提供手套與垃圾袋。",
+      "keywords": [
+        "talk",
+        "listening"
+      ]
+    },
+    {
+      "id": "P4-G15-Q3",
+      "part": 4,
+      "groupId": "P4-G15",
+      "topic": "公司活動",
+      "difficulty": "600",
+      "audioText": "This Friday's employee volunteer event will begin at eight thirty in the north parking lot. Buses will transport participants to the Riverside Park cleanup site. Gloves and trash bags will be provided, but volunteers should bring drinking water and wear comfortable shoes.",
+      "audioTranslation": "本週五員工志工活動將於八點半在北側停車場集合。巴士會載參加者前往 Riverside Park 清理地點。現場提供手套與垃圾袋，但志工應自備飲用水並穿著舒適鞋子。",
+      "prompt": "What should volunteers bring?",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Drinking water",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A bus ticket",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Cleaning gloves",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A printed map",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "需自備飲用水。",
+      "keywords": [
+        "talk",
+        "listening"
+      ]
+    },
+    {
+      "id": "P4-046-Q1",
+      "part": 4,
+      "groupId": "P4-046",
+      "topic": "公告",
+      "difficulty": "600",
+      "audioText": "Good morning. Beginning Monday, employees who visit the client center may use the company mobile app to check in at the lobby kiosk. After opening the app, select Client Center Visit and scan the code displayed on the kiosk screen. A printed badge will still be required, so please pick it up before entering the meeting area. If you have trouble with the app, ask the reception team for assistance.",
+      "audioTranslation": "早安。從星期一開始，前往客戶中心的員工可以使用公司手機 app 在大廳自助機報到。開啟 app 後，選擇 Client Center Visit，並掃描自助機螢幕上的代碼。仍然需要紙本識別證，因此進入會議區前請先領取。如果使用 app 遇到問題，請向接待團隊尋求協助。",
+      "prompt": "What is the announcement mainly about?",
+      "promptZh": "這則公告主要關於什麼？",
+      "options": [
+        {
+          "label": "A",
+          "text": "A cancelled software order",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A change in parking fees",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A cafeteria renovation",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A new mobile check-in feature",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "公告主要說明員工可使用公司手機 app 在大廳 kiosk 辦理報到，因此主題是新的手機報到功能。",
+      "keywords": [
+        "listening",
+        "talk",
+        "announcement",
+        "mobile-app"
+      ]
+    },
+    {
+      "id": "P4-046-Q2",
+      "part": 4,
+      "groupId": "P4-046",
+      "topic": "公告",
+      "difficulty": "600",
+      "audioText": "Good morning. Beginning Monday, employees who visit the client center may use the company mobile app to check in at the lobby kiosk. After opening the app, select Client Center Visit and scan the code displayed on the kiosk screen. A printed badge will still be required, so please pick it up before entering the meeting area. If you have trouble with the app, ask the reception team for assistance.",
+      "audioTranslation": "早安。從星期一開始，前往客戶中心的員工可以使用公司手機 app 在大廳自助機報到。開啟 app 後，選擇 Client Center Visit，並掃描自助機螢幕上的代碼。仍然需要紙本識別證，因此進入會議區前請先領取。如果使用 app 遇到問題，請向接待團隊尋求協助。",
+      "prompt": "What should employees scan?",
+      "promptZh": "員工應該掃描什麼？",
+      "options": [
+        {
+          "label": "A",
+          "text": "A paper parking pass",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A code on a kiosk screen",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A cafeteria receipt",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A visitor's passport",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "公告提到 scan the code displayed on the kiosk screen，員工要掃描自助機螢幕上的代碼。",
+      "keywords": [
+        "listening",
+        "talk",
+        "detail"
+      ]
+    },
+    {
+      "id": "P4-046-Q3",
+      "part": 4,
+      "groupId": "P4-046",
+      "topic": "公告",
+      "difficulty": "800",
+      "audioText": "Good morning. Beginning Monday, employees who visit the client center may use the company mobile app to check in at the lobby kiosk. After opening the app, select Client Center Visit and scan the code displayed on the kiosk screen. A printed badge will still be required, so please pick it up before entering the meeting area. If you have trouble with the app, ask the reception team for assistance.",
+      "audioTranslation": "早安。從星期一開始，前往客戶中心的員工可以使用公司手機 app 在大廳自助機報到。開啟 app 後，選擇 Client Center Visit，並掃描自助機螢幕上的代碼。仍然需要紙本識別證，因此進入會議區前請先領取。如果使用 app 遇到問題，請向接待團隊尋求協助。",
+      "prompt": "What is still required?",
+      "promptZh": "仍然需要什麼？",
+      "options": [
+        {
+          "label": "A",
+          "text": "A parking receipt",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A laptop password",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A signed lunch form",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A printed badge",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "公告明確說 A printed badge will still be required，表示仍需要紙本識別證。",
+      "keywords": [
+        "listening",
+        "talk",
+        "detail"
+      ]
+    },
+    {
+      "id": "P4-047-Q1",
+      "part": 4,
+      "groupId": "P4-047",
+      "topic": "旅客服務公告",
+      "difficulty": "600",
+      "audioText": "Attention hotel guests. Due to construction near the main entrance, airport shuttle pickup will move to the north entrance beginning this evening. Please follow the blue signs through the lobby and arrive at least five minutes before your scheduled departure. Staff members will be available to assist guests with luggage.",
+      "audioTranslation": "各位飯店旅客請注意。由於正門附近施工，機場接駁車從今晚開始改到北側入口接送。請沿著大廳內的藍色標示前往，並至少在預定出發前五分鐘抵達。工作人員會協助旅客搬運行李。",
+      "prompt": "What is the announcement mainly about?",
+      "promptZh": "這則公告主要關於什麼？",
+      "options": [
+        {
+          "label": "A",
+          "text": "A discount at a coffee shop",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A change to shuttle pickup locations",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A new airport security rule",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A lost identification card",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "公告主要說明飯店接駁車改在北側入口接送，因此主題是接駁車上車地點變更。",
+      "keywords": [
+        "listening",
+        "talk",
+        "announcement",
+        "travel",
+        "accent-practice"
+      ]
+    },
+    {
+      "id": "P4-047-Q2",
+      "part": 4,
+      "groupId": "P4-047",
+      "topic": "旅客服務公告",
+      "difficulty": "600",
+      "audioText": "Attention hotel guests. Due to construction near the main entrance, airport shuttle pickup will move to the north entrance beginning this evening. Please follow the blue signs through the lobby and arrive at least five minutes before your scheduled departure. Staff members will be available to assist guests with luggage.",
+      "audioTranslation": "各位飯店旅客請注意。由於正門附近施工，機場接駁車從今晚開始改到北側入口接送。請沿著大廳內的藍色標示前往，並至少在預定出發前五分鐘抵達。工作人員會協助旅客搬運行李。",
+      "prompt": "Where should guests go?",
+      "promptZh": "旅客應該去哪裡？",
+      "options": [
+        {
+          "label": "A",
+          "text": "To the coffee shop",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "To the parking office",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "To the north entrance",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "To the business center",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "公告說 airport shuttle pickup will move to the north entrance，旅客要前往北側入口。",
+      "keywords": [
+        "listening",
+        "talk",
+        "detail",
+        "travel",
+        "accent-practice"
+      ]
+    },
+    {
+      "id": "P4-047-Q3",
+      "part": 4,
+      "groupId": "P4-047",
+      "topic": "旅客服務公告",
+      "difficulty": "800",
+      "audioText": "Attention hotel guests. Due to construction near the main entrance, airport shuttle pickup will move to the north entrance beginning this evening. Please follow the blue signs through the lobby and arrive at least five minutes before your scheduled departure. Staff members will be available to assist guests with luggage.",
+      "audioTranslation": "各位飯店旅客請注意。由於正門附近施工，機場接駁車從今晚開始改到北側入口接送。請沿著大廳內的藍色標示前往，並至少在預定出發前五分鐘抵達。工作人員會協助旅客搬運行李。",
+      "prompt": "What will staff members help with?",
+      "promptZh": "工作人員會協助什麼？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Changing room keys",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Booking restaurant tables",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Carrying luggage",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Printing boarding passes",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "最後一句說 staff members will be available to assist guests with luggage，因此會協助行李。",
+      "keywords": [
+        "listening",
+        "talk",
+        "detail",
+        "travel",
+        "accent-practice"
+      ]
+    },
+    {
+      "id": "P4-048-Q1",
+      "part": 4,
+      "groupId": "P4-048",
+      "topic": "公司公告",
+      "difficulty": "600",
+      "audioText": "Attention all employees. The lobby check-in kiosk will be offline tomorrow while a software patch is installed. During this time, visitors should check in at the security desk and show a photo ID. Employees expecting guests should send the guest list to reception by 5 P.M. today.",
+      "audioTranslation": "各位員工請注意。大廳報到機明天會因安裝軟體修補程式而離線。在此期間，訪客應到保全櫃台報到並出示照片證件。預期有訪客的員工應在今天下午五點前把訪客名單寄給接待處。",
+      "prompt": "What is the announcement mainly about?",
+      "promptZh": "這則公告主要關於什麼？",
+      "options": [
+        {
+          "label": "A",
+          "text": "A new cafeteria menu",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A temporary change to visitor check-in",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A quarterly sales contest",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A delay in payroll processing",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "公告主要說 lobby kiosk will be offline 和 visitors should check in at the security desk，主題是訪客報到方式暫時改變。",
+      "keywords": [
+        "listening",
+        "talk",
+        "announcement",
+        "security"
+      ]
+    },
+    {
+      "id": "P4-048-Q2",
+      "part": 4,
+      "groupId": "P4-048",
+      "topic": "公司公告",
+      "difficulty": "600",
+      "audioText": "Attention all employees. The lobby check-in kiosk will be offline tomorrow while a software patch is installed. During this time, visitors should check in at the security desk and show a photo ID. Employees expecting guests should send the guest list to reception by 5 P.M. today.",
+      "audioTranslation": "各位員工請注意。大廳報到機明天會因安裝軟體修補程式而離線。在此期間，訪客應到保全櫃台報到並出示照片證件。預期有訪客的員工應在今天下午五點前把訪客名單寄給接待處。",
+      "prompt": "Where should visitors check in tomorrow?",
+      "promptZh": "訪客明天應該在哪裡報到？",
+      "options": [
+        {
+          "label": "A",
+          "text": "At the security desk",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "On the fourth floor",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "At the cafeteria entrance",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "In the training room",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "公告明確說 visitors should check in at the security desk。",
+      "keywords": [
+        "listening",
+        "talk",
+        "detail",
+        "security"
+      ]
+    },
+    {
+      "id": "P4-048-Q3",
+      "part": 4,
+      "groupId": "P4-048",
+      "topic": "公司公告",
+      "difficulty": "800",
+      "audioText": "Attention all employees. The lobby check-in kiosk will be offline tomorrow while a software patch is installed. During this time, visitors should check in at the security desk and show a photo ID. Employees expecting guests should send the guest list to reception by 5 P.M. today.",
+      "audioTranslation": "各位員工請注意。大廳報到機明天會因安裝軟體修補程式而離線。在此期間，訪客應到保全櫃台報到並出示照片證件。預期有訪客的員工應在今天下午五點前把訪客名單寄給接待處。",
+      "prompt": "What are employees asked to do by 5 P.M.?",
+      "promptZh": "員工被要求在下午五點前做什麼？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Send a guest list to reception",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Move a kiosk to the lobby",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Install a software patch",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Print new identification cards",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "最後一句說 employees expecting guests should send the guest list to reception by 5 P.M. today。",
+      "keywords": [
+        "listening",
+        "talk",
+        "next-action",
+        "office"
+      ]
+    },
+    {
+      "id": "P4-049-Q1",
+      "part": 4,
+      "groupId": "P4-049",
+      "topic": "語音留言",
+      "difficulty": "600",
+      "audioText": "Hello, this is Marisa from BrightLine Office Equipment. I am calling to let you know that your color printer has been repaired and is ready for pickup. The technician also replaced the paper tray at no additional charge. Please bring your service receipt when you come to our store.",
+      "audioTranslation": "您好，我是 BrightLine Office Equipment 的 Marisa。我打電話是要通知您，您的彩色印表機已修好，可以取件。技術人員也免費更換了紙匣。來店時請攜帶維修收據。",
+      "prompt": "Why is the speaker calling?",
+      "promptZh": "說話者為什麼打電話？",
+      "options": [
+        {
+          "label": "A",
+          "text": "To invite someone to a workshop",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "To complain about a late payment",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "To change a hotel reservation",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "To confirm a repaired printer is ready",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "留言開頭說 your color printer has been repaired and is ready for pickup，所以來電確認印表機已修好可取件。",
+      "keywords": [
+        "listening",
+        "talk",
+        "voicemail",
+        "service"
+      ]
+    },
+    {
+      "id": "P4-049-Q2",
+      "part": 4,
+      "groupId": "P4-049",
+      "topic": "語音留言",
+      "difficulty": "600",
+      "audioText": "Hello, this is Marisa from BrightLine Office Equipment. I am calling to let you know that your color printer has been repaired and is ready for pickup. The technician also replaced the paper tray at no additional charge. Please bring your service receipt when you come to our store.",
+      "audioTranslation": "您好，我是 BrightLine Office Equipment 的 Marisa。我打電話是要通知您，您的彩色印表機已修好，可以取件。技術人員也免費更換了紙匣。來店時請攜帶維修收據。",
+      "prompt": "What did the technician replace?",
+      "promptZh": "技術人員更換了什麼？",
+      "options": [
+        {
+          "label": "A",
+          "text": "The ink invoice",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "The power cable",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "The paper tray",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "The printer stand",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "留言中說 The technician also replaced the paper tray。",
+      "keywords": [
+        "listening",
+        "talk",
+        "detail",
+        "repair"
+      ]
+    },
+    {
+      "id": "P4-049-Q3",
+      "part": 4,
+      "groupId": "P4-049",
+      "topic": "語音留言",
+      "difficulty": "800",
+      "audioText": "Hello, this is Marisa from BrightLine Office Equipment. I am calling to let you know that your color printer has been repaired and is ready for pickup. The technician also replaced the paper tray at no additional charge. Please bring your service receipt when you come to our store.",
+      "audioTranslation": "您好，我是 BrightLine Office Equipment 的 Marisa。我打電話是要通知您，您的彩色印表機已修好，可以取件。技術人員也免費更換了紙匣。來店時請攜帶維修收據。",
+      "prompt": "What should the listener bring?",
+      "promptZh": "聽者應該攜帶什麼？",
+      "options": [
+        {
+          "label": "A",
+          "text": "A guest badge",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A service receipt",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A shipping label",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A warranty brochure",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "最後一句 Please bring your service receipt 清楚指出應攜帶維修收據。",
+      "keywords": [
+        "listening",
+        "talk",
+        "instruction",
+        "service"
+      ]
+    },
+    {
+      "id": "P4-050-Q1",
+      "part": 4,
+      "groupId": "P4-050",
+      "topic": "活動介紹",
+      "difficulty": "600",
+      "audioText": "Registration is now open for the Saturday workshop, Managing Remote Project Teams. The session is designed for new project managers and will include practical exercises on scheduling, feedback, and conflict resolution. Register by Friday to receive a 15 percent discount and a digital workbook.",
+      "audioTranslation": "星期六工作坊「管理遠端專案團隊」現在開放報名。本課程為新任專案經理設計，包含排程、回饋與衝突解決的實作練習。星期五前報名可享 85 折並獲得數位工作手冊。",
+      "prompt": "What is being advertised?",
+      "promptZh": "這段廣告在宣傳什麼？",
+      "options": [
+        {
+          "label": "A",
+          "text": "A professional development workshop",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A new commuter train route",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A software refund program",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A restaurant opening",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "廣告提到 Saturday workshop、project managers 和 early registration，因此是在宣傳專業進修工作坊。",
+      "keywords": [
+        "listening",
+        "talk",
+        "advertisement",
+        "workshop"
+      ]
+    },
+    {
+      "id": "P4-050-Q2",
+      "part": 4,
+      "groupId": "P4-050",
+      "topic": "活動介紹",
+      "difficulty": "600",
+      "audioText": "Registration is now open for the Saturday workshop, Managing Remote Project Teams. The session is designed for new project managers and will include practical exercises on scheduling, feedback, and conflict resolution. Register by Friday to receive a 15 percent discount and a digital workbook.",
+      "audioTranslation": "星期六工作坊「管理遠端專案團隊」現在開放報名。本課程為新任專案經理設計，包含排程、回饋與衝突解決的實作練習。星期五前報名可享 85 折並獲得數位工作手冊。",
+      "prompt": "Who is the workshop designed for?",
+      "promptZh": "這個工作坊是為誰設計的？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Warehouse technicians",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Hotel receptionists",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Experienced accountants",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "New project managers",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "音檔中明確說 The session is designed for new project managers。",
+      "keywords": [
+        "listening",
+        "talk",
+        "audience",
+        "workshop"
+      ]
+    },
+    {
+      "id": "P4-050-Q3",
+      "part": 4,
+      "groupId": "P4-050",
+      "topic": "活動介紹",
+      "difficulty": "800",
+      "audioText": "Registration is now open for the Saturday workshop, Managing Remote Project Teams. The session is designed for new project managers and will include practical exercises on scheduling, feedback, and conflict resolution. Register by Friday to receive a 15 percent discount and a digital workbook.",
+      "audioTranslation": "星期六工作坊「管理遠端專案團隊」現在開放報名。本課程為新任專案經理設計，包含排程、回饋與衝突解決的實作練習。星期五前報名可享 85 折並獲得數位工作手冊。",
+      "prompt": "What is offered to people who register by Friday?",
+      "promptZh": "星期五前報名的人可獲得什麼？",
+      "options": [
+        {
+          "label": "A",
+          "text": "A discount and a digital workbook",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A printed contract",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A private consulting session",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A free hotel room",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "最後一句說 Register by Friday to receive a 15 percent discount and a digital workbook。",
+      "keywords": [
+        "listening",
+        "talk",
+        "offer",
+        "workshop"
+      ]
+    },
+    {
+      "id": "P4-G16-Q1",
+      "part": 4,
+      "groupId": "P4-G16",
+      "topic": "倉儲無人機公告",
+      "difficulty": "800",
+      "audioText": "Speaker: Attention, distribution staff. Starting Monday, small indoor drones will scan shelf labels after the warehouse closes. Please keep the main aisles clear by eight thirty P.M. During the first week, technicians will be on site to monitor each flight. If a drone stops unexpectedly, do not move it. Submit an incident through the operations app. Manual cycle counts will continue in the refrigerated zone until its safety test is complete.",
+      "audioTranslation": "請配送中心員工注意。從星期一起，小型室內無人機會在倉庫關閉後掃描貨架標籤。請在晚上八點半前保持主要走道暢通。第一週會有技術人員在場監控每次飛行。若無人機意外停止，請勿移動它，並透過營運應用程式回報事件。冷藏區在安全測試完成前仍會採人工盤點。",
+      "prompt": "What is the purpose of the announcement?",
+      "promptZh": "這則公告的目的是什麼？",
+      "options": [
+        {
+          "label": "A",
+          "text": "To report missing shelf labels",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "To announce an earlier closing time",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "To explain a new inventory procedure",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "To recruit warehouse technicians",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "公告說明無人機掃描貨架標籤的新流程及員工應配合事項。",
+      "keywords": [
+        "listening",
+        "talk",
+        "warehouse",
+        "automation",
+        "purpose"
+      ]
+    },
+    {
+      "id": "P4-G16-Q2",
+      "part": 4,
+      "groupId": "P4-G16",
+      "topic": "倉儲無人機公告",
+      "difficulty": "800",
+      "audioText": "Speaker: Attention, distribution staff. Starting Monday, small indoor drones will scan shelf labels after the warehouse closes. Please keep the main aisles clear by eight thirty P.M. During the first week, technicians will be on site to monitor each flight. If a drone stops unexpectedly, do not move it. Submit an incident through the operations app. Manual cycle counts will continue in the refrigerated zone until its safety test is complete.",
+      "audioTranslation": "請配送中心員工注意。從星期一起，小型室內無人機會在倉庫關閉後掃描貨架標籤。請在晚上八點半前保持主要走道暢通。第一週會有技術人員在場監控每次飛行。若無人機意外停止，請勿移動它，並透過營運應用程式回報事件。冷藏區在安全測試完成前仍會採人工盤點。",
+      "prompt": "By what time should the main aisles be clear?",
+      "promptZh": "主要走道應在幾點前淨空？",
+      "options": [
+        {
+          "label": "A",
+          "text": "After the first week",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "By 8:30 P.M.",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Before Monday noon",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "By 9:00 A.M.",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "講者要求 keep the main aisles clear by eight thirty P.M.。",
+      "keywords": [
+        "listening",
+        "talk",
+        "warehouse",
+        "automation",
+        "time"
+      ]
+    },
+    {
+      "id": "P4-G16-Q3",
+      "part": 4,
+      "groupId": "P4-G16",
+      "topic": "倉儲無人機公告",
+      "difficulty": "800",
+      "audioText": "Speaker: Attention, distribution staff. Starting Monday, small indoor drones will scan shelf labels after the warehouse closes. Please keep the main aisles clear by eight thirty P.M. During the first week, technicians will be on site to monitor each flight. If a drone stops unexpectedly, do not move it. Submit an incident through the operations app. Manual cycle counts will continue in the refrigerated zone until its safety test is complete.",
+      "audioTranslation": "請配送中心員工注意。從星期一起，小型室內無人機會在倉庫關閉後掃描貨架標籤。請在晚上八點半前保持主要走道暢通。第一週會有技術人員在場監控每次飛行。若無人機意外停止，請勿移動它，並透過營運應用程式回報事件。冷藏區在安全測試完成前仍會採人工盤點。",
+      "prompt": "Where will manual cycle counts continue?",
+      "promptZh": "哪裡仍會繼續人工盤點？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Along the main aisles",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Near the operations office",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "In the loading area",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "In the refrigerated zone",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "最後一句指出 Manual cycle counts will continue in the refrigerated zone。",
+      "keywords": [
+        "listening",
+        "talk",
+        "warehouse",
+        "automation",
+        "location",
+        "detail"
+      ]
+    },
+    {
+      "id": "P4-G17-Q1",
+      "part": 4,
+      "groupId": "P4-G17",
+      "topic": "循環包裝計畫",
+      "difficulty": "600",
+      "audioText": "Speaker: This message is for suppliers enrolled in our reusable-packaging program. Beginning August first, eligible deliveries should arrive in the blue tracking totes. Scan the barcode on each tote when it is received, and return the empty container within ten business days. Report damaged containers through the supplier portal rather than sending them back. A packaging discount will appear on the invoice following each completed return.",
+      "audioTranslation": "這則訊息提供給參加可重複使用包裝計畫的供應商。自八月一日起，符合資格的貨物應使用藍色追蹤箱配送。收到時請掃描每個箱子的條碼，並在十個工作天內歸還空箱。損壞的容器請透過供應商入口網站回報，不要寄回。每次完成歸還後，包裝折扣會顯示在下一張發票上。",
+      "prompt": "Who is the message intended for?",
+      "promptZh": "這則訊息是提供給誰的？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Drivers applying for jobs",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Employees ordering office furniture",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Customers awaiting refunds",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Suppliers in a packaging program",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "開頭明確說 This message is for suppliers enrolled in our reusable-packaging program。",
+      "keywords": [
+        "listening",
+        "talk",
+        "suppliers",
+        "sustainability",
+        "audience"
+      ]
+    },
+    {
+      "id": "P4-G17-Q2",
+      "part": 4,
+      "groupId": "P4-G17",
+      "topic": "循環包裝計畫",
+      "difficulty": "600",
+      "audioText": "Speaker: This message is for suppliers enrolled in our reusable-packaging program. Beginning August first, eligible deliveries should arrive in the blue tracking totes. Scan the barcode on each tote when it is received, and return the empty container within ten business days. Report damaged containers through the supplier portal rather than sending them back. A packaging discount will appear on the invoice following each completed return.",
+      "audioTranslation": "這則訊息提供給參加可重複使用包裝計畫的供應商。自八月一日起，符合資格的貨物應使用藍色追蹤箱配送。收到時請掃描每個箱子的條碼，並在十個工作天內歸還空箱。損壞的容器請透過供應商入口網站回報，不要寄回。每次完成歸還後，包裝折扣會顯示在下一張發票上。",
+      "prompt": "What must be done within ten business days?",
+      "promptZh": "十個工作天內必須完成什麼？",
+      "options": [
+        {
+          "label": "A",
+          "text": "A delivery route must be approved",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "An empty tote must be returned",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "An invoice must be paid",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A barcode must be replaced",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "講者要求 return the empty container within ten business days。",
+      "keywords": [
+        "listening",
+        "talk",
+        "suppliers",
+        "sustainability",
+        "deadline",
+        "detail"
+      ]
+    },
+    {
+      "id": "P4-G17-Q3",
+      "part": 4,
+      "groupId": "P4-G17",
+      "topic": "循環包裝計畫",
+      "difficulty": "600",
+      "audioText": "Speaker: This message is for suppliers enrolled in our reusable-packaging program. Beginning August first, eligible deliveries should arrive in the blue tracking totes. Scan the barcode on each tote when it is received, and return the empty container within ten business days. Report damaged containers through the supplier portal rather than sending them back. A packaging discount will appear on the invoice following each completed return.",
+      "audioTranslation": "這則訊息提供給參加可重複使用包裝計畫的供應商。自八月一日起，符合資格的貨物應使用藍色追蹤箱配送。收到時請掃描每個箱子的條碼，並在十個工作天內歸還空箱。損壞的容器請透過供應商入口網站回報，不要寄回。每次完成歸還後，包裝折扣會顯示在下一張發票上。",
+      "prompt": "What benefit is mentioned?",
+      "promptZh": "講者提到什麼好處？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Free delivery on weekends",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Priority access to new products",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A discount on a following invoice",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A longer return period",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "完成歸還後，packaging discount 會出現在下一張發票。",
+      "keywords": [
+        "listening",
+        "talk",
+        "suppliers",
+        "sustainability",
+        "benefit"
+      ]
+    },
+    {
+      "id": "P4-G18-Q1",
+      "part": 4,
+      "groupId": "P4-G18",
+      "topic": "交通應用程式更新",
+      "difficulty": "600",
+      "audioText": "Speaker: Please note that the MetroLink mobile ticketing app will be unavailable this Sunday from one to four A.M. while we install a security upgrade. Ticket kiosks at all stations will remain in service. Tickets purchased before the outage and saved on a device can still be displayed to station staff. Monthly-pass users do not need to take any action. When the updated app returns on Monday, it will also provide alerts when a train's departure platform changes.",
+      "audioTranslation": "請注意，MetroLink 行動購票應用程式將於本週日上午一點至四點因安裝安全更新而無法使用。所有車站的售票機仍會運作。中斷前購買並儲存在裝置上的車票仍可出示給站務人員。月票使用者無須採取任何行動。更新後的應用程式星期一恢復時，也會提供列車出發月台變更通知。",
+      "prompt": "Why will the mobile app be unavailable?",
+      "promptZh": "行動應用程式為什麼會暫停服務？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Station staff will receive training",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A new rail line is opening",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Ticket prices are changing",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A security upgrade will be installed",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "講者說 app 暫停是 while we install a security upgrade。",
+      "keywords": [
+        "listening",
+        "talk",
+        "transportation",
+        "mobile-app",
+        "reason"
+      ]
+    },
+    {
+      "id": "P4-G18-Q2",
+      "part": 4,
+      "groupId": "P4-G18",
+      "topic": "交通應用程式更新",
+      "difficulty": "600",
+      "audioText": "Speaker: Please note that the MetroLink mobile ticketing app will be unavailable this Sunday from one to four A.M. while we install a security upgrade. Ticket kiosks at all stations will remain in service. Tickets purchased before the outage and saved on a device can still be displayed to station staff. Monthly-pass users do not need to take any action. When the updated app returns on Monday, it will also provide alerts when a train's departure platform changes.",
+      "audioTranslation": "請注意，MetroLink 行動購票應用程式將於本週日上午一點至四點因安裝安全更新而無法使用。所有車站的售票機仍會運作。中斷前購買並儲存在裝置上的車票仍可出示給站務人員。月票使用者無須採取任何行動。更新後的應用程式星期一恢復時，也會提供列車出發月台變更通知。",
+      "prompt": "How can passengers buy tickets during the outage?",
+      "promptZh": "系統中斷期間乘客如何購票？",
+      "options": [
+        {
+          "label": "A",
+          "text": "From station staff",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "On the updated app",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "At station kiosks",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "By calling customer service",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "公告指出 Ticket kiosks at all stations will remain in service。",
+      "keywords": [
+        "listening",
+        "talk",
+        "transportation",
+        "mobile-app",
+        "solution",
+        "detail"
+      ]
+    },
+    {
+      "id": "P4-G18-Q3",
+      "part": 4,
+      "groupId": "P4-G18",
+      "topic": "交通應用程式更新",
+      "difficulty": "600",
+      "audioText": "Speaker: Please note that the MetroLink mobile ticketing app will be unavailable this Sunday from one to four A.M. while we install a security upgrade. Ticket kiosks at all stations will remain in service. Tickets purchased before the outage and saved on a device can still be displayed to station staff. Monthly-pass users do not need to take any action. When the updated app returns on Monday, it will also provide alerts when a train's departure platform changes.",
+      "audioTranslation": "請注意，MetroLink 行動購票應用程式將於本週日上午一點至四點因安裝安全更新而無法使用。所有車站的售票機仍會運作。中斷前購買並儲存在裝置上的車票仍可出示給站務人員。月票使用者無須採取任何行動。更新後的應用程式星期一恢復時，也會提供列車出發月台變更通知。",
+      "prompt": "What feature will the updated app provide?",
+      "promptZh": "更新後的應用程式會提供什麼功能？",
+      "options": [
+        {
+          "label": "A",
+          "text": "Live station video",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Departure-platform change alerts",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Discounts for early trains",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Automatic monthly-pass renewal",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "最後提到新版會提供 alerts when a train's departure platform changes。",
+      "keywords": [
+        "listening",
+        "talk",
+        "transportation",
+        "mobile-app",
+        "feature",
+        "detail"
+      ]
+    },
+    {
+      "id": "P4-G19-Q1",
+      "part": 4,
+      "groupId": "P4-G19",
+      "topic": "行李追蹤更新",
+      "difficulty": "600",
+      "audioText": "Speaker: Travelers arriving on Flight 482 should collect checked luggage at Carousel Six. Because one scanning station is being repaired, the airline's mobile app may show a baggage update several minutes late. Please rely on the display above the carousel for the most current information. Oversized items, including bicycles and musical instruments, will be delivered to the service counter beside Carousel Eight. Keep your baggage receipt until you have collected all of your items.",
+      "audioTranslation": "播音員：搭乘 482 航班抵達的旅客，請到第六號行李轉盤領取託運行李。由於一座掃描站正在維修，航空公司的行動應用程式可能會延遲數分鐘顯示行李更新。最新資訊請以轉盤上方的顯示器為準。自行車和樂器等超大型物品將送至第八號轉盤旁的服務櫃台。在領齊所有物品前，請保留行李收據。",
+      "prompt": "What is the purpose of the announcement?",
+      "promptZh": "這則公告的目的是什麼？",
+      "options": [
+        {
+          "label": "A",
+          "text": "To request volunteers at a service counter",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "To report a change in a flight's departure time",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "To explain where passengers should collect baggage",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "To advertise an airline mobile application",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "公告主要告知 482 航班旅客一般行李與大型物品的領取位置，並提醒資訊來源與收據保留。",
+      "keywords": [
+        "listening",
+        "talk",
+        "airport",
+        "mobile-app",
+        "purpose"
+      ]
+    },
+    {
+      "id": "P4-G19-Q2",
+      "part": 4,
+      "groupId": "P4-G19",
+      "topic": "行李追蹤更新",
+      "difficulty": "600",
+      "audioText": "Speaker: Travelers arriving on Flight 482 should collect checked luggage at Carousel Six. Because one scanning station is being repaired, the airline's mobile app may show a baggage update several minutes late. Please rely on the display above the carousel for the most current information. Oversized items, including bicycles and musical instruments, will be delivered to the service counter beside Carousel Eight. Keep your baggage receipt until you have collected all of your items.",
+      "audioTranslation": "播音員：搭乘 482 航班抵達的旅客，請到第六號行李轉盤領取託運行李。由於一座掃描站正在維修，航空公司的行動應用程式可能會延遲數分鐘顯示行李更新。最新資訊請以轉盤上方的顯示器為準。自行車和樂器等超大型物品將送至第八號轉盤旁的服務櫃台。在領齊所有物品前，請保留行李收據。",
+      "prompt": "Why might information in the mobile app be delayed?",
+      "promptZh": "為何行動應用程式中的資訊可能延遲？",
+      "options": [
+        {
+          "label": "A",
+          "text": "The carousel display is being replaced",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A flight arrived early",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A scanning station is under repair",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "The service counter has moved",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "原文直接指出 Because one scanning station is being repaired，行動應用程式的更新可能延遲。",
+      "keywords": [
+        "listening",
+        "talk",
+        "airport",
+        "mobile-app",
+        "reason",
+        "detail"
+      ]
+    },
+    {
+      "id": "P4-G19-Q3",
+      "part": 4,
+      "groupId": "P4-G19",
+      "topic": "行李追蹤更新",
+      "difficulty": "600",
+      "audioText": "Speaker: Travelers arriving on Flight 482 should collect checked luggage at Carousel Six. Because one scanning station is being repaired, the airline's mobile app may show a baggage update several minutes late. Please rely on the display above the carousel for the most current information. Oversized items, including bicycles and musical instruments, will be delivered to the service counter beside Carousel Eight. Keep your baggage receipt until you have collected all of your items.",
+      "audioTranslation": "播音員：搭乘 482 航班抵達的旅客，請到第六號行李轉盤領取託運行李。由於一座掃描站正在維修，航空公司的行動應用程式可能會延遲數分鐘顯示行李更新。最新資訊請以轉盤上方的顯示器為準。自行車和樂器等超大型物品將送至第八號轉盤旁的服務櫃台。在領齊所有物品前，請保留行李收據。",
+      "prompt": "Where should a passenger collect a bicycle?",
+      "promptZh": "旅客應到哪裡領取自行車？",
+      "options": [
+        {
+          "label": "A",
+          "text": "At Carousel Six",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "At the scanning station",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "At the counter beside Carousel Eight",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Above the carousel display",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "公告把 bicycles 列為 oversized items，並說這類物品會送到第八號轉盤旁的服務櫃台。",
+      "keywords": [
+        "listening",
+        "talk",
+        "airport",
+        "mobile-app",
+        "location",
+        "detail"
+      ]
+    },
+    {
+      "id": "P4-G20-Q1",
+      "part": 4,
+      "groupId": "P4-G20",
+      "topic": "門市太陽能維護",
+      "difficulty": "800",
+      "audioText": "Speaker: Good morning, store managers. The energy-monitoring portal will be offline tonight from nine until midnight while technicians recalibrate the rooftop solar meters. This work will not interrupt electricity in any store. However, automated energy reports scheduled during that period will be generated tomorrow morning instead. Managers do not need to submit manual readings unless an alert remains visible after the portal returns. A short guide to the updated dashboard will be posted in the operations library on Friday.",
+      "audioTranslation": "播音員：各位門市經理早安。今晚九點到午夜，技術人員將重新校準屋頂太陽能電表，因此能源監控平台會暫時離線。這項工作不會中斷任何門市的供電。不過，原訂在該時段產生的自動能源報告將改於明早產生。除非平台恢復後警示仍顯示，否則經理不必提交人工讀數。更新版儀表板的簡短指南將於星期五上傳至營運資料庫。",
+      "prompt": "Why will the monitoring portal be unavailable?",
+      "promptZh": "監控平台為何會無法使用？",
+      "options": [
+        {
+          "label": "A",
+          "text": "The operations library is moving",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "New stores are being added",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Solar meters are being recalibrated",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Managers are entering manual readings",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "公告說技術人員重新校準屋頂太陽能電表，因此監控平台於晚間暫停服務。",
+      "keywords": [
+        "listening",
+        "talk",
+        "energy",
+        "maintenance",
+        "reason"
+      ]
+    },
+    {
+      "id": "P4-G20-Q2",
+      "part": 4,
+      "groupId": "P4-G20",
+      "topic": "門市太陽能維護",
+      "difficulty": "800",
+      "audioText": "Speaker: Good morning, store managers. The energy-monitoring portal will be offline tonight from nine until midnight while technicians recalibrate the rooftop solar meters. This work will not interrupt electricity in any store. However, automated energy reports scheduled during that period will be generated tomorrow morning instead. Managers do not need to submit manual readings unless an alert remains visible after the portal returns. A short guide to the updated dashboard will be posted in the operations library on Friday.",
+      "audioTranslation": "播音員：各位門市經理早安。今晚九點到午夜，技術人員將重新校準屋頂太陽能電表，因此能源監控平台會暫時離線。這項工作不會中斷任何門市的供電。不過，原訂在該時段產生的自動能源報告將改於明早產生。除非平台恢復後警示仍顯示，否則經理不必提交人工讀數。更新版儀表板的簡短指南將於星期五上傳至營運資料庫。",
+      "prompt": "What will happen to reports scheduled during the maintenance period?",
+      "promptZh": "原訂在維護期間產生的報告會如何處理？",
+      "options": [
+        {
+          "label": "A",
+          "text": "They will be sent to technicians",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "They will require manager approval",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "They will be produced the next morning",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "They will be canceled",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "原文說該時段的自動報告 will be generated tomorrow morning instead，答案是隔天早上產生。",
+      "keywords": [
+        "listening",
+        "talk",
+        "energy",
+        "maintenance",
+        "sequence",
+        "detail"
+      ]
+    },
+    {
+      "id": "P4-G20-Q3",
+      "part": 4,
+      "groupId": "P4-G20",
+      "topic": "門市太陽能維護",
+      "difficulty": "800",
+      "audioText": "Speaker: Good morning, store managers. The energy-monitoring portal will be offline tonight from nine until midnight while technicians recalibrate the rooftop solar meters. This work will not interrupt electricity in any store. However, automated energy reports scheduled during that period will be generated tomorrow morning instead. Managers do not need to submit manual readings unless an alert remains visible after the portal returns. A short guide to the updated dashboard will be posted in the operations library on Friday.",
+      "audioTranslation": "播音員：各位門市經理早安。今晚九點到午夜，技術人員將重新校準屋頂太陽能電表，因此能源監控平台會暫時離線。這項工作不會中斷任何門市的供電。不過，原訂在該時段產生的自動能源報告將改於明早產生。除非平台恢復後警示仍顯示，否則經理不必提交人工讀數。更新版儀表板的簡短指南將於星期五上傳至營運資料庫。",
+      "prompt": "Under what condition should managers submit manual readings?",
+      "promptZh": "在什麼情況下經理應提交人工讀數？",
+      "options": [
+        {
+          "label": "A",
+          "text": "If a report arrives before midnight",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "If an alert remains after the portal is restored",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "If the updated guide is unavailable",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "If a store loses electricity",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "公告明確限定 unless an alert remains visible after the portal returns；只有平台恢復後警示仍存在，才需提交人工讀數。",
+      "keywords": [
+        "listening",
+        "talk",
+        "energy",
+        "maintenance",
+        "condition",
+        "detail"
+      ]
+    },
+    {
+      "id": "P4-G21-Q1",
+      "part": 4,
+      "groupId": "P4-G21",
+      "topic": "接駁路線公告",
+      "difficulty": "800",
+      "audioText": "Speaker: Attention, visitors to the Harbor Design Fair. Because the pedestrian tunnel beneath Central Avenue is closed for an inspection, the west entrance cannot be reached from the Metro station by the usual route. Complimentary shuttle buses will leave the station's north exit every twelve minutes and stop beside Hall C. The digital map in yesterday's confirmation e-mail still shows the tunnel route, so please disregard it. Visitors who already have printed tickets may board the shuttle without checking in at the information desk.",
+      "audioTranslation": "播音員：前往港灣設計展的訪客請注意。由於中央大道下方的行人隧道因檢查而關閉，無法再由地鐵站沿平常路線前往西側入口。免費接駁車每十二分鐘從車站北側出口發車，停靠在 C 展館旁。昨日確認郵件中的電子地圖仍顯示隧道路線，請忽略該地圖。已持有紙本門票的訪客可直接搭乘接駁車，不必先到服務台報到。",
+      "prompt": "Why has the usual walking route changed?",
+      "promptZh": "平常的步行路線為何改變？",
+      "options": [
+        {
+          "label": "A",
+          "text": "A fair has moved to another hall",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "The Metro station is closing early",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A tunnel is being inspected",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Central Avenue is hosting a parade",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "公告指出 pedestrian tunnel ... is closed for an inspection，因此原步行路線無法使用。",
+      "keywords": [
+        "listening",
+        "talk",
+        "event",
+        "route-change",
+        "reason",
+        "detail"
+      ]
+    },
+    {
+      "id": "P4-G21-Q2",
+      "part": 4,
+      "groupId": "P4-G21",
+      "topic": "接駁路線公告",
+      "difficulty": "800",
+      "audioText": "Speaker: Attention, visitors to the Harbor Design Fair. Because the pedestrian tunnel beneath Central Avenue is closed for an inspection, the west entrance cannot be reached from the Metro station by the usual route. Complimentary shuttle buses will leave the station's north exit every twelve minutes and stop beside Hall C. The digital map in yesterday's confirmation e-mail still shows the tunnel route, so please disregard it. Visitors who already have printed tickets may board the shuttle without checking in at the information desk.",
+      "audioTranslation": "播音員：前往港灣設計展的訪客請注意。由於中央大道下方的行人隧道因檢查而關閉，無法再由地鐵站沿平常路線前往西側入口。免費接駁車每十二分鐘從車站北側出口發車，停靠在 C 展館旁。昨日確認郵件中的電子地圖仍顯示隧道路線，請忽略該地圖。已持有紙本門票的訪客可直接搭乘接駁車，不必先到服務台報到。",
+      "prompt": "What are visitors told to disregard?",
+      "promptZh": "訪客被告知應忽略什麼？",
+      "options": [
+        {
+          "label": "A",
+          "text": "A map in a confirmation e-mail",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A printed ticket",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A sign beside Hall C",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A notice at the north exit",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "昨日確認郵件的電子地圖仍顯示已封閉的隧道路線，公告明確要求 disregard it。",
+      "keywords": [
+        "listening",
+        "talk",
+        "event",
+        "route-change",
+        "instruction",
+        "reference"
+      ]
+    },
+    {
+      "id": "P4-G21-Q3",
+      "part": 4,
+      "groupId": "P4-G21",
+      "topic": "接駁路線公告",
+      "difficulty": "800",
+      "audioText": "Speaker: Attention, visitors to the Harbor Design Fair. Because the pedestrian tunnel beneath Central Avenue is closed for an inspection, the west entrance cannot be reached from the Metro station by the usual route. Complimentary shuttle buses will leave the station's north exit every twelve minutes and stop beside Hall C. The digital map in yesterday's confirmation e-mail still shows the tunnel route, so please disregard it. Visitors who already have printed tickets may board the shuttle without checking in at the information desk.",
+      "audioTranslation": "播音員：前往港灣設計展的訪客請注意。由於中央大道下方的行人隧道因檢查而關閉，無法再由地鐵站沿平常路線前往西側入口。免費接駁車每十二分鐘從車站北側出口發車，停靠在 C 展館旁。昨日確認郵件中的電子地圖仍顯示隧道路線，請忽略該地圖。已持有紙本門票的訪客可直接搭乘接駁車，不必先到服務台報到。",
+      "prompt": "What is indicated about visitors with printed tickets?",
+      "promptZh": "關於持有紙本門票的訪客，可得知什麼？",
+      "options": [
+        {
+          "label": "A",
+          "text": "They should exchange them at the station",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "They receive priority seating in Hall C",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "They must use the west entrance",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "They may board the shuttle directly",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "最後一句說持紙本票者可直接搭接駁車，不必先到服務台報到。",
+      "keywords": [
+        "listening",
+        "talk",
+        "event",
+        "route-change",
+        "condition",
+        "inference"
+      ]
+    }
+  ]
+}

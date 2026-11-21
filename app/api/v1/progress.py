@@ -43,8 +43,14 @@ async def event(
     correct: bool | None = None
     status = data.rating
     if data.kind == "listening":
-        if item.category != "listening" or data.answer not in {"A", "B", "C"}:
-            raise APIError(422, "invalid_answer", "聽力回答必須為 A、B 或 C。")
+        valid_labels = {opt["label"] for opt in item.content.get("options", [])}
+        if item.category != "listening" or data.answer not in valid_labels:
+            raise APIError(422, "invalid_answer", "聽力回答選項無效。")
+        correct = data.answer == item.content["answer"]
+    elif data.kind == "reading":
+        valid_labels = {opt["label"] for opt in item.content.get("options", [])}
+        if item.category != "reading" or data.answer not in valid_labels:
+            raise APIError(422, "invalid_answer", "閱讀回答必須為 A、B、C 或 D。")
         correct = data.answer == item.content["answer"]
     elif data.kind == "quiz":
         if item.category != "vocabulary":
