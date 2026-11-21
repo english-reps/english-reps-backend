@@ -1,0 +1,4628 @@
+{
+  "entries": [
+    {
+      "id": "P6-001",
+      "part": 6,
+      "groupId": "P6-G01",
+      "topic": "電子郵件",
+      "difficulty": "600",
+      "passage": "To: All Staff\nSubject: Parking Area Maintenance\n\nThe north parking area will be closed on Saturday so that the surface can be _____. Employees working that day should use the visitor lot across the street.",
+      "prompt": "Choose the best word or phrase for the blank.",
+      "promptZh": "請選出最適合填入空格的字詞或片語。",
+      "options": [
+        {
+          "label": "A",
+          "text": "repairs",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "repair",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "repaired",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "repairing",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "被動語態 can be repaired。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-002",
+      "part": 6,
+      "groupId": "P6-G01",
+      "topic": "電子郵件",
+      "difficulty": "600",
+      "passage": "To: All Staff\nSubject: Parking Area Maintenance\n\nThe work is expected to finish by 4 P.M. _____, the area may reopen earlier if weather conditions remain favorable.",
+      "prompt": "Choose the best word or phrase for the blank.",
+      "promptZh": "請選出最適合填入空格的字詞或片語。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Otherwise",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "For example",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "However",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Similarly",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "前句說預計四點完成，後句補充可能更早，帶有轉折。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-003",
+      "part": 6,
+      "groupId": "P6-G01",
+      "topic": "電子郵件",
+      "difficulty": "600",
+      "passage": "To: All Staff\nSubject: Parking Area Maintenance\n\nSecurity officers will be available to _____ drivers to the temporary parking area.",
+      "prompt": "Choose the best word or phrase for the blank.",
+      "promptZh": "請選出最適合填入空格的字詞或片語。",
+      "options": [
+        {
+          "label": "A",
+          "text": "direction",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "direct",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "directed",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "directly",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "will be available to + 原形動詞 direct。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-004",
+      "part": 6,
+      "groupId": "P6-G01",
+      "topic": "電子郵件",
+      "difficulty": "800",
+      "passage": "To: All Staff\nSubject: Parking Area Maintenance\n\nWe apologize for any inconvenience this work may _____.",
+      "prompt": "Choose the best word or phrase for the blank.",
+      "promptZh": "請選出最適合填入空格的字詞或片語。",
+      "options": [
+        {
+          "label": "A",
+          "text": "causes",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "causing",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "caused",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "cause",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "may 後接原形動詞。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-005",
+      "part": 6,
+      "groupId": "P6-G02",
+      "topic": "公司公告",
+      "difficulty": "600",
+      "passage": "The annual employee health fair will take place in the main auditorium on August 12. Representatives from several local clinics _____ free basic screenings.",
+      "prompt": "Choose the best word or phrase for the blank.",
+      "promptZh": "請選出最適合填入空格的字詞或片語。",
+      "options": [
+        {
+          "label": "A",
+          "text": "will provide",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "have provided",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "provide",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "provided",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "未來活動，使用 will provide。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-006",
+      "part": 6,
+      "groupId": "P6-G02",
+      "topic": "公司公告",
+      "difficulty": "600",
+      "passage": "Employees who wish to participate should register online _____ August 8.",
+      "prompt": "Choose the best word or phrase for the blank.",
+      "promptZh": "請選出最適合填入空格的字詞或片語。",
+      "options": [
+        {
+          "label": "A",
+          "text": "at",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "by",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "among",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "from",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "截止日期使用 by。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-007",
+      "part": 6,
+      "groupId": "P6-G02",
+      "topic": "公司公告",
+      "difficulty": "800",
+      "passage": "_____ the event is free, advance registration is required because space is limited.",
+      "prompt": "Choose the best word or phrase for the blank.",
+      "promptZh": "請選出最適合填入空格的字詞或片語。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Although",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Because of",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Despite",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Unless",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "後面是完整子句 the event is free，用 although。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-008",
+      "part": 6,
+      "groupId": "P6-G02",
+      "topic": "公司公告",
+      "difficulty": "600",
+      "passage": "A detailed schedule will be sent to all _____ participants.",
+      "prompt": "Choose the best word or phrase for the blank.",
+      "promptZh": "請選出最適合填入空格的字詞或片語。",
+      "options": [
+        {
+          "label": "A",
+          "text": "registration",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "registered",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "registering",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "register",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "registered participants = 已報名的參加者。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-009",
+      "part": 6,
+      "groupId": "P6-G03",
+      "topic": "顧客通知",
+      "difficulty": "600",
+      "passage": "Thank you for purchasing a Bellmont air purifier. To ensure optimal performance, the filter should be replaced _____ six months.",
+      "prompt": "Choose the best word or phrase for the blank.",
+      "promptZh": "請選出最適合填入空格的字詞或片語。",
+      "options": [
+        {
+          "label": "A",
+          "text": "every",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "each of",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "all",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "another",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "every + 單數時間單位。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-010",
+      "part": 6,
+      "groupId": "P6-G03",
+      "topic": "顧客通知",
+      "difficulty": "600",
+      "passage": "Replacement filters can be ordered through our website or from any _____ retailer.",
+      "prompt": "Choose the best word or phrase for the blank.",
+      "promptZh": "請選出最適合填入空格的字詞或片語。",
+      "options": [
+        {
+          "label": "A",
+          "text": "authority",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "authorized",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "authorization",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "authorize",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "authorized retailer = 授權零售商。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-011",
+      "part": 6,
+      "groupId": "P6-G03",
+      "topic": "顧客通知",
+      "difficulty": "800",
+      "passage": "Customers _____ register their product online will receive maintenance reminders by e-mail.",
+      "prompt": "Choose the best word or phrase for the blank.",
+      "promptZh": "請選出最適合填入空格的字詞或片語。",
+      "options": [
+        {
+          "label": "A",
+          "text": "who",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "which",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "whom",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "whose",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "先行詞 customers 是人，關係子句缺主詞，用 who。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-012",
+      "part": 6,
+      "groupId": "P6-G03",
+      "topic": "顧客通知",
+      "difficulty": "600",
+      "passage": "Please keep your receipt, as it may be required _____ warranty service.",
+      "prompt": "Choose the best word or phrase for the blank.",
+      "promptZh": "請選出最適合填入空格的字詞或片語。",
+      "options": [
+        {
+          "label": "A",
+          "text": "with",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "to",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "by",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "for",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "required for + 名詞。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-013",
+      "part": 6,
+      "groupId": "P6-G04",
+      "topic": "內部備忘錄",
+      "difficulty": "600",
+      "passage": "Beginning next month, expense claims will be processed through the new FinanceTrack system. Employees are encouraged to attend one of the training sessions _____ this week.",
+      "prompt": "Choose the best word or phrase for the blank.",
+      "promptZh": "請選出最適合填入空格的字詞或片語。",
+      "options": [
+        {
+          "label": "A",
+          "text": "offered",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "offering",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "offer",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "offers",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "sessions offered this week = 本週提供的課程，過去分詞修飾。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-014",
+      "part": 6,
+      "groupId": "P6-G04",
+      "topic": "內部備忘錄",
+      "difficulty": "800",
+      "passage": "The sessions will explain how to upload receipts and _____ the status of a claim.",
+      "prompt": "Choose the best word or phrase for the blank.",
+      "promptZh": "請選出最適合填入空格的字詞或片語。",
+      "options": [
+        {
+          "label": "A",
+          "text": "tracking",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "tracker",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "track",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "tracked",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "與 upload 平行，使用原形 track。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-015",
+      "part": 6,
+      "groupId": "P6-G04",
+      "topic": "內部備忘錄",
+      "difficulty": "600",
+      "passage": "Managers should make sure that all team members have created an account _____ submitting their first claim.",
+      "prompt": "Choose the best word or phrase for the blank.",
+      "promptZh": "請選出最適合填入空格的字詞或片語。",
+      "options": [
+        {
+          "label": "A",
+          "text": "during",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "among",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "before",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "until",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "before + V-ing。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-016",
+      "part": 6,
+      "groupId": "P6-G04",
+      "topic": "內部備忘錄",
+      "difficulty": "800",
+      "passage": "Questions regarding the new system should be _____ to the accounting department.",
+      "prompt": "Choose the best word or phrase for the blank.",
+      "promptZh": "請選出最適合填入空格的字詞或片語。",
+      "options": [
+        {
+          "label": "A",
+          "text": "directed",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "directing",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "direction",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "direct",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "問題應被轉交，用被動 be directed to。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-017",
+      "part": 6,
+      "groupId": "P6-G05",
+      "topic": "活動通知",
+      "difficulty": "600",
+      "passage": "The Riverside Business Association will host a networking breakfast on April 22. Guests are asked to arrive by 8:15 so that the program can begin _____.",
+      "prompt": "Choose the best word or phrase for the blank.",
+      "promptZh": "請選出最適合填入空格的字詞或片語。",
+      "options": [
+        {
+          "label": "A",
+          "text": "prompt",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "promptness",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "promptly",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "prompted",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "修飾 begin，使用副詞 promptly。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-018",
+      "part": 6,
+      "groupId": "P6-G05",
+      "topic": "活動通知",
+      "difficulty": "600",
+      "passage": "The Riverside Business Association will host a networking breakfast on April 22. Each participant will have an opportunity to _____ a brief introduction.",
+      "prompt": "Choose the best word or phrase for the blank.",
+      "promptZh": "請選出最適合填入空格的字詞或片語。",
+      "options": [
+        {
+          "label": "A",
+          "text": "gave",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "give",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "given",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "giving",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "to 後接原形動詞 give。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-019",
+      "part": 6,
+      "groupId": "P6-G05",
+      "topic": "活動通知",
+      "difficulty": "800",
+      "passage": "The Riverside Business Association will host a networking breakfast on April 22. _____ attendance is limited, reservations are strongly recommended.",
+      "prompt": "Choose the best word or phrase for the blank.",
+      "promptZh": "請選出最適合填入空格的字詞或片語。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Unless",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Despite",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "During",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Because",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "後接完整子句 attendance is limited，使用 Because。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-020",
+      "part": 6,
+      "groupId": "P6-G05",
+      "topic": "活動通知",
+      "difficulty": "600",
+      "passage": "The Riverside Business Association will host a networking breakfast on April 22. Confirmation e-mails will be sent _____ registration is completed.",
+      "prompt": "Choose the best word or phrase for the blank.",
+      "promptZh": "請選出最適合填入空格的字詞或片語。",
+      "options": [
+        {
+          "label": "A",
+          "text": "meanwhile",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "during",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "despite",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "once",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "once + 子句，表示「一旦……」。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-021",
+      "part": 6,
+      "groupId": "P6-G06",
+      "topic": "服務公告",
+      "difficulty": "600",
+      "passage": "Our online banking service will be temporarily unavailable from midnight to 3 A.M. on Sunday while system updates are _____.",
+      "prompt": "Choose the best word or phrase for the blank.",
+      "promptZh": "請選出最適合填入空格的字詞或片語。",
+      "options": [
+        {
+          "label": "A",
+          "text": "perform",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "performed",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "performance",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "performing",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "更新是被執行，用被動 are performed。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-022",
+      "part": 6,
+      "groupId": "P6-G06",
+      "topic": "服務公告",
+      "difficulty": "600",
+      "passage": "Our online banking service will be temporarily unavailable from midnight to 3 A.M. on Sunday. Customers are advised to complete urgent transactions _____ the maintenance period begins.",
+      "prompt": "Choose the best word or phrase for the blank.",
+      "promptZh": "請選出最適合填入空格的字詞或片語。",
+      "options": [
+        {
+          "label": "A",
+          "text": "among",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "unless",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "through",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "before",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "在維護開始前完成，用 before。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-023",
+      "part": 6,
+      "groupId": "P6-G06",
+      "topic": "服務公告",
+      "difficulty": "800",
+      "passage": "Our online banking service will be temporarily unavailable from midnight to 3 A.M. on Sunday. We expect all services to resume normally, _____ unexpected technical problems occur.",
+      "prompt": "Choose the best word or phrase for the blank.",
+      "promptZh": "請選出最適合填入空格的字詞或片語。",
+      "options": [
+        {
+          "label": "A",
+          "text": "unless",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "although",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "because",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "therefore",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "unless = 除非。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-024",
+      "part": 6,
+      "groupId": "P6-G06",
+      "topic": "服務公告",
+      "difficulty": "600",
+      "passage": "Our online banking service will be temporarily unavailable from midnight to 3 A.M. on Sunday. We appreciate your _____ during this scheduled maintenance.",
+      "prompt": "Choose the best word or phrase for the blank.",
+      "promptZh": "請選出最適合填入空格的字詞或片語。",
+      "options": [
+        {
+          "label": "A",
+          "text": "patient",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "patients",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "patience",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "patiently",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "your 後接名詞 patience。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-025",
+      "part": 6,
+      "groupId": "P6-G07",
+      "topic": "辦公室通知",
+      "difficulty": "600",
+      "passage": "The employee cafeteria will introduce a new mobile ordering system on Monday. Staff members can use the application to place orders _____ arriving at the cafeteria.",
+      "prompt": "Choose the best word or phrase for the blank.",
+      "promptZh": "請選出最適合填入空格的字詞或片語。",
+      "options": [
+        {
+          "label": "A",
+          "text": "unless",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "through",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "among",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "before",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "before + V-ing 表示在抵達前。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-026",
+      "part": 6,
+      "groupId": "P6-G07",
+      "topic": "辦公室通知",
+      "difficulty": "600",
+      "passage": "The employee cafeteria will introduce a new mobile ordering system on Monday. Orders will be prepared in the sequence in which they are _____.",
+      "prompt": "Choose the best word or phrase for the blank.",
+      "promptZh": "請選出最適合填入空格的字詞或片語。",
+      "options": [
+        {
+          "label": "A",
+          "text": "receive",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "receiving",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "received",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "receipt",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "訂單是被收到，用被動 are received。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-027",
+      "part": 6,
+      "groupId": "P6-G07",
+      "topic": "辦公室通知",
+      "difficulty": "800",
+      "passage": "The employee cafeteria will introduce a new mobile ordering system on Monday. _____, cash payments will still be accepted at the counter.",
+      "prompt": "Choose the best word or phrase for the blank.",
+      "promptZh": "請選出最適合填入空格的字詞或片語。",
+      "options": [
+        {
+          "label": "A",
+          "text": "However",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "For example",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Likewise",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Therefore",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "雖推出行動點餐，但仍收現金，語意轉折。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-028",
+      "part": 6,
+      "groupId": "P6-G07",
+      "topic": "辦公室通知",
+      "difficulty": "600",
+      "passage": "The employee cafeteria will introduce a new mobile ordering system on Monday. Instructions for downloading the application are _____ on the employee portal.",
+      "prompt": "Choose the best word or phrase for the blank.",
+      "promptZh": "請選出最適合填入空格的字詞或片語。",
+      "options": [
+        {
+          "label": "A",
+          "text": "available",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "availably",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "availability",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "avail",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "be available on 是正確結構。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-029",
+      "part": 6,
+      "groupId": "P6-G08",
+      "topic": "員工通知",
+      "difficulty": "600",
+      "passage": "The company gym will close at 7 P.M. on Thursday so that new exercise equipment can be _____. Members should remove all personal belongings from the lockers _____ Wednesday evening. _____ the closure, employees may use the fitness center at the West Avenue branch. Normal operating hours will _____ on Friday morning.",
+      "prompt": "The company gym will close at 7 P.M. on Thursday so that new exercise equipment can be _____.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "installed",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "install",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "installing",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "installation",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "can be + 過去分詞，表示設備被安裝。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-030",
+      "part": 6,
+      "groupId": "P6-G08",
+      "topic": "員工通知",
+      "difficulty": "600",
+      "passage": "The company gym will close at 7 P.M. on Thursday so that new exercise equipment can be _____. Members should remove all personal belongings from the lockers _____ Wednesday evening. _____ the closure, employees may use the fitness center at the West Avenue branch. Normal operating hours will _____ on Friday morning.",
+      "prompt": "Members should remove all personal belongings from the lockers _____ Wednesday evening.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "by",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "during",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "among",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "from",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "by 表示最晚於星期三晚上。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-031",
+      "part": 6,
+      "groupId": "P6-G08",
+      "topic": "員工通知",
+      "difficulty": "600",
+      "passage": "The company gym will close at 7 P.M. on Thursday so that new exercise equipment can be _____. Members should remove all personal belongings from the lockers _____ Wednesday evening. _____ the closure, employees may use the fitness center at the West Avenue branch. Normal operating hours will _____ on Friday morning.",
+      "prompt": "_____ the closure, employees may use the fitness center at the West Avenue branch.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "Therefore",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Unless",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Despite",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "During",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "During + 名詞 the closure。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-032",
+      "part": 6,
+      "groupId": "P6-G08",
+      "topic": "員工通知",
+      "difficulty": "600",
+      "passage": "The company gym will close at 7 P.M. on Thursday so that new exercise equipment can be _____. Members should remove all personal belongings from the lockers _____ Wednesday evening. _____ the closure, employees may use the fitness center at the West Avenue branch. Normal operating hours will _____ on Friday morning.",
+      "prompt": "Normal operating hours will _____ on Friday morning.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "resumes",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "resumed",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "resumption",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "resume",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "will 後接原形 resume。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-033",
+      "part": 6,
+      "groupId": "P6-G09",
+      "topic": "產品召回",
+      "difficulty": "800",
+      "passage": "Customers who purchased the Model X electric kettle between March 1 and April 15 should stop _____ it immediately. A small number of units may overheat _____ the water level is too low. Affected customers can return the kettle to any authorized store for a full _____. Additional information, including a list of serial numbers, is _____ on our website.",
+      "prompt": "Customers who purchased the Model X electric kettle between March 1 and April 15 should stop _____ it immediately.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "use",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "used",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "using",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "to used",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "stop using 表示停止使用。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-034",
+      "part": 6,
+      "groupId": "P6-G09",
+      "topic": "產品召回",
+      "difficulty": "800",
+      "passage": "Customers who purchased the Model X electric kettle between March 1 and April 15 should stop _____ it immediately. A small number of units may overheat _____ the water level is too low. Affected customers can return the kettle to any authorized store for a full _____. Additional information, including a list of serial numbers, is _____ on our website.",
+      "prompt": "A small number of units may overheat _____ the water level is too low.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "during",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "because of",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "despite",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "if",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "if + 完整子句，表示條件。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-035",
+      "part": 6,
+      "groupId": "P6-G09",
+      "topic": "產品召回",
+      "difficulty": "800",
+      "passage": "Customers who purchased the Model X electric kettle between March 1 and April 15 should stop _____ it immediately. A small number of units may overheat _____ the water level is too low. Affected customers can return the kettle to any authorized store for a full _____. Additional information, including a list of serial numbers, is _____ on our website.",
+      "prompt": "Affected customers can return the kettle to any authorized store for a full _____.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "refund",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "refunding",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "refundable",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "refunded",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "full refund 是全額退款。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-036",
+      "part": 6,
+      "groupId": "P6-G09",
+      "topic": "產品召回",
+      "difficulty": "800",
+      "passage": "Customers who purchased the Model X electric kettle between March 1 and April 15 should stop _____ it immediately. A small number of units may overheat _____ the water level is too low. Affected customers can return the kettle to any authorized store for a full _____. Additional information, including a list of serial numbers, is _____ on our website.",
+      "prompt": "Additional information, including a list of serial numbers, is _____ on our website.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "availability",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "avail",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "availably",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "available",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "be available on 是正確結構。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-037",
+      "part": 6,
+      "groupId": "P6-G10",
+      "topic": "活動通知",
+      "difficulty": "600",
+      "passage": "The annual staff picnic will be held at Lakeview Park on Saturday, June 21. Employees may bring immediate family members at no additional _____. Lunch and beverages will be provided, _____ participants are encouraged to bring sunscreen. Anyone planning to attend should complete the online form _____ June 13. In the event of heavy rain, the picnic will be _____ to the following Saturday.",
+      "prompt": "The annual staff picnic will be held at Lakeview Park on Saturday, June 21. Employees may bring immediate family members at no additional _____.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "charges",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "charged",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "charge",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "charging",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "at no additional charge 是固定搭配。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-038",
+      "part": 6,
+      "groupId": "P6-G10",
+      "topic": "活動通知",
+      "difficulty": "600",
+      "passage": "The annual staff picnic will be held at Lakeview Park on Saturday, June 21. Employees may bring immediate family members at no additional _____. Lunch and beverages will be provided, _____ participants are encouraged to bring sunscreen. Anyone planning to attend should complete the online form _____ June 13. In the event of heavy rain, the picnic will be _____ to the following Saturday.",
+      "prompt": "Lunch and beverages will be provided, _____ participants are encouraged to bring sunscreen.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "therefore",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "because of",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "unless",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "but",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "前後為轉折，用 but。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-039",
+      "part": 6,
+      "groupId": "P6-G10",
+      "topic": "活動通知",
+      "difficulty": "600",
+      "passage": "The annual staff picnic will be held at Lakeview Park on Saturday, June 21. Employees may bring immediate family members at no additional _____. Lunch and beverages will be provided, _____ participants are encouraged to bring sunscreen. Anyone planning to attend should complete the online form _____ June 13. In the event of heavy rain, the picnic will be _____ to the following Saturday.",
+      "prompt": "Anyone planning to attend should complete the online form _____ June 13.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "among",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "by",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "during",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "through",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "截止日期使用 by。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-040",
+      "part": 6,
+      "groupId": "P6-G10",
+      "topic": "活動通知",
+      "difficulty": "600",
+      "passage": "The annual staff picnic will be held at Lakeview Park on Saturday, June 21. Employees may bring immediate family members at no additional _____. Lunch and beverages will be provided, _____ participants are encouraged to bring sunscreen. Anyone planning to attend should complete the online form _____ June 13. In the event of heavy rain, the picnic will be _____ to the following Saturday.",
+      "prompt": "In the event of heavy rain, the picnic will be _____ to the following Saturday.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "postponement",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "postponing",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "postpone",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "postponed",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "活動被延期，用被動 be postponed。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-041",
+      "part": 6,
+      "groupId": "P6-G11",
+      "topic": "系統通知",
+      "difficulty": "800",
+      "passage": "The customer portal has been redesigned to make account information easier to _____. Users can now download invoices, update contact details, and _____ service appointments online. Customers who experience difficulty signing in should first _____ their browser cache. If the problem continues, technical support can be reached _____ phone or e-mail.",
+      "prompt": "The customer portal has been redesigned to make account information easier to _____.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "located",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "location",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "locate",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "locating",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "make + O + adj + to V。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-042",
+      "part": 6,
+      "groupId": "P6-G11",
+      "topic": "系統通知",
+      "difficulty": "800",
+      "passage": "The customer portal has been redesigned to make account information easier to _____. Users can now download invoices, update contact details, and _____ service appointments online. Customers who experience difficulty signing in should first _____ their browser cache. If the problem continues, technical support can be reached _____ phone or e-mail.",
+      "prompt": "Users can now download invoices, update contact details, and _____ service appointments online.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "schedule",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "scheduling",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "scheduler",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "scheduled",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "與 download、update 平行，用原形。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-043",
+      "part": 6,
+      "groupId": "P6-G11",
+      "topic": "系統通知",
+      "difficulty": "800",
+      "passage": "The customer portal has been redesigned to make account information easier to _____. Users can now download invoices, update contact details, and _____ service appointments online. Customers who experience difficulty signing in should first _____ their browser cache. If the problem continues, technical support can be reached _____ phone or e-mail.",
+      "prompt": "Customers who experience difficulty signing in should first _____ their browser cache.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "clearing",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "clarity",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "clear",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "cleared",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "should 後接原形 clear。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-044",
+      "part": 6,
+      "groupId": "P6-G11",
+      "topic": "系統通知",
+      "difficulty": "800",
+      "passage": "The customer portal has been redesigned to make account information easier to _____. Users can now download invoices, update contact details, and _____ service appointments online. Customers who experience difficulty signing in should first _____ their browser cache. If the problem continues, technical support can be reached _____ phone or e-mail.",
+      "prompt": "If the problem continues, technical support can be reached _____ phone or e-mail.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "between",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "on",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "by",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "from",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "by phone / by e-mail。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-045",
+      "part": 6,
+      "groupId": "P6-G12",
+      "topic": "短文填空",
+      "difficulty": "600",
+      "passage": "Building Access Update\n\nEmployees who need weekend access must submit a request no later than Thursday _____. The facilities team will review each request and send a confirmation e-mail by Friday morning. Please note that temporary badges will be _____ only at the security desk in the main lobby. Staff members who forget their badges should not ask colleagues to let them into the building, as this would _____ company security policy. Additional instructions will be posted on the employee portal once the new system has been _____.",
+      "prompt": "Employees who need weekend access must submit a request no later than Thursday _____.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "afternoons",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "afternoonly",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "afternoon",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "afterward",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "Thursday afternoon 是時間名詞片語，表示週四下午。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-046",
+      "part": 6,
+      "groupId": "P6-G12",
+      "topic": "短文填空",
+      "difficulty": "600",
+      "passage": "Building Access Update\n\nEmployees who need weekend access must submit a request no later than Thursday _____. The facilities team will review each request and send a confirmation e-mail by Friday morning. Please note that temporary badges will be _____ only at the security desk in the main lobby. Staff members who forget their badges should not ask colleagues to let them into the building, as this would _____ company security policy. Additional instructions will be posted on the employee portal once the new system has been _____.",
+      "prompt": "Please note that temporary badges will be _____ only at the security desk in the main lobby.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "issue",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "issued",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "issuer",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "issuing",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "臨時識別證是被發放，用被動語態 issued。",
+      "keywords": [
+        "text-completion",
+        "passive"
+      ]
+    },
+    {
+      "id": "P6-047",
+      "part": 6,
+      "groupId": "P6-G12",
+      "topic": "短文填空",
+      "difficulty": "800",
+      "passage": "Building Access Update\n\nEmployees who need weekend access must submit a request no later than Thursday _____. The facilities team will review each request and send a confirmation e-mail by Friday morning. Please note that temporary badges will be _____ only at the security desk in the main lobby. Staff members who forget their badges should not ask colleagues to let them into the building, as this would _____ company security policy. Additional instructions will be posted on the employee portal once the new system has been _____.",
+      "prompt": "Staff members who forget their badges should not ask colleagues to let them into the building, as this would _____ company security policy.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "violated",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "violating",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "violate",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "violation",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "would 後接原形動詞 violate。",
+      "keywords": [
+        "text-completion",
+        "verb-form"
+      ]
+    },
+    {
+      "id": "P6-048",
+      "part": 6,
+      "groupId": "P6-G12",
+      "topic": "短文填空",
+      "difficulty": "600",
+      "passage": "Building Access Update\n\nEmployees who need weekend access must submit a request no later than Thursday _____. The facilities team will review each request and send a confirmation e-mail by Friday morning. Please note that temporary badges will be _____ only at the security desk in the main lobby. Staff members who forget their badges should not ask colleagues to let them into the building, as this would _____ company security policy. Additional instructions will be posted on the employee portal once the new system has been _____.",
+      "prompt": "Additional instructions will be posted on the employee portal once the new system has been _____.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "active",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "activation",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "actively",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "activated",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "system has been activated 是現在完成被動語態。",
+      "keywords": [
+        "text-completion",
+        "passive"
+      ]
+    },
+    {
+      "id": "P6-049",
+      "part": 6,
+      "groupId": "P6-G13",
+      "topic": "短文填空",
+      "difficulty": "600",
+      "passage": "Vendor Notice\n\nThe company has selected Greenway Supplies as its new provider of recycled packaging _____. Beginning in May, purchasing teams should place all related orders through the Greenway online catalog. The change is expected to reduce shipping waste while keeping costs _____ to current levels. Department managers are encouraged to review the catalog before their next order cycle. Any product that is not listed may be requested by _____ a special-order form. Greenway has agreed to respond to such requests within two business days, which should help prevent supply _____.",
+      "prompt": "The company has selected Greenway Supplies as its new provider of recycled packaging _____.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "materials",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "materially",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "material",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "materialize",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "packaging materials 表示包裝材料，需用複數名詞。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-050",
+      "part": 6,
+      "groupId": "P6-G13",
+      "topic": "短文填空",
+      "difficulty": "800",
+      "passage": "Vendor Notice\n\nThe company has selected Greenway Supplies as its new provider of recycled packaging _____. Beginning in May, purchasing teams should place all related orders through the Greenway online catalog. The change is expected to reduce shipping waste while keeping costs _____ to current levels. Department managers are encouraged to review the catalog before their next order cycle. Any product that is not listed may be requested by _____ a special-order form. Greenway has agreed to respond to such requests within two business days, which should help prevent supply _____.",
+      "prompt": "The change is expected to reduce shipping waste while keeping costs _____ to current levels.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "compare",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "comparable",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "comparably",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "comparison",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "keep + O + 形容詞，使用 comparable 表示與目前水準相近。",
+      "keywords": [
+        "text-completion",
+        "word-form"
+      ]
+    },
+    {
+      "id": "P6-051",
+      "part": 6,
+      "groupId": "P6-G13",
+      "topic": "短文填空",
+      "difficulty": "600",
+      "passage": "Vendor Notice\n\nThe company has selected Greenway Supplies as its new provider of recycled packaging _____. Beginning in May, purchasing teams should place all related orders through the Greenway online catalog. The change is expected to reduce shipping waste while keeping costs _____ to current levels. Department managers are encouraged to review the catalog before their next order cycle. Any product that is not listed may be requested by _____ a special-order form. Greenway has agreed to respond to such requests within two business days, which should help prevent supply _____.",
+      "prompt": "Any product that is not listed may be requested by _____ a special-order form.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "submission",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "submitting",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "submit",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "submitted",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "介系詞 by 後接動名詞 submitting。",
+      "keywords": [
+        "text-completion",
+        "gerund"
+      ]
+    },
+    {
+      "id": "P6-052",
+      "part": 6,
+      "groupId": "P6-G13",
+      "topic": "短文填空",
+      "difficulty": "800",
+      "passage": "Vendor Notice\n\nThe company has selected Greenway Supplies as its new provider of recycled packaging _____. Beginning in May, purchasing teams should place all related orders through the Greenway online catalog. The change is expected to reduce shipping waste while keeping costs _____ to current levels. Department managers are encouraged to review the catalog before their next order cycle. Any product that is not listed may be requested by _____ a special-order form. Greenway has agreed to respond to such requests within two business days, which should help prevent supply _____.",
+      "prompt": "Greenway has agreed to respond to such requests within two business days, which should help prevent supply _____.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "shorten",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "short",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "shortly",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "shortages",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "prevent supply shortages 表示避免供應短缺。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-053",
+      "part": 6,
+      "groupId": "P6-G14",
+      "topic": "短文填空",
+      "difficulty": "600",
+      "passage": "Workshop Announcement\n\nThe training department will offer a series of workshops designed to improve _____ communication. The first session will focus on writing concise project updates, while the second will address how to lead meetings with remote teams. Employees may register for either session or attend both. Because seating is limited, registration will close once each workshop has _____ capacity. Participants who complete both workshops will receive a certificate that can be added to their professional development _____. Managers are encouraged to approve requests whenever possible, as the workshops are expected to _____ collaboration across departments.",
+      "prompt": "The training department will offer a series of workshops designed to improve _____ communication.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "interdepartmental",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "interdepartmentally",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "department",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "departmentalize",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "修飾 communication 需用形容詞 interdepartmental，表示跨部門的。",
+      "keywords": [
+        "text-completion",
+        "word-form"
+      ]
+    },
+    {
+      "id": "P6-054",
+      "part": 6,
+      "groupId": "P6-G14",
+      "topic": "短文填空",
+      "difficulty": "600",
+      "passage": "Workshop Announcement\n\nThe training department will offer a series of workshops designed to improve _____ communication. The first session will focus on writing concise project updates, while the second will address how to lead meetings with remote teams. Employees may register for either session or attend both. Because seating is limited, registration will close once each workshop has _____ capacity. Participants who complete both workshops will receive a certificate that can be added to their professional development _____. Managers are encouraged to approve requests whenever possible, as the workshops are expected to _____ collaboration across departments.",
+      "prompt": "Because seating is limited, registration will close once each workshop has _____ capacity.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "reach",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "reaching",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "reached",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "reaches",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "has reached capacity 是現在完成式，表示名額已滿。",
+      "keywords": [
+        "text-completion",
+        "present-perfect"
+      ]
+    },
+    {
+      "id": "P6-055",
+      "part": 6,
+      "groupId": "P6-G14",
+      "topic": "短文填空",
+      "difficulty": "600",
+      "passage": "Workshop Announcement\n\nThe training department will offer a series of workshops designed to improve _____ communication. The first session will focus on writing concise project updates, while the second will address how to lead meetings with remote teams. Employees may register for either session or attend both. Because seating is limited, registration will close once each workshop has _____ capacity. Participants who complete both workshops will receive a certificate that can be added to their professional development _____. Managers are encouraged to approve requests whenever possible, as the workshops are expected to _____ collaboration across departments.",
+      "prompt": "Participants who complete both workshops will receive a certificate that can be added to their professional development _____.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "recording",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "recorded",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "records",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "record",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "professional development records 指專業發展紀錄，需用名詞複數。",
+      "keywords": [
+        "text-completion"
+      ]
+    },
+    {
+      "id": "P6-056",
+      "part": 6,
+      "groupId": "P6-G14",
+      "topic": "短文填空",
+      "difficulty": "800",
+      "passage": "Workshop Announcement\n\nThe training department will offer a series of workshops designed to improve _____ communication. The first session will focus on writing concise project updates, while the second will address how to lead meetings with remote teams. Employees may register for either session or attend both. Because seating is limited, registration will close once each workshop has _____ capacity. Participants who complete both workshops will receive a certificate that can be added to their professional development _____. Managers are encouraged to approve requests whenever possible, as the workshops are expected to _____ collaboration across departments.",
+      "prompt": "Managers are encouraged to approve requests whenever possible, as the workshops are expected to _____ collaboration across departments.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "strengthen",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "strongly",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "strength",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "stronger",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "be expected to 後接原形動詞 strengthen。",
+      "keywords": [
+        "text-completion",
+        "verb-form"
+      ]
+    },
+    {
+      "id": "P6-057",
+      "part": 6,
+      "groupId": "P6-G15",
+      "topic": "短文填空",
+      "difficulty": "600",
+      "passage": "Internal Memo\n\nTo improve energy efficiency, Northgate Systems will begin moving some artificial-intelligence workloads to a new _____ computing site next month. The site is located closer to several major customers, which should reduce data-transfer delays. Before the migration begins, each department must identify applications that can be moved without _____ customer records. A temporary support desk will be available during the transition. Employees who experience unusual system slowdowns should report them _____ so the infrastructure team can respond quickly. The company expects the change to lower operating costs while maintaining _____ service quality.",
+      "prompt": "To improve energy efficiency, Northgate Systems will begin moving some artificial-intelligence workloads to a new _____ computing site next month.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "edgewise",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "edge",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "edged",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "edging",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "edge computing 是固定科技用語，表示邊緣運算。",
+      "keywords": [
+        "text-completion",
+        "technology",
+        "vocabulary"
+      ]
+    },
+    {
+      "id": "P6-058",
+      "part": 6,
+      "groupId": "P6-G15",
+      "topic": "短文填空",
+      "difficulty": "800",
+      "passage": "Internal Memo\n\nTo improve energy efficiency, Northgate Systems will begin moving some artificial-intelligence workloads to a new _____ computing site next month. The site is located closer to several major customers, which should reduce data-transfer delays. Before the migration begins, each department must identify applications that can be moved without _____ customer records. A temporary support desk will be available during the transition. Employees who experience unusual system slowdowns should report them _____ so the infrastructure team can respond quickly. The company expects the change to lower operating costs while maintaining _____ service quality.",
+      "prompt": "Before the migration begins, each department must identify applications that can be moved without _____ customer records.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "expose",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "exposing",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "exposed",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "exposure",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "without 是介系詞，後接動名詞 exposing。",
+      "keywords": [
+        "text-completion",
+        "gerund",
+        "privacy"
+      ]
+    },
+    {
+      "id": "P6-059",
+      "part": 6,
+      "groupId": "P6-G15",
+      "topic": "短文填空",
+      "difficulty": "600",
+      "passage": "Internal Memo\n\nTo improve energy efficiency, Northgate Systems will begin moving some artificial-intelligence workloads to a new _____ computing site next month. The site is located closer to several major customers, which should reduce data-transfer delays. Before the migration begins, each department must identify applications that can be moved without _____ customer records. A temporary support desk will be available during the transition. Employees who experience unusual system slowdowns should report them _____ so the infrastructure team can respond quickly. The company expects the change to lower operating costs while maintaining _____ service quality.",
+      "prompt": "Employees who experience unusual system slowdowns should report them _____ so the infrastructure team can respond quickly.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "immediate",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "immediacy",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "immediateness",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "immediately",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "修飾 report them 需用副詞 immediately。",
+      "keywords": [
+        "text-completion",
+        "adverb"
+      ]
+    },
+    {
+      "id": "P6-060",
+      "part": 6,
+      "groupId": "P6-G15",
+      "topic": "短文填空",
+      "difficulty": "800",
+      "passage": "Internal Memo\n\nTo improve energy efficiency, Northgate Systems will begin moving some artificial-intelligence workloads to a new _____ computing site next month. The site is located closer to several major customers, which should reduce data-transfer delays. Before the migration begins, each department must identify applications that can be moved without _____ customer records. A temporary support desk will be available during the transition. Employees who experience unusual system slowdowns should report them _____ so the infrastructure team can respond quickly. The company expects the change to lower operating costs while maintaining _____ service quality.",
+      "prompt": "The company expects the change to lower operating costs while maintaining _____ service quality.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "consistent",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "consistently",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "consist",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "consistency",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "service quality 是名詞片語，前方需用形容詞 consistent 修飾。",
+      "keywords": [
+        "text-completion",
+        "word-form",
+        "adjective"
+      ]
+    },
+    {
+      "id": "P6-061",
+      "part": 6,
+      "groupId": "P6-G16",
+      "topic": "短文填空",
+      "difficulty": "600",
+      "passage": "Notice to Employees\n\nCascade Labs will begin a two-week trial of an AI meeting assistant that creates _____ summaries after online meetings. Employees may use the tool only for meetings in which all participants have _____ their consent. Recordings will be deleted automatically unless a project manager _____ a longer retention period. Please review the usage guide carefully _____ scheduling your first AI-assisted meeting.",
+      "prompt": "Cascade Labs will begin a two-week trial of an AI meeting assistant that creates _____ summaries after online meetings.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "conciser",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "concise",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "conciseness",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "concisely",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "summaries 是名詞，前面需用形容詞 concise 修飾。",
+      "keywords": [
+        "text-completion",
+        "word-form",
+        "ai",
+        "meetings"
+      ]
+    },
+    {
+      "id": "P6-062",
+      "part": 6,
+      "groupId": "P6-G16",
+      "topic": "短文填空",
+      "difficulty": "800",
+      "passage": "Notice to Employees\n\nCascade Labs will begin a two-week trial of an AI meeting assistant that creates _____ summaries after online meetings. Employees may use the tool only for meetings in which all participants have _____ their consent. Recordings will be deleted automatically unless a project manager _____ a longer retention period. Please review the usage guide carefully _____ scheduling your first AI-assisted meeting.",
+      "prompt": "Employees may use the tool only for meetings in which all participants have _____ their consent.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "giving",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "give",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "gives",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "given",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "have 後接過去分詞形成現在完成式；give consent 的過去分詞是 given。",
+      "keywords": [
+        "text-completion",
+        "present-perfect",
+        "privacy"
+      ]
+    },
+    {
+      "id": "P6-063",
+      "part": 6,
+      "groupId": "P6-G16",
+      "topic": "短文填空",
+      "difficulty": "800",
+      "passage": "Notice to Employees\n\nCascade Labs will begin a two-week trial of an AI meeting assistant that creates _____ summaries after online meetings. Employees may use the tool only for meetings in which all participants have _____ their consent. Recordings will be deleted automatically unless a project manager _____ a longer retention period. Please review the usage guide carefully _____ scheduling your first AI-assisted meeting.",
+      "prompt": "Recordings will be deleted automatically unless a project manager _____ a longer retention period.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "requesting",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "requested",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "requests",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "request",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "unless 子句主詞是 a project manager，現在簡單式第三人稱單數用 requests。",
+      "keywords": [
+        "text-completion",
+        "verb-form",
+        "retention"
+      ]
+    },
+    {
+      "id": "P6-064",
+      "part": 6,
+      "groupId": "P6-G16",
+      "topic": "短文填空",
+      "difficulty": "600",
+      "passage": "Notice to Employees\n\nCascade Labs will begin a two-week trial of an AI meeting assistant that creates _____ summaries after online meetings. Employees may use the tool only for meetings in which all participants have _____ their consent. Recordings will be deleted automatically unless a project manager _____ a longer retention period. Please review the usage guide carefully _____ scheduling your first AI-assisted meeting.",
+      "prompt": "Please review the usage guide carefully _____ scheduling your first AI-assisted meeting.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "before",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "rather",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "until",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "despite",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "句意是「排定第一次 AI 輔助會議前先閱讀指南」，before 最符合語意。",
+      "keywords": [
+        "text-completion",
+        "connector",
+        "ai"
+      ]
+    },
+    {
+      "id": "P6-065",
+      "part": 6,
+      "groupId": "P6-G17",
+      "topic": "短文填空",
+      "difficulty": "600",
+      "passage": "Project Notice\n\nThe customer analytics group will launch a synthetic-data project to test new dashboards without using _____ client records. The project is intended to help analysts experiment with report layouts while protecting privacy. Before the data set is released, the legal department must confirm that the fields cannot be traced back to _____ customers. Team members should document any assumptions they make, _____ the model may produce unrealistic purchasing patterns. A review meeting will be held next Friday to decide whether the data set is ready for wider use.",
+      "prompt": "The customer analytics group will launch a synthetic-data project to test new dashboards without using _____ client records.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "actuality",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "actually",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "actual",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "actualize",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "client records 是名詞片語，前面需要形容詞 actual。",
+      "keywords": [
+        "text-completion",
+        "word-form",
+        "data-governance"
+      ]
+    },
+    {
+      "id": "P6-066",
+      "part": 6,
+      "groupId": "P6-G17",
+      "topic": "短文填空",
+      "difficulty": "800",
+      "passage": "Project Notice\n\nThe customer analytics group will launch a synthetic-data project to test new dashboards without using _____ client records. The project is intended to help analysts experiment with report layouts while protecting privacy. Before the data set is released, the legal department must confirm that the fields cannot be traced back to _____ customers. Team members should document any assumptions they make, _____ the model may produce unrealistic purchasing patterns. A review meeting will be held next Friday to decide whether the data set is ready for wider use.",
+      "prompt": "Before the data set is released, the legal department must confirm that the fields cannot be traced back to _____ customers.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "individually",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "individualize",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "individual",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "individuality",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "customers 是名詞，前面需要形容詞 individual，表示個別客戶。",
+      "keywords": [
+        "text-completion",
+        "adjective",
+        "privacy"
+      ]
+    },
+    {
+      "id": "P6-067",
+      "part": 6,
+      "groupId": "P6-G17",
+      "topic": "短文填空",
+      "difficulty": "800",
+      "passage": "Project Notice\n\nThe customer analytics group will launch a synthetic-data project to test new dashboards without using _____ client records. The project is intended to help analysts experiment with report layouts while protecting privacy. Before the data set is released, the legal department must confirm that the fields cannot be traced back to _____ customers. Team members should document any assumptions they make, _____ the model may produce unrealistic purchasing patterns. A review meeting will be held next Friday to decide whether the data set is ready for wider use.",
+      "prompt": "Team members should document any assumptions they make, _____ the model may produce unrealistic purchasing patterns.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "since",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "instead",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "until",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "despite",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "後半句說明原因：模型可能產生不真實的購買模式，因此用 since。",
+      "keywords": [
+        "text-completion",
+        "connector",
+        "since"
+      ]
+    },
+    {
+      "id": "P6-068",
+      "part": 6,
+      "groupId": "P6-G17",
+      "topic": "短文填空",
+      "difficulty": "600",
+      "passage": "Project Notice\n\nThe customer analytics group will launch a synthetic-data project to test new dashboards without using _____ client records. The project is intended to help analysts experiment with report layouts while protecting privacy. Before the data set is released, the legal department must confirm that the fields cannot be traced back to _____ customers. Team members should document any assumptions they make, _____ the model may produce unrealistic purchasing patterns. A review meeting will be held next Friday to decide whether the data set is ready for wider use.",
+      "prompt": "A review meeting will be held next Friday to decide whether the data set is ready for _____ use.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "width",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "wider",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "widen",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "widely",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "use 是名詞，前面需用形容詞 wider 修飾，表示更廣泛的使用。",
+      "keywords": [
+        "text-completion",
+        "word-form",
+        "adjective"
+      ]
+    },
+    {
+      "id": "P6-069",
+      "part": 6,
+      "groupId": "P6-G18",
+      "topic": "短文填空",
+      "difficulty": "600",
+      "passage": "Internal Announcement\n\nBeginning next month, Meridian Foods will test smart temperature labels on selected refrigerated shipments to _____ product freshness. The labels change color if a package has been exposed to unsafe temperatures for more than twenty minutes. Drivers must scan each label _____ unloading the shipment at a store. If a label indicates a possible issue, the shipment should be set aside for inspection rather than _____ placed on shelves. The operations team will review the trial results in October.",
+      "prompt": "Beginning next month, Meridian Foods will test smart temperature labels on selected refrigerated shipments to _____ product freshness.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "monitored",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "monitor",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "monitorable",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "monitoring",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "to 後面接原形動詞，monitor 表示監控。",
+      "keywords": [
+        "text-completion",
+        "verb-form",
+        "food-logistics"
+      ]
+    },
+    {
+      "id": "P6-070",
+      "part": 6,
+      "groupId": "P6-G18",
+      "topic": "短文填空",
+      "difficulty": "600",
+      "passage": "Internal Announcement\n\nBeginning next month, Meridian Foods will test smart temperature labels on selected refrigerated shipments to _____ product freshness. The labels change color if a package has been exposed to unsafe temperatures for more than twenty minutes. Drivers must scan each label _____ unloading the shipment at a store. If a label indicates a possible issue, the shipment should be set aside for inspection rather than _____ placed on shelves. The operations team will review the trial results in October.",
+      "prompt": "Drivers must scan each label _____ unloading the shipment at a store.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "therefore",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "despite",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "before",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "unless",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "語意是卸貨前要掃描標籤，使用 before。",
+      "keywords": [
+        "text-completion",
+        "connector",
+        "before"
+      ]
+    },
+    {
+      "id": "P6-071",
+      "part": 6,
+      "groupId": "P6-G18",
+      "topic": "短文填空",
+      "difficulty": "800",
+      "passage": "Internal Announcement\n\nBeginning next month, Meridian Foods will test smart temperature labels on selected refrigerated shipments to _____ product freshness. The labels change color if a package has been exposed to unsafe temperatures for more than twenty minutes. Drivers must scan each label _____ unloading the shipment at a store. If a label indicates a possible issue, the shipment should be set aside for inspection rather than _____ placed on shelves. The operations team will review the trial results in October.",
+      "prompt": "If a label indicates a possible issue, the shipment should be set aside for inspection rather than _____ placed on shelves.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "immediacy",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "immediate",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "immediately",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "immensity",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "placed 是動詞片語的一部分，需用副詞 immediately 修飾。",
+      "keywords": [
+        "text-completion",
+        "adverb",
+        "quality-control"
+      ]
+    },
+    {
+      "id": "P6-072",
+      "part": 6,
+      "groupId": "P6-G18",
+      "topic": "短文填空",
+      "difficulty": "600",
+      "passage": "Internal Announcement\n\nBeginning next month, Meridian Foods will test smart temperature labels on selected refrigerated shipments to _____ product freshness. The labels change color if a package has been exposed to unsafe temperatures for more than twenty minutes. Drivers must scan each label _____ unloading the shipment at a store. If a label indicates a possible issue, the shipment should be set aside for inspection rather than _____ placed on shelves. The operations team will review the trial results in October.",
+      "prompt": "The operations team will review the trial results in _____.",
+      "promptZh": "",
+      "options": [
+        {
+          "label": "A",
+          "text": "freshness",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "selected",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "October",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "unsafe",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "文末句需要時間名詞，in October 表示在十月。",
+      "keywords": [
+        "text-completion",
+        "date",
+        "detail"
+      ]
+    },
+    {
+      "id": "P6-G16-Q1",
+      "part": 6,
+      "groupId": "P6-G29",
+      "topic": "系統維護通知",
+      "difficulty": "600",
+      "passage": "To all sales staff,\n\nThe client database is (1) _____ to be unavailable from 8 P.M. to 10 P.M. on Thursday while the IT team installs a security update. During this period, please avoid entering new customer records. If you receive urgent information from a client, save it in the temporary spreadsheet attached to this message. The database will be checked again after the update is complete, and normal access should resume by Friday morning.",
+      "prompt": "Choose the best answer for blank (1).",
+      "promptZh": "選出空格 (1) 的最佳答案。",
+      "options": [
+        {
+          "label": "A",
+          "text": "scheduler",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "scheduled",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "scheduling",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "schedule",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "be scheduled to V 表示預定做某事，符合系統維護公告語境。",
+      "keywords": [
+        "part6",
+        "announcement",
+        "word-form"
+      ]
+    },
+    {
+      "id": "P6-G16-Q2",
+      "part": 6,
+      "groupId": "P6-G29",
+      "topic": "系統維護通知",
+      "difficulty": "600",
+      "passage": "To all sales staff,\n\nThe client database is (1) scheduled to be unavailable from 8 P.M. to 10 P.M. on Thursday (2) _____ the IT team installs a security update. During this period, please avoid entering new customer records. If you receive urgent information from a client, save it in the temporary spreadsheet attached to this message. The database will be checked again after the update is complete, and normal access should resume by Friday morning.",
+      "prompt": "Choose the best answer for blank (2).",
+      "promptZh": "選出空格 (2) 的最佳答案。",
+      "options": [
+        {
+          "label": "A",
+          "text": "despite",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "unless",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "throughout",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "while",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "while 引導時間子句，表示 IT 團隊安裝更新期間資料庫不可用。",
+      "keywords": [
+        "part6",
+        "announcement",
+        "connector"
+      ]
+    },
+    {
+      "id": "P6-G16-Q3",
+      "part": 6,
+      "groupId": "P6-G29",
+      "topic": "系統維護通知",
+      "difficulty": "800",
+      "passage": "To all sales staff,\n\nThe client database is scheduled to be unavailable from 8 P.M. to 10 P.M. on Thursday while the IT team installs a security update. During this period, please avoid entering new customer records. (3) _____. If you receive urgent information from a client, save it in the temporary spreadsheet attached to this message. The database will be checked again after the update is complete, and normal access should resume by Friday morning.",
+      "prompt": "Choose the best sentence for blank (3).",
+      "promptZh": "選出空格 (3) 的最佳句子。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Customers should visit the cafeteria first.",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A replacement projector has already arrived.",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "The sales team won an award last year.",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "This will prevent incomplete data from being saved.",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "前句要求不要輸入新客戶資料，後句說可先存到暫用表格，因此此句說明避免不完整資料被儲存最連貫。",
+      "keywords": [
+        "part6",
+        "sentence-insertion",
+        "coherence"
+      ]
+    },
+    {
+      "id": "P6-G16-Q4",
+      "part": 6,
+      "groupId": "P6-G29",
+      "topic": "系統維護通知",
+      "difficulty": "600",
+      "passage": "To all sales staff,\n\nThe client database is scheduled to be unavailable from 8 P.M. to 10 P.M. on Thursday while the IT team installs a security update. During this period, please avoid entering new customer records. This will prevent incomplete data from being saved. If you receive urgent information from a client, save it in the temporary spreadsheet attached to this message. The database will be checked again after the update is complete, and normal access should (4) _____ by Friday morning.",
+      "prompt": "Choose the best answer for blank (4).",
+      "promptZh": "選出空格 (4) 的最佳答案。",
+      "options": [
+        {
+          "label": "A",
+          "text": "resume",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "remove",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "replace",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "reserve",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "resume 表示恢復，normal access should resume 表示正常存取應會恢復。",
+      "keywords": [
+        "part6",
+        "vocabulary",
+        "announcement"
+      ]
+    },
+    {
+      "id": "P6-G17-Q1",
+      "part": 6,
+      "groupId": "P6-G30",
+      "topic": "產品保固信件",
+      "difficulty": "600",
+      "passage": "Dear Ms. Chen,\n\nThank you for contacting Meridia Appliances. Our records show that you (1) _____ purchased a Model X500 air purifier from our online store. The warranty covers replacement parts for two years, but it does not include damage caused by improper installation. Please send us a photograph of the serial number label so that we can verify your purchase. Once we receive it, a service representative will contact you within one business day.",
+      "prompt": "Choose the best answer for blank (1).",
+      "promptZh": "選出空格 (1) 的最佳答案。",
+      "options": [
+        {
+          "label": "A",
+          "text": "recent",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "recents",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "recency",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "recently",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "空格修飾 purchased，應使用副詞 recently。",
+      "keywords": [
+        "part6",
+        "email",
+        "adverb"
+      ]
+    },
+    {
+      "id": "P6-G17-Q2",
+      "part": 6,
+      "groupId": "P6-G30",
+      "topic": "產品保固信件",
+      "difficulty": "600",
+      "passage": "Dear Ms. Chen,\n\nThank you for contacting Meridia Appliances. Our records show that you recently purchased a Model X500 air purifier from our online store. The warranty (2) _____ replacement parts for two years, but it does not include damage caused by improper installation. Please send us a photograph of the serial number label so that we can verify your purchase. Once we receive it, a service representative will contact you within one business day.",
+      "prompt": "Choose the best answer for blank (2).",
+      "promptZh": "選出空格 (2) 的最佳答案。",
+      "options": [
+        {
+          "label": "A",
+          "text": "to cover",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "covering",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "covers",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "coverage",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "主詞 The warranty 是單數，句子需要現在式動詞 covers。",
+      "keywords": [
+        "part6",
+        "email",
+        "verb"
+      ]
+    },
+    {
+      "id": "P6-G17-Q3",
+      "part": 6,
+      "groupId": "P6-G30",
+      "topic": "產品保固信件",
+      "difficulty": "800",
+      "passage": "Dear Ms. Chen,\n\nThank you for contacting Meridia Appliances. Our records show that you recently purchased a Model X500 air purifier from our online store. The warranty covers replacement parts for two years, but it does not include damage caused by improper installation. Please send us a photograph of the serial number label so that we can verify your purchase. (3) _____. Once we receive it, a service representative will contact you within one business day.",
+      "prompt": "Choose the best sentence for blank (3).",
+      "promptZh": "選出空格 (3) 的最佳句子。",
+      "options": [
+        {
+          "label": "A",
+          "text": "You may download the restaurant menu online.",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "This information is required before we can arrange a repair.",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Our office will move to a new location.",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "The product is available in three colors.",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "前句要求寄序號照片以確認購買，接著說需要這些資訊才能安排維修最連貫。",
+      "keywords": [
+        "part6",
+        "sentence-insertion",
+        "email"
+      ]
+    },
+    {
+      "id": "P6-G17-Q4",
+      "part": 6,
+      "groupId": "P6-G30",
+      "topic": "產品保固信件",
+      "difficulty": "600",
+      "passage": "Dear Ms. Chen,\n\nThank you for contacting Meridia Appliances. Our records show that you recently purchased a Model X500 air purifier from our online store. The warranty covers replacement parts for two years, but it does not include damage caused by improper installation. Please send us a photograph of the serial number label so that we can verify your purchase. This information is required before we can arrange a repair. Once we receive it, a service representative will contact you (4) _____ one business day.",
+      "prompt": "Choose the best answer for blank (4).",
+      "promptZh": "選出空格 (4) 的最佳答案。",
+      "options": [
+        {
+          "label": "A",
+          "text": "between",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "within",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "among",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "onto",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "within one business day 表示一個工作天內，是常見客服回覆用語。",
+      "keywords": [
+        "part6",
+        "preposition",
+        "email"
+      ]
+    },
+    {
+      "id": "P6-G18-Q1",
+      "part": 6,
+      "groupId": "P6-G31",
+      "topic": "人力資源公告",
+      "difficulty": "600",
+      "passage": "Human Resources Notice\n\nAll supervisors are reminded that mandatory (1) _____ in the leadership survey begins next Monday. The survey takes about ten minutes to complete and asks about communication, scheduling, and employee development. Responses will be anonymous, and results will be shared only in summary form. Supervisors who complete the survey by Wednesday will receive early access to the new coaching toolkit.",
+      "prompt": "Choose the best answer for blank (1).",
+      "promptZh": "選出空格 (1) 的最佳答案。",
+      "options": [
+        {
+          "label": "A",
+          "text": "participate",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "participating",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "participation",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "participant",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "空格前有形容詞 mandatory，後面需要名詞 participation，表示強制參與。",
+      "keywords": [
+        "part6",
+        "notice",
+        "word-form"
+      ]
+    },
+    {
+      "id": "P6-G18-Q2",
+      "part": 6,
+      "groupId": "P6-G31",
+      "topic": "人力資源公告",
+      "difficulty": "600",
+      "passage": "Human Resources Notice\n\nAll supervisors are reminded that mandatory participation in the leadership survey begins next Monday. The survey takes about ten minutes to complete and asks about communication, scheduling, and employee development. Responses will be (2) _____, and results will be shared only in summary form. Supervisors who complete the survey by Wednesday will receive early access to the new coaching toolkit.",
+      "prompt": "Choose the best answer for blank (2).",
+      "promptZh": "選出空格 (2) 的最佳答案。",
+      "options": [
+        {
+          "label": "A",
+          "text": "anonymize",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "anonymity",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "anonymously",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "anonymous",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "be 動詞後需要形容詞 anonymous，表示回覆將匿名。",
+      "keywords": [
+        "part6",
+        "notice",
+        "adjective"
+      ]
+    },
+    {
+      "id": "P6-G18-Q3",
+      "part": 6,
+      "groupId": "P6-G31",
+      "topic": "人力資源公告",
+      "difficulty": "800",
+      "passage": "Human Resources Notice\n\nAll supervisors are reminded that mandatory participation in the leadership survey begins next Monday. The survey takes about ten minutes to complete and asks about communication, scheduling, and employee development. Responses will be anonymous, and results will be shared only in summary form. (3) _____. Supervisors who complete the survey by Wednesday will receive early access to the new coaching toolkit.",
+      "prompt": "Choose the best sentence for blank (3).",
+      "promptZh": "選出空格 (3) 的最佳句子。",
+      "options": [
+        {
+          "label": "A",
+          "text": "The finance team will issue travel vouchers.",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "The toolkit can be purchased in the lobby.",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "This approach is intended to encourage honest feedback.",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A larger projector will be installed today.",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "前句說回覆匿名、結果只以摘要分享，後句補充此做法是為鼓勵誠實回饋，最合邏輯。",
+      "keywords": [
+        "part6",
+        "sentence-insertion",
+        "coherence"
+      ]
+    },
+    {
+      "id": "P6-G18-Q4",
+      "part": 6,
+      "groupId": "P6-G31",
+      "topic": "人力資源公告",
+      "difficulty": "600",
+      "passage": "Human Resources Notice\n\nAll supervisors are reminded that mandatory participation in the leadership survey begins next Monday. The survey takes about ten minutes to complete and asks about communication, scheduling, and employee development. Responses will be anonymous, and results will be shared only in summary form. This approach is intended to encourage honest feedback. Supervisors who complete the survey by Wednesday will receive early (4) _____ to the new coaching toolkit.",
+      "prompt": "Choose the best answer for blank (4).",
+      "promptZh": "選出空格 (4) 的最佳答案。",
+      "options": [
+        {
+          "label": "A",
+          "text": "access",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "accessible",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "accessing",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "accessed",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "receive early access to... 是固定搭配，表示提早取得使用權。",
+      "keywords": [
+        "part6",
+        "collocation",
+        "notice"
+      ]
+    },
+    {
+      "id": "P6-G19-Q1",
+      "part": 6,
+      "groupId": "P6-G19",
+      "topic": "活動邀請",
+      "difficulty": "600",
+      "passage": "Dear Colleagues,\n\nWe are (1) _____ to announce that the annual supplier forum will be held at the Harbor Conference Center on June 18. This year's program will focus on sustainable packaging and faster delivery tracking. Because seating is limited, each department may send no more than two representatives. Please register by May 30 so that we can prepare name badges and meal vouchers.",
+      "prompt": "Choose the best answer for blank (1).",
+      "promptZh": "選出空格 (1) 的最佳答案。",
+      "options": [
+        {
+          "label": "A",
+          "text": "pleased",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "pleasing",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "please",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "pleasure",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "We are pleased to announce... 是正式通知常見開頭，表示很高興宣布。",
+      "keywords": [
+        "part6",
+        "invitation",
+        "word-form"
+      ]
+    },
+    {
+      "id": "P6-G19-Q2",
+      "part": 6,
+      "groupId": "P6-G19",
+      "topic": "活動邀請",
+      "difficulty": "600",
+      "passage": "Dear Colleagues,\n\nWe are pleased to announce that the annual supplier forum will be held at the Harbor Conference Center on June 18. This year's program (2) _____ on sustainable packaging and faster delivery tracking. Because seating is limited, each department may send no more than two representatives. Please register by May 30 so that we can prepare name badges and meal vouchers.",
+      "prompt": "Choose the best answer for blank (2).",
+      "promptZh": "選出空格 (2) 的最佳答案。",
+      "options": [
+        {
+          "label": "A",
+          "text": "will focus",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "focused",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "focusing",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "to focus",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "This year's program 是主詞，後面需要未來式動詞 will focus。",
+      "keywords": [
+        "part6",
+        "verb",
+        "future"
+      ]
+    },
+    {
+      "id": "P6-G19-Q3",
+      "part": 6,
+      "groupId": "P6-G19",
+      "topic": "活動邀請",
+      "difficulty": "800",
+      "passage": "Dear Colleagues,\n\nWe are pleased to announce that the annual supplier forum will be held at the Harbor Conference Center on June 18. This year's program will focus on sustainable packaging and faster delivery tracking. (3) _____. Because seating is limited, each department may send no more than two representatives. Please register by May 30 so that we can prepare name badges and meal vouchers.",
+      "prompt": "Choose the best sentence for blank (3).",
+      "promptZh": "選出空格 (3) 的最佳句子。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Several logistics experts will also join a panel discussion.",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "The cafeteria will be closed for renovations.",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "The printer warranty expired last month.",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Employees should archive old survey files.",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "前文談論壇議程，加入 logistics experts 的 panel discussion 與活動內容相關，銜接最自然。",
+      "keywords": [
+        "part6",
+        "sentence-insertion",
+        "event"
+      ]
+    },
+    {
+      "id": "P6-G19-Q4",
+      "part": 6,
+      "groupId": "P6-G19",
+      "topic": "活動邀請",
+      "difficulty": "600",
+      "passage": "Dear Colleagues,\n\nWe are pleased to announce that the annual supplier forum will be held at the Harbor Conference Center on June 18. This year's program will focus on sustainable packaging and faster delivery tracking. Several logistics experts will also join a panel discussion. Because seating is limited, each department may send no more than two representatives. Please register by May 30 (4) _____ we can prepare name badges and meal vouchers.",
+      "prompt": "Choose the best answer for blank (4).",
+      "promptZh": "選出空格 (4) 的最佳答案。",
+      "options": [
+        {
+          "label": "A",
+          "text": "even if",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "as soon",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "so that",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "rather than",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "so that 表示目的：請先註冊，以便準備名牌與餐券。",
+      "keywords": [
+        "part6",
+        "connector",
+        "purpose"
+      ]
+    },
+    {
+      "id": "P6-G28-Q1",
+      "part": 6,
+      "groupId": "P6-G28",
+      "topic": "資料保留政策",
+      "difficulty": "800",
+      "passage": "INTERNAL NOTICE\n\nLast quarter, the records team tested automatic deletion for files that had reached the end of their retention period. The pilot reduced storage costs, but one folder subject to a legal hold was mistakenly placed in the deletion queue. _____ (1) Accordingly, automatic deletion will remain disabled while the team adds a second verification step.\n\nDuring the next trial, the system will generate a review list rather than delete files immediately. _____ (2) Department managers will have two business days to report any exception. To make those reviews more _____ (3), each entry will display the policy that determines its proposed deletion date. If the next trial produces no unresolved exceptions, a broader launch _____ (4) for October.",
+      "prompt": "Select the best sentence for blank (1).",
+      "promptZh": "選出最適合填入第 (1) 空格的句子。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Storage prices are listed on the vendor's public website.",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "The team therefore paused the process before any files were removed.",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "The legal office moved to another floor.",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Several departments requested larger filing cabinets.",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "前句指出受法律保留的資料夾被錯列入刪除佇列，後句以 Accordingly 說停用自動刪除；暫停程序最能銜接因果。",
+      "keywords": [
+        "part6",
+        "records-management",
+        "legal-hold",
+        "governance"
+      ]
+    },
+    {
+      "id": "P6-G28-Q2",
+      "part": 6,
+      "groupId": "P6-G28",
+      "topic": "資料保留政策",
+      "difficulty": "800",
+      "passage": "INTERNAL NOTICE\n\nLast quarter, the records team tested automatic deletion for files that had reached the end of their retention period. The pilot reduced storage costs, but one folder subject to a legal hold was mistakenly placed in the deletion queue. _____ (1) Accordingly, automatic deletion will remain disabled while the team adds a second verification step.\n\nDuring the next trial, the system will generate a review list rather than delete files immediately. _____ (2) Department managers will have two business days to report any exception. To make those reviews more _____ (3), each entry will display the policy that determines its proposed deletion date. If the next trial produces no unresolved exceptions, a broader launch _____ (4) for October.",
+      "prompt": "Select the best sentence for blank (2).",
+      "promptZh": "選出最適合填入第 (2) 空格的句子。",
+      "options": [
+        {
+          "label": "A",
+          "text": "The vendor has opened a new regional office.",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "The list will then be sent to the relevant department managers.",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "The launch event attracted several reporters.",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "The files were printed in alphabetical order.",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "下一句說部門主管有兩個工作天回報例外，因此前句必須先交代審查清單會送交這些主管。",
+      "keywords": [
+        "part6",
+        "records-management",
+        "legal-hold",
+        "governance"
+      ]
+    },
+    {
+      "id": "P6-G28-Q3",
+      "part": 6,
+      "groupId": "P6-G28",
+      "topic": "資料保留政策",
+      "difficulty": "800",
+      "passage": "INTERNAL NOTICE\n\nLast quarter, the records team tested automatic deletion for files that had reached the end of their retention period. The pilot reduced storage costs, but one folder subject to a legal hold was mistakenly placed in the deletion queue. _____ (1) Accordingly, automatic deletion will remain disabled while the team adds a second verification step.\n\nDuring the next trial, the system will generate a review list rather than delete files immediately. _____ (2) Department managers will have two business days to report any exception. To make those reviews more _____ (3), each entry will display the policy that determines its proposed deletion date. If the next trial produces no unresolved exceptions, a broader launch _____ (4) for October.",
+      "prompt": "Choose the best word for blank (3).",
+      "promptZh": "選出最適合填入第 (3) 空格的字。",
+      "options": [
+        {
+          "label": "A",
+          "text": "informatively",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "informative",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "inform",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "information",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "make + 受詞 + 形容詞，空格作 reviews 的受詞補語，應用 informative 表示「更具資訊性」。",
+      "keywords": [
+        "part6",
+        "records-management",
+        "legal-hold",
+        "governance"
+      ]
+    },
+    {
+      "id": "P6-G28-Q4",
+      "part": 6,
+      "groupId": "P6-G28",
+      "topic": "資料保留政策",
+      "difficulty": "800",
+      "passage": "INTERNAL NOTICE\n\nLast quarter, the records team tested automatic deletion for files that had reached the end of their retention period. The pilot reduced storage costs, but one folder subject to a legal hold was mistakenly placed in the deletion queue. _____ (1) Accordingly, automatic deletion will remain disabled while the team adds a second verification step.\n\nDuring the next trial, the system will generate a review list rather than delete files immediately. _____ (2) Department managers will have two business days to report any exception. To make those reviews more _____ (3), each entry will display the policy that determines its proposed deletion date. If the next trial produces no unresolved exceptions, a broader launch _____ (4) for October.",
+      "prompt": "Choose the best phrase for blank (4).",
+      "promptZh": "選出最適合填入第 (4) 空格的片語。",
+      "options": [
+        {
+          "label": "A",
+          "text": "will be scheduled",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "will schedule",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "has scheduled",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "scheduling",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "launch 是被安排，且條件成立後屬未來結果，應用未來被動 will be scheduled。",
+      "keywords": [
+        "part6",
+        "records-management",
+        "legal-hold",
+        "governance"
+      ]
+    },
+    {
+      "id": "P6-G32-Q1",
+      "part": 6,
+      "groupId": "P6-G32",
+      "topic": "培訓課程郵件",
+      "difficulty": "800",
+      "passage": "To: Project Leads\nFrom: Learning and Development\nSubject: Responsible Automation Workshops\n\nNext month, we will offer several workshops for employees who are (1) _____ in managing automated workplace tools. The sessions will help participants (2) _____ a stronger understanding of approval limits, data handling, and human review. (3) _____, each workshop includes a short case study based on a realistic customer request. (4) _____ Registration closes five business days before each session.",
+      "prompt": "Choose the best word for blank (1).",
+      "promptZh": "選出最適合第 (1) 空格的字。",
+      "options": [
+        {
+          "label": "A",
+          "text": "interesting",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "interest",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "interested",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "interests",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "be interested in 是固定搭配，表示員工「對管理自動化工具有興趣」。interesting 用來形容事物令人感興趣。",
+      "keywords": [
+        "part6",
+        "training",
+        "automation-governance"
+      ]
+    },
+    {
+      "id": "P6-G32-Q2",
+      "part": 6,
+      "groupId": "P6-G32",
+      "topic": "培訓課程郵件",
+      "difficulty": "800",
+      "passage": "To: Project Leads\nFrom: Learning and Development\nSubject: Responsible Automation Workshops\n\nNext month, we will offer several workshops for employees who are (1) _____ in managing automated workplace tools. The sessions will help participants (2) _____ a stronger understanding of approval limits, data handling, and human review. (3) _____, each workshop includes a short case study based on a realistic customer request. (4) _____ Registration closes five business days before each session.",
+      "prompt": "Choose the best word for blank (2).",
+      "promptZh": "選出最適合第 (2) 空格的字。",
+      "options": [
+        {
+          "label": "A",
+          "text": "open",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "complete",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "raise",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "develop",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "develop an understanding 是自然搭配，表示培養或加深理解；其餘動詞不與 understanding 形成合適語意。",
+      "keywords": [
+        "part6",
+        "training",
+        "automation-governance"
+      ]
+    },
+    {
+      "id": "P6-G32-Q3",
+      "part": 6,
+      "groupId": "P6-G32",
+      "topic": "培訓課程郵件",
+      "difficulty": "800",
+      "passage": "To: Project Leads\nFrom: Learning and Development\nSubject: Responsible Automation Workshops\n\nNext month, we will offer several workshops for employees who are (1) _____ in managing automated workplace tools. The sessions will help participants (2) _____ a stronger understanding of approval limits, data handling, and human review. (3) _____, each workshop includes a short case study based on a realistic customer request. (4) _____ Registration closes five business days before each session.",
+      "prompt": "Choose the best phrase for blank (3).",
+      "promptZh": "選出最適合第 (3) 空格的片語。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Even so",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "In addition",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "For example",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "On the contrary",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "前句列出課程目的，後句再補充每堂課都有案例，因此使用表示追加資訊的 In addition。",
+      "keywords": [
+        "part6",
+        "training",
+        "automation-governance"
+      ]
+    },
+    {
+      "id": "P6-G32-Q4",
+      "part": 6,
+      "groupId": "P6-G32",
+      "topic": "培訓課程郵件",
+      "difficulty": "800",
+      "passage": "To: Project Leads\nFrom: Learning and Development\nSubject: Responsible Automation Workshops\n\nNext month, we will offer several workshops for employees who are (1) _____ in managing automated workplace tools. The sessions will help participants (2) _____ a stronger understanding of approval limits, data handling, and human review. (3) _____, each workshop includes a short case study based on a realistic customer request. (4) _____ Registration closes five business days before each session.",
+      "prompt": "Choose the best sentence for blank (4).",
+      "promptZh": "選出最適合第 (4) 空格的句子。",
+      "options": [
+        {
+          "label": "A",
+          "text": "All customer requests were approved without review.",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Employees should select the session most relevant to their current responsibilities.",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "The instructor has canceled every workshop this year.",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "The former office cafeteria was renovated last winter.",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "前文介紹多場工作坊，後文接續報名期限；建議員工依職責選場次，最能銜接課程選擇與報名。",
+      "keywords": [
+        "part6",
+        "training",
+        "automation-governance"
+      ]
+    },
+    {
+      "id": "P6-G33-Q1",
+      "part": 6,
+      "groupId": "P6-G33",
+      "topic": "服務持續性公告",
+      "difficulty": "800",
+      "passage": "SERVICE CONTINUITY UPDATE\n\nFollowing a review of last month's payment outage, the operations team has (1) _____ a revised recovery procedure. The backup environment will now be tested every Wednesday (2) _____ transaction volume is normally lower at that time. (3) _____ Before each test begins, store managers will receive a notice identifying which reports may be delayed. Managers should download any urgent reports (4) _____ the maintenance window opens.",
+      "prompt": "Choose the best word for blank (1).",
+      "promptZh": "選出最適合第 (1) 空格的字。",
+      "options": [
+        {
+          "label": "A",
+          "text": "adoptable",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "adopted",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "adopting",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "adoption",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "has 後需接過去分詞形成現在完成式，故選 adopted，表示團隊已採用修訂程序。",
+      "keywords": [
+        "part6",
+        "business-continuity",
+        "payment-system"
+      ]
+    },
+    {
+      "id": "P6-G33-Q2",
+      "part": 6,
+      "groupId": "P6-G33",
+      "topic": "服務持續性公告",
+      "difficulty": "800",
+      "passage": "SERVICE CONTINUITY UPDATE\n\nFollowing a review of last month's payment outage, the operations team has (1) _____ a revised recovery procedure. The backup environment will now be tested every Wednesday (2) _____ transaction volume is normally lower at that time. (3) _____ Before each test begins, store managers will receive a notice identifying which reports may be delayed. Managers should download any urgent reports (4) _____ the maintenance window opens.",
+      "prompt": "Choose the best word for blank (2).",
+      "promptZh": "選出最適合第 (2) 空格的字。",
+      "options": [
+        {
+          "label": "A",
+          "text": "despite",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "whereas",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "because",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "unless",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "後半句「該時段交易量通常較低」是選在星期三測試的原因，因此使用 because。",
+      "keywords": [
+        "part6",
+        "business-continuity",
+        "payment-system"
+      ]
+    },
+    {
+      "id": "P6-G33-Q3",
+      "part": 6,
+      "groupId": "P6-G33",
+      "topic": "服務持續性公告",
+      "difficulty": "800",
+      "passage": "SERVICE CONTINUITY UPDATE\n\nFollowing a review of last month's payment outage, the operations team has (1) _____ a revised recovery procedure. The backup environment will now be tested every Wednesday (2) _____ transaction volume is normally lower at that time. (3) _____ Before each test begins, store managers will receive a notice identifying which reports may be delayed. Managers should download any urgent reports (4) _____ the maintenance window opens.",
+      "prompt": "Choose the best sentence for blank (3).",
+      "promptZh": "選出最適合第 (3) 空格的句子。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Several stores have requested new exterior signs.",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "The accounting department will recruit interns next spring.",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "This schedule is intended to reduce disruption while still verifying that recovery tools work.",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Customers can exchange unopened products within thirty days.",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "前文說明低流量時段測試，後文交代測試前通知；此句總結新時程兼顧降低干擾與驗證復原工具，邏輯完整。",
+      "keywords": [
+        "part6",
+        "business-continuity",
+        "payment-system"
+      ]
+    },
+    {
+      "id": "P6-G33-Q4",
+      "part": 6,
+      "groupId": "P6-G33",
+      "topic": "服務持續性公告",
+      "difficulty": "800",
+      "passage": "SERVICE CONTINUITY UPDATE\n\nFollowing a review of last month's payment outage, the operations team has (1) _____ a revised recovery procedure. The backup environment will now be tested every Wednesday (2) _____ transaction volume is normally lower at that time. (3) _____ Before each test begins, store managers will receive a notice identifying which reports may be delayed. Managers should download any urgent reports (4) _____ the maintenance window opens.",
+      "prompt": "Choose the best word for blank (4).",
+      "promptZh": "選出最適合第 (4) 空格的字。",
+      "options": [
+        {
+          "label": "A",
+          "text": "before",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "during",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "beside",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "although",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "急用報表應在維護時段開始前下載，因此選 before。",
+      "keywords": [
+        "part6",
+        "business-continuity",
+        "payment-system"
+      ]
+    },
+    {
+      "id": "P6-G34-Q1",
+      "part": 6,
+      "groupId": "P6-G34",
+      "topic": "合約續約通知",
+      "difficulty": "800",
+      "passage": "To: Procurement Team\nFrom: Contract Compliance\nSubject: Supplier Renewal Checks\n\nBefore extending any supplier agreement, procurement staff must verify that the vendor has (1) _____ all required insurance certificates. If a certificate is due to expire within sixty days, the vendor should submit an updated copy (2) _____ the renewal is approved. (3) _____ This additional review prevents a contract from being extended while essential coverage is inactive. Staff members who identify a discrepancy should record it in the contract portal and (4) _____ the legal team immediately.",
+      "prompt": "Choose the best word for blank (1).",
+      "promptZh": "採購人員必須確認供應商已提交所有必要的保險證明。",
+      "options": [
+        {
+          "label": "A",
+          "text": "submitted",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "submit",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "submitting",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "submission",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "has 後接過去分詞形成現在完成式，因此選 submitted。",
+      "keywords": [
+        "part6",
+        "contract",
+        "compliance",
+        "sentence-insertion"
+      ]
+    },
+    {
+      "id": "P6-G34-Q2",
+      "part": 6,
+      "groupId": "P6-G34",
+      "topic": "合約續約通知",
+      "difficulty": "800",
+      "passage": "To: Procurement Team\nFrom: Contract Compliance\nSubject: Supplier Renewal Checks\n\nBefore extending any supplier agreement, procurement staff must verify that the vendor has (1) _____ all required insurance certificates. If a certificate is due to expire within sixty days, the vendor should submit an updated copy (2) _____ the renewal is approved. (3) _____ This additional review prevents a contract from being extended while essential coverage is inactive. Staff members who identify a discrepancy should record it in the contract portal and (4) _____ the legal team immediately.",
+      "prompt": "Choose the best word for blank (2).",
+      "promptZh": "若證明即將到期，供應商應在續約獲准前提交更新版本。",
+      "options": [
+        {
+          "label": "A",
+          "text": "despite",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "whereas",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "unless",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "before",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "更新證明必須在續約獲准之前提交，before 最符合流程順序。",
+      "keywords": [
+        "part6",
+        "contract",
+        "compliance",
+        "sentence-insertion"
+      ]
+    },
+    {
+      "id": "P6-G34-Q3",
+      "part": 6,
+      "groupId": "P6-G34",
+      "topic": "合約續約通知",
+      "difficulty": "800",
+      "passage": "To: Procurement Team\nFrom: Contract Compliance\nSubject: Supplier Renewal Checks\n\nBefore extending any supplier agreement, procurement staff must verify that the vendor has (1) _____ all required insurance certificates. If a certificate is due to expire within sixty days, the vendor should submit an updated copy (2) _____ the renewal is approved. (3) _____ This additional review prevents a contract from being extended while essential coverage is inactive. Staff members who identify a discrepancy should record it in the contract portal and (4) _____ the legal team immediately.",
+      "prompt": "Choose the best sentence for blank (3).",
+      "promptZh": "接著，法遵分析師必須將新保單日期與預定合約期間進行比對。",
+      "options": [
+        {
+          "label": "A",
+          "text": "The compliance analyst must then compare the new policy dates with the proposed contract term.",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "The office cafeteria introduced a seasonal menu last week.",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Most suppliers deliver paper invoices by regular mail.",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "The legal team has moved to another floor of the building.",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "前句要求新保單，後句以 This additional review 承接日期比對作業，只有 A 能形成完整指涉。",
+      "keywords": [
+        "part6",
+        "contract",
+        "compliance",
+        "sentence-insertion"
+      ]
+    },
+    {
+      "id": "P6-G34-Q4",
+      "part": 6,
+      "groupId": "P6-G34",
+      "topic": "合約續約通知",
+      "difficulty": "800",
+      "passage": "To: Procurement Team\nFrom: Contract Compliance\nSubject: Supplier Renewal Checks\n\nBefore extending any supplier agreement, procurement staff must verify that the vendor has (1) _____ all required insurance certificates. If a certificate is due to expire within sixty days, the vendor should submit an updated copy (2) _____ the renewal is approved. (3) _____ This additional review prevents a contract from being extended while essential coverage is inactive. Staff members who identify a discrepancy should record it in the contract portal and (4) _____ the legal team immediately.",
+      "prompt": "Choose the best word for blank (4).",
+      "promptZh": "發現差異的人員應記錄問題並立即通知法務團隊。",
+      "options": [
+        {
+          "label": "A",
+          "text": "notification",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "notice",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "notify",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "notified",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "and 連接 record 與原形動詞 notify，形成平行結構。",
+      "keywords": [
+        "part6",
+        "contract",
+        "compliance",
+        "sentence-insertion"
+      ]
+    },
+    {
+      "id": "P6-G35-Q1",
+      "part": 6,
+      "groupId": "P6-G35",
+      "topic": "設備維護備忘錄",
+      "difficulty": "800",
+      "passage": "FACILITIES MEMORANDUM\n\nTechnicians have observed irregular temperature readings from the east-wing cooling unit. The unit will be temporarily (1) _____ on Thursday evening so that its sensors can be inspected. Although the backup unit can support the current workload, engineers recommend moving nonurgent batch jobs to after midnight, (2) _____ demand is normally lowest. (3) _____ Supervisors should therefore confirm that every team has (4) _____ the revised processing schedule before 3:00 P.M. on Thursday.",
+      "prompt": "Choose the best phrase for blank (1).",
+      "promptZh": "該設備將於週四晚間暫時關閉，以便檢查感應器。",
+      "options": [
+        {
+          "label": "A",
+          "text": "looked after",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "brought forward",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "shut down",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "turned over",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "設備為接受檢查而暫時停機，be shut down 是正確被動搭配。",
+      "keywords": [
+        "part6",
+        "maintenance",
+        "operations",
+        "sentence-insertion"
+      ]
+    },
+    {
+      "id": "P6-G35-Q2",
+      "part": 6,
+      "groupId": "P6-G35",
+      "topic": "設備維護備忘錄",
+      "difficulty": "800",
+      "passage": "FACILITIES MEMORANDUM\n\nTechnicians have observed irregular temperature readings from the east-wing cooling unit. The unit will be temporarily (1) _____ on Thursday evening so that its sensors can be inspected. Although the backup unit can support the current workload, engineers recommend moving nonurgent batch jobs to after midnight, (2) _____ demand is normally lowest. (3) _____ Supervisors should therefore confirm that every team has (4) _____ the revised processing schedule before 3:00 P.M. on Thursday.",
+      "prompt": "Choose the best word for blank (2).",
+      "promptZh": "工程師建議將非緊急批次工作移到午夜後，也就是需求通常最低的時段。",
+      "options": [
+        {
+          "label": "A",
+          "text": "until",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "when",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "although",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "because of",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "空格後是完整子句 demand is normally lowest，when 表示需求最低的時間。",
+      "keywords": [
+        "part6",
+        "maintenance",
+        "operations",
+        "sentence-insertion"
+      ]
+    },
+    {
+      "id": "P6-G35-Q3",
+      "part": 6,
+      "groupId": "P6-G35",
+      "topic": "設備維護備忘錄",
+      "difficulty": "800",
+      "passage": "FACILITIES MEMORANDUM\n\nTechnicians have observed irregular temperature readings from the east-wing cooling unit. The unit will be temporarily (1) _____ on Thursday evening so that its sensors can be inspected. Although the backup unit can support the current workload, engineers recommend moving nonurgent batch jobs to after midnight, (2) _____ demand is normally lowest. (3) _____ Supervisors should therefore confirm that every team has (4) _____ the revised processing schedule before 3:00 P.M. on Thursday.",
+      "prompt": "Choose the best sentence for blank (3).",
+      "promptZh": "預計不會中斷客戶服務，但檢查期間的處理時間可能稍微延長。",
+      "options": [
+        {
+          "label": "A",
+          "text": "The company picnic will be held beside the west parking area.",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "No customer-facing interruption is expected, but processing may take slightly longer during the inspection.",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Several employees have requested larger computer monitors.",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "The supplier's annual report was published in three languages.",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "文章主軸是冷卻設備檢查及作業排程；A 同時交代不影響客戶與處理可能變慢，能銜接後句的 therefore。",
+      "keywords": [
+        "part6",
+        "maintenance",
+        "operations",
+        "sentence-insertion"
+      ]
+    },
+    {
+      "id": "P6-G35-Q4",
+      "part": 6,
+      "groupId": "P6-G35",
+      "topic": "設備維護備忘錄",
+      "difficulty": "800",
+      "passage": "FACILITIES MEMORANDUM\n\nTechnicians have observed irregular temperature readings from the east-wing cooling unit. The unit will be temporarily (1) _____ on Thursday evening so that its sensors can be inspected. Although the backup unit can support the current workload, engineers recommend moving nonurgent batch jobs to after midnight, (2) _____ demand is normally lowest. (3) _____ Supervisors should therefore confirm that every team has (4) _____ the revised processing schedule before 3:00 P.M. on Thursday.",
+      "prompt": "Choose the best word for blank (4).",
+      "promptZh": "主管應確認每個團隊都已收到修訂後的處理排程。",
+      "options": [
+        {
+          "label": "A",
+          "text": "received",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "receptive",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "receiving",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "receipt",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "has 後接過去分詞 received；receive the revised schedule 表示收到修訂後的排程。",
+      "keywords": [
+        "part6",
+        "maintenance",
+        "operations",
+        "sentence-insertion"
+      ]
+    },
+    {
+      "id": "P6-G36-Q1",
+      "part": 6,
+      "groupId": "P6-G36",
+      "topic": "會議紀錄工具試行",
+      "difficulty": "800",
+      "passage": "To: Project Coordinators\nFrom: Digital Workplace Team\nSubject: Meeting-Notes Pilot\n\nNext month, twelve project teams will test a tool that creates draft meeting notes. The pilot is intended to (1) _____ whether the tool can reduce routine administrative work without omitting important decisions. Team leaders must review every draft (2) _____ it is shared with participants. (3) _____ For that reason, confidential client names should not be entered during the trial. At the end of each week, participants will complete a short survey and provide (4) _____ on any corrections they made.",
+      "prompt": "Choose the best word for blank (1).",
+      "promptZh": "此試行旨在評估該工具能否減少例行行政工作。",
+      "options": [
+        {
+          "label": "A",
+          "text": "evaluated",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "evaluation",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "evaluator",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "evaluate",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "is intended to 後接原形動詞，evaluate 表示評估工具是否能達成目的。",
+      "keywords": [
+        "part6",
+        "human-reviewed",
+        "technology",
+        "pilot-program",
+        "sentence-insertion",
+        "v5-guide-set"
+      ]
+    },
+    {
+      "id": "P6-G36-Q2",
+      "part": 6,
+      "groupId": "P6-G36",
+      "topic": "會議紀錄工具試行",
+      "difficulty": "800",
+      "passage": "To: Project Coordinators\nFrom: Digital Workplace Team\nSubject: Meeting-Notes Pilot\n\nNext month, twelve project teams will test a tool that creates draft meeting notes. The pilot is intended to (1) _____ whether the tool can reduce routine administrative work without omitting important decisions. Team leaders must review every draft (2) _____ it is shared with participants. (3) _____ For that reason, confidential client names should not be entered during the trial. At the end of each week, participants will complete a short survey and provide (4) _____ on any corrections they made.",
+      "prompt": "Choose the best word for blank (2).",
+      "promptZh": "每份草稿在分享給與會者前都必須由團隊主管審閱。",
+      "options": [
+        {
+          "label": "A",
+          "text": "unless",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "before",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "despite",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "during",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "草稿必須先經主管檢查，之後才能分享；before 符合流程順序。",
+      "keywords": [
+        "part6",
+        "human-reviewed",
+        "technology",
+        "pilot-program",
+        "sentence-insertion",
+        "v5-guide-set"
+      ]
+    },
+    {
+      "id": "P6-G36-Q3",
+      "part": 6,
+      "groupId": "P6-G36",
+      "topic": "會議紀錄工具試行",
+      "difficulty": "800",
+      "passage": "To: Project Coordinators\nFrom: Digital Workplace Team\nSubject: Meeting-Notes Pilot\n\nNext month, twelve project teams will test a tool that creates draft meeting notes. The pilot is intended to (1) _____ whether the tool can reduce routine administrative work without omitting important decisions. Team leaders must review every draft (2) _____ it is shared with participants. (3) _____ For that reason, confidential client names should not be entered during the trial. At the end of each week, participants will complete a short survey and provide (4) _____ on any corrections they made.",
+      "prompt": "Choose the best sentence for blank (3).",
+      "promptZh": "試用版本會將檔案儲存在臨時的外部伺服器上。",
+      "options": [
+        {
+          "label": "A",
+          "text": "The trial version stores its files on a temporary external server.",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Printed agendas will remain available beside each conference room.",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Several teams moved their weekly meetings to Friday afternoon.",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "The company cafeteria now accepts mobile payments.",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "後句 For that reason 警告不可輸入客戶姓名，必須承接資料暫存於外部伺服器的風險。",
+      "keywords": [
+        "part6",
+        "human-reviewed",
+        "technology",
+        "pilot-program",
+        "sentence-insertion",
+        "v5-guide-set"
+      ]
+    },
+    {
+      "id": "P6-G36-Q4",
+      "part": 6,
+      "groupId": "P6-G36",
+      "topic": "會議紀錄工具試行",
+      "difficulty": "800",
+      "passage": "To: Project Coordinators\nFrom: Digital Workplace Team\nSubject: Meeting-Notes Pilot\n\nNext month, twelve project teams will test a tool that creates draft meeting notes. The pilot is intended to (1) _____ whether the tool can reduce routine administrative work without omitting important decisions. Team leaders must review every draft (2) _____ it is shared with participants. (3) _____ For that reason, confidential client names should not be entered during the trial. At the end of each week, participants will complete a short survey and provide (4) _____ on any corrections they made.",
+      "prompt": "Choose the best word for blank (4).",
+      "promptZh": "參與者每週將針對所做的修正提供回饋。",
+      "options": [
+        {
+          "label": "A",
+          "text": "feedback",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "attendance",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "equipment",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "permission",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "provide feedback on corrections 是自然搭配，表示針對修改內容提供回饋。",
+      "keywords": [
+        "part6",
+        "human-reviewed",
+        "technology",
+        "pilot-program",
+        "sentence-insertion",
+        "v5-guide-set"
+      ]
+    },
+    {
+      "id": "P6-G37-Q1",
+      "part": 6,
+      "groupId": "P6-G37",
+      "topic": "循環包材回收通知",
+      "difficulty": "800",
+      "passage": "REUSABLE SHIPPING CONTAINER NOTICE\n\nBeginning September 1, selected orders will arrive in reusable insulated containers. After unpacking an order, customers should remove the delivery label and place the empty container in the building lobby. Containers must be (1) _____ within seven days so that they can be cleaned and used again. (2) _____, a replacement fee may be added to the customer's next invoice. (3) _____ Customers can scan the code on the container to see the next scheduled collection time. Questions about a missed pickup should be reported (4) _____ through the support portal.",
+      "prompt": "Choose the best word for blank (1).",
+      "promptZh": "容器必須在七天內歸還。",
+      "options": [
+        {
+          "label": "A",
+          "text": "returned",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "returning",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "returns",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "return",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "Containers 是被歸還的物品，must be 後接過去分詞 returned。",
+      "keywords": [
+        "part6",
+        "human-reviewed",
+        "sustainability",
+        "logistics",
+        "sentence-insertion",
+        "v5-guide-set"
+      ]
+    },
+    {
+      "id": "P6-G37-Q2",
+      "part": 6,
+      "groupId": "P6-G37",
+      "topic": "循環包材回收通知",
+      "difficulty": "800",
+      "passage": "REUSABLE SHIPPING CONTAINER NOTICE\n\nBeginning September 1, selected orders will arrive in reusable insulated containers. After unpacking an order, customers should remove the delivery label and place the empty container in the building lobby. Containers must be (1) _____ within seven days so that they can be cleaned and used again. (2) _____, a replacement fee may be added to the customer's next invoice. (3) _____ Customers can scan the code on the container to see the next scheduled collection time. Questions about a missed pickup should be reported (4) _____ through the support portal.",
+      "prompt": "Choose the best word for blank (2).",
+      "promptZh": "否則，顧客下張發票可能會被加收替換費。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Similarly",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Meanwhile",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Otherwise",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "For example",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "前句提出七天內歸還的條件，後句說明不照做的結果，因此用 Otherwise。",
+      "keywords": [
+        "part6",
+        "human-reviewed",
+        "sustainability",
+        "logistics",
+        "sentence-insertion",
+        "v5-guide-set"
+      ]
+    },
+    {
+      "id": "P6-G37-Q3",
+      "part": 6,
+      "groupId": "P6-G37",
+      "topic": "循環包材回收通知",
+      "difficulty": "800",
+      "passage": "REUSABLE SHIPPING CONTAINER NOTICE\n\nBeginning September 1, selected orders will arrive in reusable insulated containers. After unpacking an order, customers should remove the delivery label and place the empty container in the building lobby. Containers must be (1) _____ within seven days so that they can be cleaned and used again. (2) _____, a replacement fee may be added to the customer's next invoice. (3) _____ Customers can scan the code on the container to see the next scheduled collection time. Questions about a missed pickup should be reported (4) _____ through the support portal.",
+      "prompt": "Choose the best sentence for blank (3).",
+      "promptZh": "回收車每週會到各參與大樓兩次。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Customers may include promotional samples in the containers.",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Pickup vehicles visit each participating building twice a week.",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Insulated bags are available in three additional colors.",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "The accounting office closes at 4:30 on Fridays.",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "後句提到查看 next scheduled collection time，前面必須先交代回收車定期到訪。",
+      "keywords": [
+        "part6",
+        "human-reviewed",
+        "sustainability",
+        "logistics",
+        "sentence-insertion",
+        "v5-guide-set"
+      ]
+    },
+    {
+      "id": "P6-G37-Q4",
+      "part": 6,
+      "groupId": "P6-G37",
+      "topic": "循環包材回收通知",
+      "difficulty": "800",
+      "passage": "REUSABLE SHIPPING CONTAINER NOTICE\n\nBeginning September 1, selected orders will arrive in reusable insulated containers. After unpacking an order, customers should remove the delivery label and place the empty container in the building lobby. Containers must be (1) _____ within seven days so that they can be cleaned and used again. (2) _____, a replacement fee may be added to the customer's next invoice. (3) _____ Customers can scan the code on the container to see the next scheduled collection time. Questions about a missed pickup should be reported (4) _____ through the support portal.",
+      "prompt": "Choose the best word for blank (4).",
+      "promptZh": "未成功取件的問題應立即透過支援入口回報。",
+      "options": [
+        {
+          "label": "A",
+          "text": "prompted",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "promptness",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "prompt",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "promptly",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "空格修飾 reported，應使用副詞 promptly。",
+      "keywords": [
+        "part6",
+        "human-reviewed",
+        "sustainability",
+        "logistics",
+        "sentence-insertion",
+        "v5-guide-set"
+      ]
+    },
+    {
+      "id": "P6-G38-Q1",
+      "part": 6,
+      "groupId": "P6-G38",
+      "topic": "客服時段調整",
+      "difficulty": "800",
+      "passage": "INTERNAL MEMORANDUM\n\nCall volume has increased sharply between 7:00 and 9:00 A.M. since the company expanded same-day delivery. To serve customers more (1) _____, the support center will begin an early shift on Monday. The change is temporary (2) _____ management needs four weeks of call data before approving a permanent schedule. (3) _____ Employees assigned to the early shift will finish at 3:30 P.M. rather than 5:30 P.M. Anyone who cannot work the revised hours should (4) _____ a scheduling request by Wednesday.",
+      "prompt": "Choose the best word for blank (1).",
+      "promptZh": "為了更穩定地服務顧客，客服中心將新增早班。",
+      "options": [
+        {
+          "label": "A",
+          "text": "consistency",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "consistently",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "consistent",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "consist",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "修飾動詞 serve 應使用副詞 consistently，表示穩定一致地提供服務。",
+      "keywords": [
+        "part6",
+        "human-reviewed",
+        "customer-service",
+        "staffing",
+        "sentence-insertion",
+        "v5-guide-set"
+      ]
+    },
+    {
+      "id": "P6-G38-Q2",
+      "part": 6,
+      "groupId": "P6-G38",
+      "topic": "客服時段調整",
+      "difficulty": "800",
+      "passage": "INTERNAL MEMORANDUM\n\nCall volume has increased sharply between 7:00 and 9:00 A.M. since the company expanded same-day delivery. To serve customers more (1) _____, the support center will begin an early shift on Monday. The change is temporary (2) _____ management needs four weeks of call data before approving a permanent schedule. (3) _____ Employees assigned to the early shift will finish at 3:30 P.M. rather than 5:30 P.M. Anyone who cannot work the revised hours should (4) _____ a scheduling request by Wednesday.",
+      "prompt": "Choose the best word for blank (2).",
+      "promptZh": "這項變動是暫時的，因為管理層需要四週的通話資料。",
+      "options": [
+        {
+          "label": "A",
+          "text": "whereas",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "unless",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "although",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "because",
+          "translation": ""
+        }
+      ],
+      "answer": "D",
+      "explanation": "後半句說明調整暫時性的原因，因此選 because。",
+      "keywords": [
+        "part6",
+        "human-reviewed",
+        "customer-service",
+        "staffing",
+        "sentence-insertion",
+        "v5-guide-set"
+      ]
+    },
+    {
+      "id": "P6-G38-Q3",
+      "part": 6,
+      "groupId": "P6-G38",
+      "topic": "客服時段調整",
+      "difficulty": "800",
+      "passage": "INTERNAL MEMORANDUM\n\nCall volume has increased sharply between 7:00 and 9:00 A.M. since the company expanded same-day delivery. To serve customers more (1) _____, the support center will begin an early shift on Monday. The change is temporary (2) _____ management needs four weeks of call data before approving a permanent schedule. (3) _____ Employees assigned to the early shift will finish at 3:30 P.M. rather than 5:30 P.M. Anyone who cannot work the revised hours should (4) _____ a scheduling request by Wednesday.",
+      "prompt": "Choose the best sentence for blank (3).",
+      "promptZh": "主管將輪替安排，因此不會有員工必須負責每一個早班。",
+      "options": [
+        {
+          "label": "A",
+          "text": "The delivery fleet recently added two electric vans.",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Customer invoices are printed at a separate facility.",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Supervisors will rotate the assignment so that no employee works every early shift.",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "The annual picnic has been postponed because of rain.",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "前後都在說明早班安排；A 交代輪替方式，並自然銜接早班員工的下班時間。",
+      "keywords": [
+        "part6",
+        "human-reviewed",
+        "customer-service",
+        "staffing",
+        "sentence-insertion",
+        "v5-guide-set"
+      ]
+    },
+    {
+      "id": "P6-G38-Q4",
+      "part": 6,
+      "groupId": "P6-G38",
+      "topic": "客服時段調整",
+      "difficulty": "800",
+      "passage": "INTERNAL MEMORANDUM\n\nCall volume has increased sharply between 7:00 and 9:00 A.M. since the company expanded same-day delivery. To serve customers more (1) _____, the support center will begin an early shift on Monday. The change is temporary (2) _____ management needs four weeks of call data before approving a permanent schedule. (3) _____ Employees assigned to the early shift will finish at 3:30 P.M. rather than 5:30 P.M. Anyone who cannot work the revised hours should (4) _____ a scheduling request by Wednesday.",
+      "prompt": "Choose the best word for blank (4).",
+      "promptZh": "無法配合新時段者應在星期三前提出排班申請。",
+      "options": [
+        {
+          "label": "A",
+          "text": "submission",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "submitting",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "submit",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "submitted",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "should 後接原形動詞 submit；submit a request 是固定搭配。",
+      "keywords": [
+        "part6",
+        "human-reviewed",
+        "customer-service",
+        "staffing",
+        "sentence-insertion",
+        "v5-guide-set"
+      ]
+    }
+  ]
+}

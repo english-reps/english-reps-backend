@@ -1,0 +1,1091 @@
+{
+  "entries": [
+    {
+      "id": "P1-001",
+      "part": 1,
+      "topic": "圖片描述",
+      "difficulty": "400",
+      "image": "/assets/part1/meeting-ai-v2.jpg",
+      "imageAlt": "Part 1 question photograph.",
+      "imageCredit": null,
+      "imageSource": null,
+      "prompt": "Look at the picture and select the sentence that best describes it.",
+      "promptZh": "請看圖片，選出最符合畫面的敘述。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Some office chairs are being stacked.",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A woman is writing on a whiteboard.",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Several people are gathered around a conference table.",
+          "translation": "幾個人正聚在會議桌旁。"
+        },
+        {
+          "label": "D",
+          "text": "A man is repairing a computer.",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "照片中有數人坐在會議桌旁，桌上放著筆電、文件與平板，因此 gathered around a conference table 最符合畫面。",
+      "keywords": [
+        "part1",
+        "photo-description",
+        "listening",
+        "ai-generated"
+      ]
+    },
+    {
+      "id": "P1-002",
+      "part": 1,
+      "topic": "圖片描述",
+      "difficulty": "400",
+      "image": "/assets/part1/warehouse.jpg",
+      "imageAlt": "Part 1 question photograph.",
+      "imageCredit": "Tiger Lily",
+      "imageSource": "https://www.pexels.com/photo/men-working-in-a-warehouse-4481260/",
+      "prompt": "Look at the picture and select the sentence that best describes it.",
+      "promptZh": "請看圖片，選出最符合畫面的敘述。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Workers are standing between shelves of boxes.",
+          "translation": "工作人員正站在堆放箱子的貨架之間。"
+        },
+        {
+          "label": "B",
+          "text": "Boxes are being loaded onto a delivery truck.",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A worker is climbing a ladder.",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "The warehouse shelves are completely empty.",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "照片從上方拍攝，數名工作人員站在堆放箱子的倉庫貨架之間；沒有卡車、空貨架或梯子。",
+      "keywords": [
+        "part1",
+        "photo-description",
+        "listening",
+        "pexels-license"
+      ]
+    },
+    {
+      "id": "P1-003",
+      "part": 1,
+      "topic": "圖片描述",
+      "difficulty": "400",
+      "image": "/assets/part1/airport.jpg",
+      "imageAlt": "Part 1 question photograph.",
+      "imageCredit": "Magic K",
+      "imageSource": "https://www.pexels.com/photo/busy-people-on-the-airport-terminal-6726195/",
+      "prompt": "Look at the picture and select the sentence that best describes it.",
+      "promptZh": "請看圖片，選出最符合畫面的敘述。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Travelers are waiting in an airport terminal with luggage.",
+          "translation": "旅客帶著行李在機場航廈內等候。"
+        },
+        {
+          "label": "B",
+          "text": "The terminal seats have all been removed.",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Passengers are boarding a bus outdoors.",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A pilot is checking an aircraft engine.",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "畫面是機場候機區，多位旅客在座位與大型窗戶附近等候，並帶著行李。",
+      "keywords": [
+        "part1",
+        "photo-description",
+        "listening",
+        "pexels-license"
+      ]
+    },
+    {
+      "id": "P1-004",
+      "part": 1,
+      "topic": "圖片描述",
+      "difficulty": "600",
+      "image": "/assets/part1/construction.jpg",
+      "imageAlt": "Part 1 question photograph.",
+      "imageCredit": "Pexels User",
+      "imageSource": "https://www.pexels.com/photo/workers-at-work-on-street-9258891/",
+      "prompt": "Look at the picture and select the sentence that best describes it.",
+      "promptZh": "請看圖片，選出最符合畫面的敘述。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Customers are entering a supermarket.",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Several bicycles are parked beside the road.",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Construction workers are standing behind a roadside barrier.",
+          "translation": "施工人員正站在路邊的施工圍欄後方。"
+        },
+        {
+          "label": "D",
+          "text": "The workers are painting the side of a building.",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "照片中的工人穿著安全背心與安全帽，站在道路施工圍欄後方。",
+      "keywords": [
+        "part1",
+        "photo-description",
+        "listening",
+        "pexels-license"
+      ]
+    },
+    {
+      "id": "P1-005",
+      "part": 1,
+      "topic": "圖片描述",
+      "difficulty": "400",
+      "image": "/assets/part1/restaurant-ai-v2.jpg",
+      "imageAlt": "Part 1 question photograph.",
+      "imageCredit": null,
+      "imageSource": null,
+      "prompt": "Look at the picture and select the sentence that best describes it.",
+      "promptZh": "請看圖片，選出最符合畫面的敘述。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Customers are reading menus at an empty table.",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A server is carrying a tray of food.",
+          "translation": "一名服務人員正端著一盤食物。"
+        },
+        {
+          "label": "C",
+          "text": "The dining room is being swept.",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A chef is washing dishes in a kitchen.",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "畫面中央的餐廳服務人員正端著放有多份餐點的托盤。",
+      "keywords": [
+        "part1",
+        "photo-description",
+        "listening",
+        "ai-generated"
+      ]
+    },
+    {
+      "id": "P1-006",
+      "part": 1,
+      "topic": "圖片描述",
+      "difficulty": "400",
+      "image": "/assets/part1/printer-ai-v2.jpg",
+      "imageAlt": "Part 1 question photograph.",
+      "imageCredit": null,
+      "imageSource": null,
+      "prompt": "Look at the picture and select the sentence that best describes it.",
+      "promptZh": "請看圖片，選出最符合畫面的敘述。",
+      "options": [
+        {
+          "label": "A",
+          "text": "A man is operating an office printer.",
+          "translation": "一名男子正在操作辦公室印表機。"
+        },
+        {
+          "label": "B",
+          "text": "Some documents are being posted on a wall.",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A man is carrying a stack of folders.",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "The printer is being moved through a doorway.",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "男子站在完整入鏡的辦公室影印機旁，手指正操作控制面板；他沒有搬文件或移動機器。",
+      "keywords": [
+        "part1",
+        "photo-description",
+        "listening",
+        "ai-generated"
+      ]
+    },
+    {
+      "id": "P1-007",
+      "part": 1,
+      "topic": "圖片描述",
+      "difficulty": "400",
+      "image": "/assets/part1/delivery.jpg",
+      "imageAlt": "Part 1 question photograph.",
+      "imageCredit": "Artem Podrez",
+      "imageSource": "https://www.pexels.com/photo/man-stacking-boxes-in-a-van-5025665/",
+      "prompt": "Look at the picture and select the sentence that best describes it.",
+      "promptZh": "請看圖片，選出最符合畫面的敘述。",
+      "options": [
+        {
+          "label": "A",
+          "text": "A customer is signing for a package.",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "The boxes have been placed beside the road.",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A vehicle is being washed.",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A worker is placing a box inside a van.",
+          "translation": "一名工作人員正把箱子放進廂型車裡。"
+        }
+      ],
+      "answer": "D",
+      "explanation": "工作人員手上拿著紙箱，正面向已堆放許多箱子的廂型車內部。",
+      "keywords": [
+        "part1",
+        "photo-description",
+        "listening",
+        "pexels-license"
+      ]
+    },
+    {
+      "id": "P1-008",
+      "part": 1,
+      "topic": "圖片描述",
+      "difficulty": "400",
+      "image": "/assets/part1/station.jpg",
+      "imageAlt": "Part 1 question photograph.",
+      "imageCredit": "ready made",
+      "imageSource": "https://www.pexels.com/photo/people-at-the-train-station-3921540/",
+      "prompt": "Look at the picture and select the sentence that best describes it.",
+      "promptZh": "請看圖片，選出最符合畫面的敘述。",
+      "options": [
+        {
+          "label": "A",
+          "text": "A train is crossing a bridge.",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "Every platform is completely empty.",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "The railway tracks are being repaired.",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Passengers are waiting on a train platform.",
+          "translation": "乘客們正在火車月台上等候。"
+        }
+      ],
+      "answer": "D",
+      "explanation": "照片中可見多名乘客分散在車站月台上等候；鐵軌沒有施工，也沒有列車過橋。",
+      "keywords": [
+        "part1",
+        "photo-description",
+        "listening",
+        "pexels-license"
+      ]
+    },
+    {
+      "id": "P1-009",
+      "part": 1,
+      "topic": "圖片描述",
+      "difficulty": "400",
+      "image": "/assets/part1/reception-ai-v3.jpg",
+      "imageAlt": "Part 1 question photograph.",
+      "imageCredit": null,
+      "imageSource": null,
+      "prompt": "Look at the picture and select the sentence that best describes it.",
+      "promptZh": "請看圖片，選出最符合畫面的敘述。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Some chairs are being carried through the lobby.",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A visitor is signing a form.",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A computer is being packed into a box.",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A woman is speaking on the phone at a reception desk.",
+          "translation": "一名女子正在接待櫃台講電話。"
+        }
+      ],
+      "answer": "D",
+      "explanation": "女子坐在接待櫃台後方，手持電話聽筒交談；畫面中沒有訪客填表、搬運椅子或裝箱電腦。",
+      "keywords": [
+        "part1",
+        "photo-description",
+        "listening",
+        "ai-generated"
+      ]
+    },
+    {
+      "id": "P1-010",
+      "part": 1,
+      "topic": "圖片描述",
+      "difficulty": "600",
+      "image": "/assets/part1/solar-ai-v3.jpg",
+      "imageAlt": "Part 1 question photograph.",
+      "imageCredit": null,
+      "imageSource": null,
+      "prompt": "Look at the picture and select the sentence that best describes it.",
+      "promptZh": "請看圖片，選出最符合畫面的敘述。",
+      "options": [
+        {
+          "label": "A",
+          "text": "A technician is inspecting a row of solar panels.",
+          "translation": "一名技術人員正在檢查一排太陽能板。"
+        },
+        {
+          "label": "B",
+          "text": "Some equipment is being loaded into a truck.",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "The panels are covered with snow.",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A worker is painting the roof.",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "技術人員跪在太陽能板旁，正使用儀表檢查設備；屋頂上沒有積雪、油漆作業或卡車。",
+      "keywords": [
+        "part1",
+        "photo-description",
+        "listening",
+        "ai-generated"
+      ]
+    },
+    {
+      "id": "P1-011",
+      "part": 1,
+      "topic": "圖片描述",
+      "difficulty": "400",
+      "image": "/assets/part1/barcode-ai-v3.jpg",
+      "imageAlt": "Part 1 question photograph.",
+      "imageCredit": null,
+      "imageSource": null,
+      "prompt": "Look at the picture and select the sentence that best describes it.",
+      "promptZh": "請看圖片，選出最符合畫面的敘述。",
+      "options": [
+        {
+          "label": "A",
+          "text": "A package is being wrapped with a ribbon.",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A worker is stacking some empty pallets.",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Some boxes are displayed in a refrigerator.",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "A worker is scanning a label on a package.",
+          "translation": "一名工作人員正在掃描包裹上的標籤。"
+        }
+      ],
+      "answer": "D",
+      "explanation": "物流人員手持掃描器，對準工作桌上紙箱的標籤；畫面中沒有棧板、緞帶或冷藏展示櫃。",
+      "keywords": [
+        "part1",
+        "photo-description",
+        "listening",
+        "ai-generated"
+      ]
+    },
+    {
+      "id": "P1-012",
+      "part": 1,
+      "topic": "圖片描述",
+      "difficulty": "400",
+      "image": "/assets/part1/plants-ai-v3.jpg",
+      "imageAlt": "Part 1 question photograph.",
+      "imageCredit": null,
+      "imageSource": null,
+      "prompt": "Look at the picture and select the sentence that best describes it.",
+      "promptZh": "請看圖片，選出最符合畫面的敘述。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Some furniture is being polished.",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A woman is watering potted plants in a lobby.",
+          "translation": "一名女子正在大廳裡為盆栽澆水。"
+        },
+        {
+          "label": "C",
+          "text": "A tree is being planted outdoors.",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Several people are waiting for an elevator.",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "女子在室內大廳使用澆水壺照顧一排盆栽；她沒有擦拭家具、在戶外種樹或等候電梯。",
+      "keywords": [
+        "part1",
+        "photo-description",
+        "listening",
+        "ai-generated"
+      ]
+    },
+    {
+      "id": "P1-013",
+      "part": 1,
+      "topic": "圖片描述",
+      "difficulty": "600",
+      "image": "/assets/part1/ev-charging-ai-v4.jpg",
+      "imageAlt": "Part 1 question photograph.",
+      "imageCredit": null,
+      "imageSource": null,
+      "prompt": "Look at the picture and select the sentence that best describes it.",
+      "promptZh": "請看圖片，選出最符合畫面的敘述。",
+      "options": [
+        {
+          "label": "A",
+          "text": "A mechanic is replacing a tire.",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A charging cable is being connected to a vehicle.",
+          "translation": "一條充電線正被接上車輛。"
+        },
+        {
+          "label": "C",
+          "text": "Some boxes are being unloaded from the trunk.",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "The windshield is being washed.",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "男子正把充電接頭插入車身後側的充電口。畫面中沒有清洗擋風玻璃、更換輪胎或從行李廂卸貨。",
+      "keywords": [
+        "part1",
+        "photo-description",
+        "listening",
+        "ai-generated",
+        "detail-observation",
+        "technology-context"
+      ]
+    },
+    {
+      "id": "P1-014",
+      "part": 1,
+      "topic": "圖片描述",
+      "difficulty": "400",
+      "image": "/assets/part1/housekeeping-ai-v4.jpg",
+      "imageAlt": "Part 1 question photograph.",
+      "imageCredit": null,
+      "imageSource": null,
+      "prompt": "Look at the picture and select the sentence that best describes it.",
+      "promptZh": "請看圖片，選出最符合畫面的敘述。",
+      "options": [
+        {
+          "label": "A",
+          "text": "A bed is being moved through the hallway.",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "The cart has been loaded with cardboard boxes.",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A housekeeper is folding towels beside a cart.",
+          "translation": "一名房務人員正在推車旁摺疊毛巾。"
+        },
+        {
+          "label": "D",
+          "text": "Someone is vacuuming the carpet.",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "房務人員站在工作推車旁摺疊白色毛巾。走廊上沒有搬床、紙箱或吸塵作業。",
+      "keywords": [
+        "part1",
+        "photo-description",
+        "listening",
+        "ai-generated",
+        "detail-observation",
+        "workplace-context"
+      ]
+    },
+    {
+      "id": "P1-015",
+      "part": 1,
+      "topic": "圖片描述",
+      "difficulty": "600",
+      "image": "/assets/part1/high-shelf-ai-v4.jpg",
+      "imageAlt": "Part 1 question photograph.",
+      "imageCredit": null,
+      "imageSource": null,
+      "prompt": "Look at the picture and select the sentence that best describes it.",
+      "promptZh": "請看圖片，選出最符合畫面的敘述。",
+      "options": [
+        {
+          "label": "A",
+          "text": "A ladder has been folded against a wall.",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A worker is placing a box on a high shelf.",
+          "translation": "一名工作人員正在把箱子放上高處的架子。"
+        },
+        {
+          "label": "C",
+          "text": "The storage shelves are completely empty.",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Some boxes are being carried outdoors.",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "工作人員站在梯子上，雙手正把紙箱放到較高的貨架。貨架並非空的，梯子也沒有收起。",
+      "keywords": [
+        "part1",
+        "photo-description",
+        "listening",
+        "ai-generated",
+        "detail-observation",
+        "spatial-relation"
+      ]
+    },
+    {
+      "id": "P1-016",
+      "part": 1,
+      "topic": "圖片描述",
+      "difficulty": "600",
+      "image": "/assets/part1/transit-map-ai-v4.jpg",
+      "imageAlt": "Part 1 question photograph.",
+      "imageCredit": null,
+      "imageSource": null,
+      "prompt": "Look at the picture and select the sentence that best describes it.",
+      "promptZh": "請看圖片，選出最符合畫面的敘述。",
+      "options": [
+        {
+          "label": "A",
+          "text": "A traveler is buying a ticket from a machine.",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "The transit shelter is completely empty.",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Passengers are boarding a train.",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Two commuters are comparing transit maps.",
+          "translation": "兩名通勤者正在比較交通路線圖。"
+        }
+      ],
+      "answer": "D",
+      "explanation": "兩名通勤者手持紙本路線圖，旁邊也有大型路線圖，顯示他們正在比對交通資訊；畫面沒有列車或售票機。",
+      "keywords": [
+        "part1",
+        "photo-description",
+        "listening",
+        "ai-generated",
+        "visual-literacy",
+        "context-evidence"
+      ]
+    },
+    {
+      "id": "P1-017",
+      "part": 1,
+      "topic": "圖片描述",
+      "difficulty": "800",
+      "image": "/assets/part1/window-measure-ai-v4.jpg",
+      "imageAlt": "Part 1 question photograph.",
+      "imageCredit": null,
+      "imageSource": null,
+      "prompt": "Look at the picture and select the sentence that best describes it.",
+      "promptZh": "請看圖片，選出最符合畫面的敘述。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Some curtains are being hung.",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "The window frame is being painted.",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A worker is measuring the width of a window frame.",
+          "translation": "一名工作人員正在測量窗框的寬度。"
+        },
+        {
+          "label": "D",
+          "text": "The glass is being cleaned.",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "工作人員將捲尺水平拉過窗框，正在量測寬度。畫面中沒有窗簾、清潔工具或油漆刷。",
+      "keywords": [
+        "part1",
+        "photo-description",
+        "listening",
+        "ai-generated",
+        "detail-observation",
+        "tool-purpose",
+        "detail-discrimination",
+        "visual-precision"
+      ]
+    },
+    {
+      "id": "P1-018",
+      "part": 1,
+      "topic": "圖片描述",
+      "difficulty": "800",
+      "image": "/assets/part1/cafe-chairs-ai-v4.jpg",
+      "imageAlt": "Part 1 question photograph.",
+      "imageCredit": null,
+      "imageSource": null,
+      "prompt": "Look at the picture and select the sentence that best describes it.",
+      "promptZh": "請看圖片，選出最符合畫面的敘述。",
+      "options": [
+        {
+          "label": "A",
+          "text": "The awning has been folded above the entrance.",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "The tables have been covered with tablecloths.",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Several chairs have been stacked beside cafe tables.",
+          "translation": "幾張椅子堆疊在咖啡館桌子旁。"
+        },
+        {
+          "label": "D",
+          "text": "Customers are being served at the tables.",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "數張椅子整齊堆疊在咖啡館桌子旁。桌面沒有桌巾或顧客，遮陽棚則是展開狀態。",
+      "keywords": [
+        "part1",
+        "photo-description",
+        "listening",
+        "ai-generated",
+        "visual-literacy",
+        "object-state"
+      ]
+    },
+    {
+      "id": "P1-019",
+      "part": 1,
+      "topic": "圖片描述",
+      "difficulty": "600",
+      "image": "/assets/part1/access-badge-ai-v5.jpg",
+      "imageAlt": "Part 1 question photograph.",
+      "imageCredit": null,
+      "imageSource": null,
+      "prompt": "Look at the picture and select the sentence that best describes it.",
+      "promptZh": "請看圖片，選出最符合畫面的敘述。",
+      "options": [
+        {
+          "label": "A",
+          "text": "The glass doors are being cleaned.",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A receptionist is arranging flowers on a counter.",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A woman is tapping an access card on a turnstile reader.",
+          "translation": "一名女子正在旋轉閘門的讀卡機上感應門禁卡。"
+        },
+        {
+          "label": "D",
+          "text": "Some luggage is being carried through the lobby.",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "女子將門禁卡靠近旋轉閘門的讀卡區。她沒有整理花卉、清潔玻璃門或搬運行李。",
+      "keywords": [
+        "part1",
+        "photo-description",
+        "listening",
+        "ai-generated",
+        "detail-observation",
+        "tool-purpose",
+        "technology-context"
+      ]
+    },
+    {
+      "id": "P1-020",
+      "part": 1,
+      "topic": "圖片描述",
+      "difficulty": "400",
+      "image": "/assets/part1/package-tape-ai-v5.jpg",
+      "imageAlt": "Part 1 question photograph.",
+      "imageCredit": null,
+      "imageSource": null,
+      "prompt": "Look at the picture and select the sentence that best describes it.",
+      "promptZh": "請看圖片，選出最符合畫面的敘述。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Several boxes are being placed on a shelf.",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A worker is sealing a package with tape.",
+          "translation": "一名工作人員正在用膠帶封住包裹。"
+        },
+        {
+          "label": "C",
+          "text": "The worker is scanning a shipping label.",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Packing material is being removed from a box.",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "工作人員正用膠帶台沿著紙箱頂部封箱；他沒有掃描標籤、把箱子上架或取出包材。",
+      "keywords": [
+        "part1",
+        "photo-description",
+        "listening",
+        "ai-generated",
+        "detail-observation",
+        "tool-purpose"
+      ]
+    },
+    {
+      "id": "P1-021",
+      "part": 1,
+      "topic": "圖片描述",
+      "difficulty": "600",
+      "image": "/assets/part1/thermostat-ai-v5.jpg",
+      "imageAlt": "Part 1 question photograph.",
+      "imageCredit": null,
+      "imageSource": null,
+      "prompt": "Look at the picture and select the sentence that best describes it.",
+      "promptZh": "請看圖片，選出最符合畫面的敘述。",
+      "options": [
+        {
+          "label": "A",
+          "text": "A worker is adjusting a wall-mounted thermostat.",
+          "translation": "一名工作人員正在調整壁掛式恆溫器。"
+        },
+        {
+          "label": "B",
+          "text": "A picture is being hung in a hallway.",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "The wall is being painted.",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Some wiring is being removed from the ceiling.",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "工作人員伸手按下牆上的恆溫器控制面板。畫面沒有掛畫、油漆或拆除天花板線路。",
+      "keywords": [
+        "part1",
+        "photo-description",
+        "listening",
+        "ai-generated",
+        "detail-observation",
+        "tool-purpose",
+        "workplace-context"
+      ]
+    },
+    {
+      "id": "P1-022",
+      "part": 1,
+      "topic": "圖片描述",
+      "difficulty": "800",
+      "image": "/assets/part1/training-room-ai-v5.jpg",
+      "imageAlt": "Part 1 question photograph.",
+      "imageCredit": null,
+      "imageSource": null,
+      "prompt": "Look at the picture and select the sentence that best describes it.",
+      "promptZh": "請看圖片，選出最符合畫面的敘述。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Rows of chairs are facing a presentation screen.",
+          "translation": "一排排椅子面向簡報幕。"
+        },
+        {
+          "label": "B",
+          "text": "The chairs have been stacked beside the wall.",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "Tables are arranged around the edge of the room.",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Several people are watching a presentation.",
+          "translation": ""
+        }
+      ],
+      "answer": "A",
+      "explanation": "空教室中的椅子分列成數排，全部朝向前方的簡報幕。椅子沒有堆疊，現場也沒有人或桌子。",
+      "keywords": [
+        "part1",
+        "photo-description",
+        "listening",
+        "ai-generated",
+        "visual-literacy",
+        "spatial-relation",
+        "object-state",
+        "detail-discrimination",
+        "visual-precision"
+      ]
+    },
+    {
+      "id": "P1-023",
+      "part": 1,
+      "topic": "圖片描述",
+      "difficulty": "600",
+      "image": "/assets/part1/bicycle-lock-ai-v5.jpg",
+      "imageAlt": "Part 1 question photograph.",
+      "imageCredit": null,
+      "imageSource": null,
+      "prompt": "Look at the picture and select the sentence that best describes it.",
+      "promptZh": "請看圖片，選出最符合畫面的敘述。",
+      "options": [
+        {
+          "label": "A",
+          "text": "Several cyclists are riding past an office.",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A bicycle is being loaded onto a vehicle.",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A commuter is fastening a bicycle to a rack.",
+          "translation": "一名通勤者正在把自行車鎖在停車架上。"
+        },
+        {
+          "label": "D",
+          "text": "The bicycle's rear tire is being replaced.",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "通勤者將鎖具環繞自行車車架與停車架，正在固定自行車；畫面沒有車輛、換胎或其他騎士。",
+      "keywords": [
+        "part1",
+        "photo-description",
+        "listening",
+        "ai-generated",
+        "detail-observation",
+        "tool-purpose",
+        "spatial-relation"
+      ]
+    },
+    {
+      "id": "P1-024",
+      "part": 1,
+      "topic": "圖片描述",
+      "difficulty": "400",
+      "image": "/assets/part1/library-cart-ai-v5.jpg",
+      "imageAlt": "Part 1 question photograph.",
+      "imageCredit": null,
+      "imageSource": null,
+      "prompt": "Look at the picture and select the sentence that best describes it.",
+      "promptZh": "請看圖片，選出最符合畫面的敘述。",
+      "options": [
+        {
+          "label": "A",
+          "text": "A customer is reading at a table.",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A librarian is placing a book on a rolling cart.",
+          "translation": "一名圖書館員正在把書放到推車上。"
+        },
+        {
+          "label": "C",
+          "text": "The shelves are being moved across the room.",
+          "translation": ""
+        },
+        {
+          "label": "D",
+          "text": "Books are being packed into cardboard boxes.",
+          "translation": ""
+        }
+      ],
+      "answer": "B",
+      "explanation": "圖書館員雙手拿著書，正將它放到有輪子的書車上；畫面沒有紙箱、閱讀桌或移動書架。",
+      "keywords": [
+        "part1",
+        "photo-description",
+        "listening",
+        "ai-generated",
+        "detail-observation",
+        "workplace-context"
+      ]
+    },
+    {
+      "id": "P1-025",
+      "part": 1,
+      "topic": "圖片描述",
+      "difficulty": "800",
+      "image": "/assets/part1/cable-coil-ai-v5.jpg",
+      "imageAlt": "Part 1 question photograph.",
+      "imageCredit": null,
+      "imageSource": null,
+      "prompt": "Look at the picture and select the sentence that best describes it.",
+      "promptZh": "請看圖片，選出最符合畫面的敘述。",
+      "options": [
+        {
+          "label": "A",
+          "text": "The floor is being cleaned with a machine.",
+          "translation": ""
+        },
+        {
+          "label": "B",
+          "text": "A cable is being connected to a wall outlet.",
+          "translation": ""
+        },
+        {
+          "label": "C",
+          "text": "A technician is coiling an electrical cable.",
+          "translation": "一名技術人員正在捲收電纜。"
+        },
+        {
+          "label": "D",
+          "text": "A technician is carrying a speaker onto a stage.",
+          "translation": ""
+        }
+      ],
+      "answer": "C",
+      "explanation": "技術人員雙手整理多圈電纜，正在將它捲收。電纜沒有接到插座，也沒有人搬喇叭或清潔地面。",
+      "keywords": [
+        "part1",
+        "photo-description",
+        "listening",
+        "ai-generated",
+        "detail-observation",
+        "tool-purpose",
+        "object-state",
+        "detail-discrimination",
+        "visual-precision"
+      ]
+    }
+  ]
+}

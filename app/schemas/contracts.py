@@ -45,7 +45,7 @@ class AuthOut(BaseModel):
 class ProgressOut(BaseModel):
     model_config = ConfigDict(from_attributes=True)
     entry_id: str
-    category: Literal["vocabulary", "listening"]
+    category: Literal["vocabulary", "listening", "reading"]
     status: Literal["mastered", "review", "unseen"]
     attempts: int
     correct: int
@@ -56,7 +56,7 @@ class EventIn(BaseModel):
     model_config = ConfigDict(extra="forbid")
     event_id: uuid.UUID
     entry_id: str = Field(max_length=32)
-    kind: Literal["card", "quiz", "listening"]
+    kind: Literal["card", "quiz", "listening", "reading"]
     rating: Literal["mastered", "review", "unseen"] | None = None
     answer: str | None = Field(default=None, max_length=32)
 
