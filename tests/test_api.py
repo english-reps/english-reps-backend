@@ -319,3 +319,72 @@ async def test_production_cookie_flags_and_host_prefix(client, monkeypatch):
             assert "__Host-er_" in cookie and "HttpOnly" in cookie and "Secure" in cookie
             assert "Path=/" in cookie and "SameSite=lax" in cookie and "Domain=" not in cookie
         assert (await secure.get("/api/v1/auth/me")).status_code == 200
+
+
+async def test_mock_exam_lifecycle_isolation_and_delete(client):
+    await login(client, "mockowner@example.com")
+    created = await client.post("/api/v1/mock-exams", json={"section": "listening"})
+    assert created.status_code == 201
+    assert created.headers["cache-control"] == "no-store"
+    exam = created.json()["exam"]
+    assert exam["section"] == "listening"
+    assert exam["status"] == "in_progress"
+    assert exam["total_questions"] == 100
+    assert exam["duration_seconds"] == 2700
+    assert len(exam["question_ids"]) == 100
+
+    first_id = exam["question_ids"][0]
+    second_id = exam["question_ids"][1]
+    patched = await client.patch(
+        f"/api/v1/mock-exams/{exam['id']}",
+        json={
+            "answers": {first_id: "A"},
+            "flagged_ids": [first_id, second_id],
+            "played_keys": [first_id],
+            "current_index": 1,
+            "remaining_seconds": 2500,
+        },
+    )
+    assert patched.status_code == 200
+    updated = patched.json()["exam"]
+    assert updated["answers"] == {first_id: "A"}
+    assert updated["flagged_ids"] == [first_id, second_id]
+    assert updated["played_keys"] == [first_id]
+    assert updated["current_index"] == 1
+    assert updated["remaining_seconds"] == 2500
+
+    # Other users cannot read, patch, submit, or delete this exam
+    from app.main import app
+
+    async with httpx.AsyncClient(
+        transport=httpx.ASGITransport(app=app),
+        base_url="http://localhost:3007",
+        headers={"Origin": "http://localhost:3007"},
+    ) as other:
+        await login(other, "other-mock@example.com")
+        assert (await other.get("/api/v1/mock-exams")).json()["exams"] == []
+        assert (await other.get(f"/api/v1/mock-exams/{exam['id']}")).status_code == 404
+        assert (await other.delete(f"/api/v1/mock-exams/{exam['id']}")).status_code == 404
+
+    submitted = await client.post(
+        f"/api/v1/mock-exams/{exam['id']}/submit",
+        json={"remaining_seconds": 2400},
+    )
+    assert submitted.status_code == 200
+    completed = submitted.json()["exam"]
+    assert completed["status"] == "completed"
+    assert completed["completed_at"] is not None
+    assert 5 <= completed["scaled_score"] <= 495
+    assert completed["correct_count"] + len(completed["wrong_ids"]) == 100
+    assert sum(stat["total"] for stat in completed["part_stats"]) == 100
+    # Submitting a mock exam must NOT auto-add wrong items into progress bookmarks
+    assert (await client.get("/api/v1/progress")).json()["records"] == []
+    # Cannot patch a completed exam
+    assert (
+        await client.patch(f"/api/v1/mock-exams/{exam['id']}", json={"current_index": 0})
+    ).status_code == 409
+
+    # Delete exam cleanly
+    deleted = await client.delete(f"/api/v1/mock-exams/{exam['id']}")
+    assert deleted.status_code == 204
+    assert (await client.get("/api/v1/mock-exams")).json()["exams"] == []

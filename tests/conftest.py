@@ -21,7 +21,9 @@ from app.main import app  # noqa: E402
 async def clean_database() -> AsyncIterator[None]:
     async with engine.begin() as connection:
         await connection.execute(
-            text("TRUNCATE users, sessions, progress, study_events, auth_attempts CASCADE")
+            text(
+                "TRUNCATE users, sessions, progress, study_events, mock_exams, auth_attempts CASCADE"
+            )
         )
     yield
     await engine.dispose()

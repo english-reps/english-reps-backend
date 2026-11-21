@@ -10,7 +10,7 @@ from sqlalchemy import text
 from sqlalchemy.exc import SQLAlchemyError
 from starlette.exceptions import HTTPException
 
-from app.api.v1 import auth, catalog, progress
+from app.api.v1 import auth, catalog, mock_exams, progress
 from app.core.errors import error_response, http_error, validation_error
 from app.db.session import engine
 from app.services.catalog import get_catalog
@@ -54,7 +54,11 @@ async def request_context(
         response = error_response(request, 500, "internal_error", "服務暫時無法使用。")
     response.headers["X-Request-ID"] = request.state.request_id
     response.headers["X-Content-Type-Options"] = "nosniff"
-    if "/auth/" in request.url.path or "/progress" in request.url.path:
+    if (
+        "/auth/" in request.url.path
+        or "/progress" in request.url.path
+        or "/mock-exams" in request.url.path
+    ):
         response.headers["Cache-Control"] = "no-store"
     return response
 
@@ -73,5 +77,5 @@ async def ready() -> dict[str, str]:
     return {"status": "ready"}
 
 
-for router in [auth.router, catalog.router, progress.router]:
+for router in [auth.router, catalog.router, progress.router, mock_exams.router]:
     app.include_router(router, prefix="/api/v1")

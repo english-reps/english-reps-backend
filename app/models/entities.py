@@ -73,3 +73,33 @@ class AuthAttempt(Base):
     window: Mapped[int] = mapped_column(Integer)
     count: Mapped[int] = mapped_column(Integer)
     __table_args__ = (UniqueConstraint("scope", "window"),)
+
+
+class MockExam(Base):
+    __tablename__ = "mock_exams"
+    id: Mapped[uuid.UUID] = mapped_column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)
+    user_id: Mapped[uuid.UUID] = mapped_column(
+        ForeignKey("users.id", ondelete="CASCADE"), index=True
+    )
+    section: Mapped[str] = mapped_column(String(16))
+    status: Mapped[str] = mapped_column(String(16), default="in_progress")
+    question_ids: Mapped[list[str]] = mapped_column(JSONB)
+    answers: Mapped[dict[str, str]] = mapped_column(JSONB, default=dict)
+    flagged_ids: Mapped[list[str]] = mapped_column(JSONB, default=list)
+    played_keys: Mapped[list[str]] = mapped_column(JSONB, default=list)
+    current_index: Mapped[int] = mapped_column(Integer, default=0)
+    duration_seconds: Mapped[int] = mapped_column(Integer)
+    remaining_seconds: Mapped[int] = mapped_column(Integer)
+    total_questions: Mapped[int] = mapped_column(Integer)
+    correct_count: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    scaled_score: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    wrong_ids: Mapped[list[str] | None] = mapped_column(JSONB, nullable=True)
+    part_stats: Mapped[list[dict[str, Any]] | None] = mapped_column(JSONB, nullable=True)
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now())
+    updated_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now())
+    completed_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
+    __table_args__ = (
+        CheckConstraint("section IN ('listening', 'reading')"),
+        CheckConstraint("status IN ('in_progress', 'completed')"),
+        CheckConstraint("current_index >= 0 AND remaining_seconds >= 0 AND duration_seconds > 0"),
+    )

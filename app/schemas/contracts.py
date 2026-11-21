@@ -68,3 +68,54 @@ class EventIn(BaseModel):
         elif self.answer is None or self.rating is not None:
             raise ValueError("Quizzes require answer only")
         return self
+
+
+class MockExamCreate(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+    section: Literal["listening", "reading"]
+
+
+class MockExamUpdate(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+    answers: dict[str, Literal["A", "B", "C", "D"]] | None = None
+    flagged_ids: list[str] | None = None
+    played_keys: list[str] | None = None
+    current_index: int | None = Field(default=None, ge=0, le=99)
+    remaining_seconds: int | None = Field(default=None, ge=0, le=7200)
+
+
+class MockExamSubmit(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+    answers: dict[str, Literal["A", "B", "C", "D"]] | None = None
+    flagged_ids: list[str] | None = None
+    played_keys: list[str] | None = None
+    current_index: int | None = Field(default=None, ge=0, le=99)
+    remaining_seconds: int | None = Field(default=None, ge=0, le=7200)
+
+
+class MockExamPartStat(BaseModel):
+    part: int
+    total: int
+    correct: int
+
+
+class MockExamOut(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+    id: uuid.UUID
+    section: Literal["listening", "reading"]
+    status: Literal["in_progress", "completed"]
+    question_ids: list[str]
+    answers: dict[str, str]
+    flagged_ids: list[str]
+    played_keys: list[str]
+    current_index: int
+    duration_seconds: int
+    remaining_seconds: int
+    total_questions: int
+    correct_count: int | None
+    scaled_score: int | None
+    wrong_ids: list[str] | None
+    part_stats: list[MockExamPartStat] | None
+    created_at: datetime
+    updated_at: datetime
+    completed_at: datetime | None
